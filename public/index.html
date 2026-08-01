@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="theme-color" content="#ff7043" />
+  <title>家庭点餐</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">🍽️ 家庭点餐</div>
+    <div class="top-date">
+      <input type="date" id="globalDate" />
+      <span id="liveDot" class="dot" title="实时连接"></span>
+    </div>
+  </header>
+
+  <main id="view"></main>
+
+  <nav class="tabbar">
+    <button data-tab="order" class="active"><span class="ico">🥢</span><span>点餐</span></button>
+    <button data-tab="overview"><span class="ico">👩‍🍳</span><span>阿姨总览</span></button>
+    <button data-tab="shopping"><span class="ico">🛒</span><span>买菜清单</span></button>
+    <button data-tab="admin"><span class="ico">⚙️</span><span>管理</span></button>
+  </nav>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

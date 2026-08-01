@@ -1,0 +1,13 @@
+{
+  "name": "family-order",
+  "version": "1.0.0",
+  "description": "家庭点餐系统 - 家人点餐、阿姨实时看、买菜清单总览（零依赖 Node）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

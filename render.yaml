@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: family-order
+    runtime: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: "3000"
