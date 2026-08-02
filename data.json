@@ -1,7 +1,7 @@
 {
   "members": [
     {
-      "id": "d3c01a4d-ae3b-4525-a1f0-92a7c4d5a32d",
+      "id": "615ac769-5725-4c5d-bd18-b8c2545c6728",
       "name": "家厨",
       "emoji": "🍳",
       "color": "#ff7043"
@@ -9,7 +9,7 @@
   ],
   "dishes": [
     {
-      "id": "acf46fa7-a13b-42c9-a972-0fea5b55a6a6",
+      "id": "e65e5e3a-57b2-41d4-841f-b6d5e4aeaf20",
       "name": "红烧肉",
       "category": "pork",
       "mealTypes": [
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "id": "e68f65c3-6cb6-41d2-8514-a5e87b42e961",
+      "id": "8051770b-0227-4f61-9d68-4e843831ff4e",
       "name": "糖醋排骨",
       "category": "pork",
       "mealTypes": [
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "id": "abd2d3a7-d738-491b-bd16-fa4c012a07fb",
+      "id": "513ce72c-aacd-4c92-8142-249ba73fd101",
       "name": "回锅肉",
       "category": "pork",
       "mealTypes": [
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "id": "92b5712e-aac3-4639-a2be-b32a0a126b6f",
+      "id": "5ab87c7e-000c-4902-8ffa-d24e0957037c",
       "name": "鱼香肉丝",
       "category": "pork",
       "mealTypes": [
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "id": "6d1cf8f1-c588-4479-8893-0bc9e16cd636",
+      "id": "cbcb7eca-3a0b-473c-9f2b-b95d60e635ca",
       "name": "梅菜扣肉",
       "category": "pork",
       "mealTypes": [
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "id": "b0242158-bada-47f2-8cd0-3c34de80c10c",
+      "id": "28dc78ad-a70a-45b2-8990-5336e58e3795",
       "name": "粉蒸肉",
       "category": "pork",
       "mealTypes": [
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "id": "d9933044-847d-4a9e-9bb2-f8301ff64f5b",
+      "id": "c9bb1c9c-ee49-48da-b27e-122c33a98be2",
       "name": "蒜泥白肉",
       "category": "pork",
       "mealTypes": [
@@ -245,7 +245,7 @@
       ]
     },
     {
-      "id": "50308518-c5f9-49fe-9a45-005dea77f0ad",
+      "id": "9efcdbf4-814e-4f0f-8a03-fbe73101fe80",
       "name": "京酱肉丝",
       "category": "pork",
       "mealTypes": [
@@ -278,7 +278,7 @@
       ]
     },
     {
-      "id": "cd2a4aec-b7b9-4cba-9d75-760dd56e77c7",
+      "id": "218b84bb-a98f-48e2-b12d-bf8679da74ca",
       "name": "土豆炖牛肉",
       "category": "beef",
       "mealTypes": [
@@ -316,7 +316,7 @@
       ]
     },
     {
-      "id": "6949e6f5-9eaa-4c5f-981c-c0825d4c8002",
+      "id": "85afa8ca-cc9f-4237-883d-7c4fa58d65ea",
       "name": "孜然羊肉",
       "category": "beef",
       "mealTypes": [
@@ -354,7 +354,7 @@
       ]
     },
     {
-      "id": "097a7e98-ba01-46b1-8ba8-38c49545a92e",
+      "id": "64b34602-7848-4fb8-b2ea-2e0853d410a9",
       "name": "葱爆羊肉",
       "category": "beef",
       "mealTypes": [
@@ -387,7 +387,7 @@
       ]
     },
     {
-      "id": "75349e67-98b9-4bb4-89de-c5f58e6cd41e",
+      "id": "6d2c7245-e6ed-416f-b8d5-06825ab7d85b",
       "name": "水煮牛肉",
       "category": "beef",
       "mealTypes": [
@@ -430,7 +430,7 @@
       ]
     },
     {
-      "id": "7bbefbef-57a8-4e63-9870-229d61e6fa7e",
+      "id": "0597203f-36bc-4ccf-9456-a2b09a2be6ae",
       "name": "萝卜炖牛腩",
       "category": "beef",
       "mealTypes": [
@@ -463,7 +463,7 @@
       ]
     },
     {
-      "id": "433ec213-c19b-49d0-9549-69e715327cdc",
+      "id": "d57d843e-1503-4ae7-af13-f8830935a6bb",
       "name": "西红柿炖牛腩",
       "category": "beef",
       "mealTypes": [
@@ -496,7 +496,7 @@
       ]
     },
     {
-      "id": "b5606384-a8dd-4c2f-8467-2960c5c29f98",
+      "id": "841c89dc-8547-4549-ada6-0eee0a80df9d",
       "name": "宫保鸡丁",
       "category": "poultry",
       "mealTypes": [
@@ -534,7 +534,7 @@
       ]
     },
     {
-      "id": "c9bb0466-7b97-437b-a75a-bb728672db5a",
+      "id": "f02eb80b-ea20-4bc4-bcdd-90c2eeda708c",
       "name": "啤酒鸭",
       "category": "poultry",
       "mealTypes": [
@@ -577,7 +577,7 @@
       ]
     },
     {
-      "id": "83a45044-4a12-4f4e-b430-b1eea3d8defa",
+      "id": "e6cbea61-2806-4833-a929-6e11bde13e78",
       "name": "可乐鸡翅",
       "category": "poultry",
       "mealTypes": [
@@ -610,7 +610,7 @@
       ]
     },
     {
-      "id": "1eda10f7-84d5-4ebf-a94f-5fdfc6e7f26b",
+      "id": "c587de0d-102a-43a8-ae08-0bb29070b2be",
       "name": "辣子鸡",
       "category": "poultry",
       "mealTypes": [
@@ -643,7 +643,7 @@
       ]
     },
     {
-      "id": "986f4348-b0d4-4364-b6d2-2eb6badb791f",
+      "id": "2d5d124e-2d16-4f50-958e-77244b8764ae",
       "name": "小鸡炖蘑菇",
       "category": "poultry",
       "mealTypes": [
@@ -676,7 +676,7 @@
       ]
     },
     {
-      "id": "d066ffe8-6404-40c5-b300-704eca10e5db",
+      "id": "25186242-52a6-42dc-b259-dc580f2f6904",
       "name": "红烧鸡块",
       "category": "poultry",
       "mealTypes": [
@@ -714,7 +714,7 @@
       ]
     },
     {
-      "id": "22c1bc42-5268-49f3-9432-6efe746ceb03",
+      "id": "119f5f8d-f726-4bb5-8188-85cd7c381167",
       "name": "白切鸡",
       "category": "poultry",
       "mealTypes": [
@@ -747,7 +747,7 @@
       ]
     },
     {
-      "id": "76bb303a-71c8-43f2-b6dd-d34220658ce1",
+      "id": "168a33f8-10e5-4019-bcda-7a2ec11c1489",
       "name": "清蒸鲈鱼",
       "category": "seafood",
       "mealTypes": [
@@ -780,7 +780,7 @@
       ]
     },
     {
-      "id": "dc614d05-02b7-42c7-bb56-e40eb9b8be67",
+      "id": "c215e925-2fab-49d0-9935-286eb6dd1ca9",
       "name": "油焖大虾",
       "category": "seafood",
       "mealTypes": [
@@ -813,7 +813,7 @@
       ]
     },
     {
-      "id": "0c23a170-4baa-4b3f-9c5d-e0fa70402050",
+      "id": "d23d980b-d068-405e-8e88-db1852508979",
       "name": "红烧带鱼",
       "category": "seafood",
       "mealTypes": [
@@ -851,7 +851,7 @@
       ]
     },
     {
-      "id": "b5c6b410-a912-483d-8407-6868ec613152",
+      "id": "aed88e3a-a445-45f6-b2b5-3a83c12e0145",
       "name": "蒜蓉粉丝蒸虾",
       "category": "seafood",
       "mealTypes": [
@@ -884,7 +884,7 @@
       ]
     },
     {
-      "id": "eefe8567-6da3-47ec-91fb-fc8c4dd80093",
+      "id": "cdd0e962-9eb0-49b0-8bb3-0d39e975f290",
       "name": "水煮鱼",
       "category": "seafood",
       "mealTypes": [
@@ -922,7 +922,7 @@
       ]
     },
     {
-      "id": "dce3a31b-31f3-45f0-8a5c-e54c4ead4d1d",
+      "id": "9ad8db41-31ef-4089-b894-4e01ab49a056",
       "name": "剁椒鱼头",
       "category": "seafood",
       "mealTypes": [
@@ -960,7 +960,7 @@
       ]
     },
     {
-      "id": "06d017cf-1273-44e4-a0fb-47d86be8d973",
+      "id": "2991b500-ec66-495c-b419-9f048883f2d9",
       "name": "葱姜炒花蟹",
       "category": "seafood",
       "mealTypes": [
@@ -993,7 +993,7 @@
       ]
     },
     {
-      "id": "7c0f6abe-7f3e-4291-a4cc-f5a8e3c3b793",
+      "id": "5ac53121-7900-4642-910b-cdb6126ef1fb",
       "name": "番茄炒蛋",
       "category": "eggtofu",
       "mealTypes": [
@@ -1027,7 +1027,7 @@
       ]
     },
     {
-      "id": "01d3cc54-3cfa-4fda-a695-9474f4657c1a",
+      "id": "054666e4-2e8f-42a3-8efc-d6ea142a13ce",
       "name": "麻婆豆腐",
       "category": "eggtofu",
       "mealTypes": [
@@ -1065,7 +1065,7 @@
       ]
     },
     {
-      "id": "bea946f1-9962-4b38-8556-47befd90e61c",
+      "id": "cca5bda1-2e98-4953-b894-0b656bc784c2",
       "name": "韭菜炒蛋",
       "category": "eggtofu",
       "mealTypes": [
@@ -1094,7 +1094,7 @@
       ]
     },
     {
-      "id": "dc69598f-d691-4de8-891f-16f3ca45eb32",
+      "id": "7540811d-73aa-4362-a924-060a5c55a353",
       "name": "家常豆腐",
       "category": "eggtofu",
       "mealTypes": [
@@ -1127,7 +1127,7 @@
       ]
     },
     {
-      "id": "fa27afd7-f41e-4557-9849-38249c9ee295",
+      "id": "6ffa0780-d1c4-43f2-87c7-5b2509e429af",
       "name": "虾仁蒸蛋",
       "category": "eggtofu",
       "mealTypes": [
@@ -1160,7 +1160,7 @@
       ]
     },
     {
-      "id": "24288651-c9e6-4f91-8e16-94237b995d75",
+      "id": "9528338f-42c5-4cee-b55a-621d2055f4ed",
       "name": "皮蛋拌豆腐",
       "category": "eggtofu",
       "mealTypes": [
@@ -1198,7 +1198,7 @@
       ]
     },
     {
-      "id": "cef816ee-9043-45d5-963a-ad2af1270b0c",
+      "id": "64a33335-5b88-40cd-ab5e-ee4bfb258f6a",
       "name": "蒜蓉空心菜",
       "category": "veggie",
       "mealTypes": [
@@ -1226,7 +1226,7 @@
       ]
     },
     {
-      "id": "6ff3311a-5b0f-48c3-b691-9d4696af5152",
+      "id": "029988d7-1001-4b42-9366-08850555ccb6",
       "name": "干煸四季豆",
       "category": "veggie",
       "mealTypes": [
@@ -1259,7 +1259,7 @@
       ]
     },
     {
-      "id": "11abe776-a893-4f63-b92f-ada800485ca0",
+      "id": "ff9db71e-7230-45c9-87ce-f379d170cfc7",
       "name": "手撕包菜",
       "category": "veggie",
       "mealTypes": [
@@ -1297,7 +1297,7 @@
       ]
     },
     {
-      "id": "538c78b7-ea44-4cf5-95a6-9609b4a79116",
+      "id": "cbc49003-2d5a-417d-8ddc-0736122a7598",
       "name": "地三鲜",
       "category": "veggie",
       "mealTypes": [
@@ -1335,7 +1335,7 @@
       ]
     },
     {
-      "id": "6d8a883d-38ab-4ff4-8ea4-74572ccd851e",
+      "id": "abae40f2-b088-4fb0-80f9-a90f7332ca05",
       "name": "蚝油生菜",
       "category": "veggie",
       "mealTypes": [
@@ -1363,7 +1363,7 @@
       ]
     },
     {
-      "id": "a470356c-41d5-441e-9f87-73a02d794aba",
+      "id": "d5f3faf3-868c-4547-8872-44957c2eb1cf",
       "name": "醋溜白菜",
       "category": "veggie",
       "mealTypes": [
@@ -1396,7 +1396,7 @@
       ]
     },
     {
-      "id": "de51fa90-2722-45c4-8096-0ec23c15bad7",
+      "id": "82134ac9-5e46-4dcb-a08e-abf832b4d334",
       "name": "清炒西兰花",
       "category": "veggie",
       "mealTypes": [
@@ -1429,7 +1429,7 @@
       ]
     },
     {
-      "id": "09bed287-c3fc-4116-9247-9be1a4dad972",
+      "id": "0ef35d6a-3465-41bc-bb36-e230d9dd2253",
       "name": "拍黄瓜",
       "category": "cold",
       "mealTypes": [
@@ -1467,7 +1467,7 @@
       ]
     },
     {
-      "id": "473ab4ed-f0f7-45ce-a8c8-f59ef6b5c83c",
+      "id": "b379e7b9-82ee-4a5a-a33c-54c7da697685",
       "name": "凉拌木耳",
       "category": "cold",
       "mealTypes": [
@@ -1510,7 +1510,7 @@
       ]
     },
     {
-      "id": "163387f8-8838-49c4-8d8a-05e1d55773f3",
+      "id": "8f2c9232-5db7-4a3d-95b3-d176ded35e4a",
       "name": "凉拌三丝",
       "category": "cold",
       "mealTypes": [
@@ -1548,7 +1548,7 @@
       ]
     },
     {
-      "id": "e01d05de-fd95-474e-9cf4-d7ab1e75ad74",
+      "id": "4c1f109e-e151-48a4-89d1-268fc5e98e19",
       "name": "口水鸡",
       "category": "cold",
       "mealTypes": [
@@ -1591,7 +1591,7 @@
       ]
     },
     {
-      "id": "7b4411ab-78cb-4732-8270-d48cbaaf1f87",
+      "id": "ec65eb9a-6e20-478e-b70c-d6aefa6e207e",
       "name": "炸花生米",
       "category": "cold",
       "mealTypes": [
@@ -1619,7 +1619,7 @@
       ]
     },
     {
-      "id": "5db4bc27-c816-4f46-adc2-a4d677a27baf",
+      "id": "9c4d91d6-c533-44a6-b291-0d0891598bee",
       "name": "凉拌海带丝",
       "category": "cold",
       "mealTypes": [
@@ -1652,7 +1652,7 @@
       ]
     },
     {
-      "id": "19597897-092d-48d4-a2da-982af408a916",
+      "id": "8c2fb50b-d02d-4528-ab8f-74db5f5726f6",
       "name": "紫菜蛋花汤",
       "category": "soup",
       "mealTypes": [
@@ -1690,7 +1690,7 @@
       ]
     },
     {
-      "id": "d05c4ccc-9f83-4d92-b164-360559e87df0",
+      "id": "53d6d35a-e0ab-4feb-b0bd-c258857e2cf4",
       "name": "排骨玉米汤",
       "category": "soup",
       "mealTypes": [
@@ -1723,7 +1723,7 @@
       ]
     },
     {
-      "id": "b1125f2b-6769-47e3-8016-4c2d96e89523",
+      "id": "9e8a14f6-8dba-4eeb-96ab-b1e408ec4681",
       "name": "番茄蛋汤",
       "category": "soup",
       "mealTypes": [
@@ -1751,7 +1751,7 @@
       ]
     },
     {
-      "id": "963b49d1-6fff-40c4-bc11-769251ded036",
+      "id": "d89d01df-2606-488a-8b40-78720a4c9c37",
       "name": "冬瓜排骨汤",
       "category": "soup",
       "mealTypes": [
@@ -1784,7 +1784,7 @@
       ]
     },
     {
-      "id": "d2cde063-2e74-4ee9-9017-82e78deb6b36",
+      "id": "c2f86fa3-f196-45ee-88dd-e3ee17e460db",
       "name": "菌菇汤",
       "category": "soup",
       "mealTypes": [
@@ -1822,7 +1822,7 @@
       ]
     },
     {
-      "id": "30a3f1d2-66ca-4971-b9bf-cea6c963e94b",
+      "id": "6d80232b-42a1-4988-986f-e817758c9ec5",
       "name": "酸辣汤",
       "category": "soup",
       "mealTypes": [
@@ -1865,7 +1865,7 @@
       ]
     },
     {
-      "id": "4fe14365-5ec5-4285-86a2-026e07c9ccc1",
+      "id": "cdffafcc-d5ee-47b4-b52c-9e12eaf2e7ca",
       "name": "白米饭",
       "category": "staple",
       "mealTypes": [
@@ -1884,7 +1884,7 @@
       ]
     },
     {
-      "id": "f03cd817-9e92-42e9-9a6c-a7c72097cc0f",
+      "id": "6d6eb12b-2607-412f-8c76-acccb554aa6a",
       "name": "小米粥",
       "category": "staple",
       "mealTypes": [
@@ -1901,7 +1901,7 @@
       ]
     },
     {
-      "id": "a951d070-69ac-4aa6-9d2e-cfbcb01570cd",
+      "id": "53e3f35a-cc7c-49cb-848d-c23c027fa001",
       "name": "蛋炒饭",
       "category": "staple",
       "mealTypes": [
@@ -1939,7 +1939,7 @@
       ]
     },
     {
-      "id": "a1a96ecb-7d59-4f2b-9e7f-80992b6a18af",
+      "id": "ea9fb693-781c-4dce-adcd-f850e3993fff",
       "name": "葱油拌面",
       "category": "staple",
       "mealTypes": [
@@ -1977,7 +1977,7 @@
       ]
     },
     {
-      "id": "4e8e7a10-2514-44a9-9873-1e68f52d907c",
+      "id": "ef650749-259a-4789-8250-4667d82d36f7",
       "name": "馒头",
       "category": "staple",
       "mealTypes": [
@@ -2001,7 +2001,7 @@
       ]
     },
     {
-      "id": "b6ed6d21-a673-4326-9da7-58ac0fd56870",
+      "id": "e3d2bbcd-185c-4a9a-874c-2591e61094e4",
       "name": "饺子",
       "category": "staple",
       "mealTypes": [
@@ -2034,7 +2034,7 @@
       ]
     },
     {
-      "id": "63a909d8-3a8b-4a73-a80b-2a5de5d2437b",
+      "id": "b2dccda3-70b1-49ed-8ad0-8a77f3688cb1",
       "name": "南瓜粥",
       "category": "staple",
       "mealTypes": [
@@ -2056,78 +2056,7 @@
       ]
     }
   ],
-  "orders": [
-    {
-      "id": "35931a52-2e0c-4e10-b7da-39c9a527af66",
-      "date": "2026-08-02",
-      "memberId": "test123",
-      "mealType": "晚",
-      "dishId": "7c0f6abe-7f3e-4291-a4cc-f5a8e3c3b793",
-      "dishName": "番茄炒蛋",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B",
-      "linkPlatform": "小红书",
-      "ingredients": [
-        {
-          "name": "番茄",
-          "qty": 5,
-          "unit": "个"
-        },
-        {
-          "name": "鸡蛋",
-          "qty": 8,
-          "unit": "个"
-        },
-        {
-          "name": "葱",
-          "qty": 2,
-          "unit": "根"
-        },
-        {
-          "name": "糖",
-          "qty": 1,
-          "unit": "勺"
-        }
-      ],
-      "note": "少糖",
-      "done": false,
-      "createdAt": "2026-08-02T06:06:36.741Z"
-    },
-    {
-      "id": "2ffae7b5-52c8-46f3-81da-72b95bffc404",
-      "date": "2026-08-02",
-      "memberId": "d2",
-      "mealType": "晚",
-      "dishId": "7c0f6abe-7f3e-4291-a4cc-f5a8e3c3b793",
-      "dishName": "番茄炒蛋",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B",
-      "linkPlatform": "小红书",
-      "ingredients": [
-        {
-          "name": "番茄",
-          "qty": 5,
-          "unit": "个"
-        },
-        {
-          "name": "鸡蛋",
-          "qty": 8,
-          "unit": "个"
-        },
-        {
-          "name": "葱",
-          "qty": 2,
-          "unit": "根"
-        },
-        {
-          "name": "糖",
-          "qty": 1,
-          "unit": "勺"
-        }
-      ],
-      "note": "不要葱",
-      "done": false,
-      "createdAt": "2026-08-02T06:06:36.743Z"
-    }
-  ],
+  "orders": [],
   "shopping": {},
   "settings": {
     "pin": ""

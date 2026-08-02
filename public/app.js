@@ -68,6 +68,15 @@ function connectSSE() {
   es.onopen = function() { document.getElementById('liveDot').classList.remove('off'); };
 }
 
+function render() {
+  var gd = document.getElementById('globalDate');
+  if (gd) gd.value = day.date;
+  if (currentTab === 'order') renderOrder();
+  else if (currentTab === 'overview') renderOverview();
+  else if (currentTab === 'shopping') renderShopping();
+  else if (currentTab === 'admin') renderAdmin();
+}
+
 /* ========== 点餐 ========== */
 function renderOrder() {
   // 餐次
@@ -368,8 +377,31 @@ function onInput(e) {
 
 function switchTab(tab) {
   currentTab = tab;
-  document.querySelectorAll('.tabbar button').forEach(function(b) { b.classList.toggle('active', b.dataset.tab === tab); });
+  var btns = document.querySelectorAll('.tabbar button');
+  for (var i = 0; i < btns.length; i++) { btns[i].classList.toggle('active', btns[i].dataset.tab === tab); }
   render();
+}
+
+// 兜底渲染：即使数据为空也显示界面
+function renderSafe() {
+  try { render(); } catch(e) {
+    document.getElementById('view').innerHTML = '<div style="text-align:center;padding:60px 20px;color:#999;font-size:15px">⚠️ 加载失败<br><span style="font-size:13px">请检查网络后刷新</span></div>';
+  }
+}
+
+// 仅在 DOM 就绪后绑定事件和启动
+function boot() {
+  var gd = document.getElementById('globalDate');
+  if (gd) gd.addEventListener('change', async function(e) { day.date = e.target.value; await refresh(); });
+  var btns = document.querySelectorAll('.tabbar button');
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener('click', function() { switchTab(this.dataset.tab); });
+  }
+  // 启动
+  (async function init() {
+    try { await refresh(); } catch(e) { renderSafe(); }
+    try { connectSSE(); } catch(e) {}
+  })();
 }
 
 document.addEventListener('click', function(e) {
@@ -377,7 +409,9 @@ document.addEventListener('click', function(e) {
   if (el) { e.preventDefault(); onAction(el.dataset.action, el, e); }
 });
 document.addEventListener('input', onInput);
-document.getElementById('globalDate').addEventListener('change', async function(e) { day.date = e.target.value; await refresh(); });
-document.querySelectorAll('.tabbar button').forEach(function(b) { b.addEventListener('click', function() { switchTab(b.dataset.tab); }); });
 
-(async function init() { await refresh(); connectSSE(); })();
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', boot);
+} else {
+  boot();
+}
