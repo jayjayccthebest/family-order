@@ -20,16 +20,16 @@
 }
 
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-html,body{margin:0;padding:0;height:100%;overflow:hidden}
+html,body{margin:0;padding:0;overscroll-behavior:none}
 body{
   font-family:var(--font);
   background:var(--bg);color:var(--ink);font-size:16px;
   -webkit-font-smoothing:antialiased;
 }
 
-/* ── 主容器：占满全屏 + 内部滚动 ── */
+/* ── 主容器 ── */
 #app-root{
-  display:flex;flex-direction:column;height:100%;overflow:hidden;
+  display:flex;flex-direction:column;min-height:100vh;min-height:100dvh;
   max-width:480px;margin:0 auto;background:var(--bg);
 }
 
@@ -54,26 +54,24 @@ body{
 
 /* ── 滚动视图区 ── */
 #view-wrap{
-  flex:1;overflow-y:auto;overflow-x:hidden;
-  -webkit-overflow-scrolling:touch;
-  padding:12px 12px 100px;
-  scroll-behavior:smooth;
+  flex:1;padding:12px 12px 100px;
 }
 #view{
-  transition:opacity .18s ease, transform .18s ease;
+  transition:opacity .15s ease, transform .15s ease;
   opacity:1;transform:translateY(0);
 }
-#view.fading{opacity:0;transform:translateY(6px)}
+#view.fading{opacity:0;transform:translateY(4px)}
 
-/* ── 底部 Tab 栏：悬浮胶囊式 ── */
+/* ── 底部 Tab 栏：固定悬浮 ── */
 .tabbar{
-  flex:none;z-index:30;
-  display:flex;gap:0;margin:0 16px max(env(safe-area-inset-bottom,8px),8px);
-  background:rgba(255,255,255,.92);
+  position:fixed;left:16px;right:16px;bottom:max(env(safe-area-inset-bottom,8px),8px);z-index:30;
+  display:flex;gap:0;
+  background:rgba(255,255,255,.94);
   backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
   border-radius:var(--radius-lg);
   box-shadow:var(--shadow-lg);
   padding:4px;
+  max-width:448px;margin:0 auto;
 }
 .tabbar button{
   flex:1;border:none;background:transparent;padding:8px 0 6px;
