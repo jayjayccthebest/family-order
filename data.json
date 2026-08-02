@@ -1,7 +1,7 @@
 {
   "members": [
     {
-      "id": "615ac769-5725-4c5d-bd18-b8c2545c6728",
+      "id": "bfa276fe-99d0-4431-942f-c24f4f642d95",
       "name": "家厨",
       "emoji": "🍳",
       "color": "#ff7043"
@@ -9,15 +9,11 @@
   ],
   "dishes": [
     {
-      "id": "e65e5e3a-57b2-41d4-841f-b6d5e4aeaf20",
+      "id": "3142d0a4-6692-4b40-802e-9898184daf09",
       "name": "红烧肉",
       "category": "pork",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E8%82%89%20%E5%AE%B6%E5%B8%B8%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E8%82%89%20%E5%AE%B6%E5%B8%B8%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E8%82%89%20%E6%AD%A3%E5%AE%97%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "五花肉",
@@ -25,70 +21,32 @@
           "unit": "g"
         },
         {
-          "name": "冰糖",
-          "qty": 50,
-          "unit": "g"
-        },
-        {
-          "name": "生抽",
-          "qty": 3,
-          "unit": "勺"
-        },
-        {
-          "name": "老抽",
-          "qty": 1,
-          "unit": "勺"
-        },
-        {
-          "name": "八角",
-          "qty": 3,
+          "name": "鹌鹑蛋",
+          "qty": 15,
           "unit": "个"
         }
       ]
     },
     {
-      "id": "8051770b-0227-4f61-9d68-4e843831ff4e",
+      "id": "cbfc1ee4-d4d3-46a4-b870-76350d76415a",
       "name": "糖醋排骨",
       "category": "pork",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8",
+      "dyLink": "https://www.douyin.com/search/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8%20%E5%AE%B6%E5%B8%B8",
       "ingredients": [
         {
           "name": "排骨",
           "qty": 800,
           "unit": "g"
-        },
-        {
-          "name": "醋",
-          "qty": 3,
-          "unit": "勺"
-        },
-        {
-          "name": "糖",
-          "qty": 4,
-          "unit": "勺"
-        },
-        {
-          "name": "番茄酱",
-          "qty": 2,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "513ce72c-aacd-4c92-8142-249ba73fd101",
+      "id": "071edd28-062d-4c77-99b2-8896e7f03021",
       "name": "回锅肉",
       "category": "pork",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E5%9B%9E%E9%94%85%E8%82%89",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%9B%9E%E9%94%85%E8%82%89%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E5%9B%9E%E9%94%85%E8%82%89",
       "ingredients": [
         {
           "name": "五花肉",
@@ -99,29 +57,15 @@
           "name": "蒜苗",
           "qty": 200,
           "unit": "g"
-        },
-        {
-          "name": "豆瓣酱",
-          "qty": 2,
-          "unit": "勺"
-        },
-        {
-          "name": "豆豉",
-          "qty": 1,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "5ab87c7e-000c-4902-8ffa-d24e0957037c",
+      "id": "a605dd40-9c0f-40ce-8334-c61a4ecac9b0",
       "name": "鱼香肉丝",
       "category": "pork",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D",
+      "dyLink": "https://www.douyin.com/search/%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "里脊肉",
@@ -142,24 +86,15 @@
           "name": "青椒",
           "qty": 2,
           "unit": "个"
-        },
-        {
-          "name": "郫县豆瓣",
-          "qty": 1,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "cbcb7eca-3a0b-473c-9f2b-b95d60e635ca",
+      "id": "9f9aa7ee-51f6-4ca1-a718-121d1b622a65",
       "name": "梅菜扣肉",
       "category": "pork",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89",
+      "dyLink": "https://www.douyin.com/search/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "五花肉",
@@ -170,24 +105,15 @@
           "name": "梅干菜",
           "qty": 150,
           "unit": "g"
-        },
-        {
-          "name": "老抽",
-          "qty": 2,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "28dc78ad-a70a-45b2-8990-5336e58e3795",
+      "id": "c3139f38-7c2d-46e4-b674-3461d5b28495",
       "name": "粉蒸肉",
       "category": "pork",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E7%B2%89%E8%92%B8%E8%82%89",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%B2%89%E8%92%B8%E8%82%89%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%B2%89%E8%92%B8%E8%82%89",
       "ingredients": [
         {
           "name": "五花肉",
@@ -207,35 +133,16 @@
       ]
     },
     {
-      "id": "c9bb1c9c-ee49-48da-b27e-122c33a98be2",
+      "id": "c9abe4fc-9527-4f9c-a2b0-0c50ee8bcea6",
       "name": "蒜泥白肉",
       "category": "pork",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%9C%E6%B3%A5%E7%99%BD%E8%82%89",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%9C%E6%B3%A5%E7%99%BD%E8%82%89",
+      "dyLink": "https://www.douyin.com/search/%E8%92%9C%E6%B3%A5%E7%99%BD%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "五花肉",
           "qty": 500,
           "unit": "g"
-        },
-        {
-          "name": "蒜",
-          "qty": 8,
-          "unit": "瓣"
-        },
-        {
-          "name": "酱油",
-          "qty": 3,
-          "unit": "勺"
-        },
-        {
-          "name": "红油",
-          "qty": 2,
-          "unit": "勺"
         },
         {
           "name": "黄瓜",
@@ -245,15 +152,11 @@
       ]
     },
     {
-      "id": "9efcdbf4-814e-4f0f-8a03-fbe73101fe80",
+      "id": "73829df5-4791-4c3c-8f85-0c9e4811ec93",
       "name": "京酱肉丝",
       "category": "pork",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E4%BA%AC%E9%85%B1%E8%82%89%E4%B8%9D",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E4%BA%AC%E9%85%B1%E8%82%89%E4%B8%9D",
+      "dyLink": "https://www.douyin.com/search/%E4%BA%AC%E9%85%B1%E8%82%89%E4%B8%9D%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "里脊肉",
@@ -261,32 +164,166 @@
           "unit": "g"
         },
         {
-          "name": "甜面酱",
+          "name": "豆腐皮",
           "qty": 3,
-          "unit": "勺"
+          "unit": "张"
         },
         {
           "name": "大葱",
           "qty": 2,
           "unit": "根"
-        },
-        {
-          "name": "豆腐皮",
-          "qty": 3,
-          "unit": "张"
         }
       ]
     },
     {
-      "id": "218b84bb-a98f-48e2-b12d-bf8679da74ca",
+      "id": "b1751315-6005-4112-ba55-3689dd0ee4c6",
+      "name": "红烧排骨",
+      "category": "pork",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E6%8E%92%E9%AA%A8%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E6%8E%92%E9%AA%A8",
+      "ingredients": [
+        {
+          "name": "排骨",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "name": "土豆",
+          "qty": 3,
+          "unit": "个"
+        }
+      ]
+    },
+    {
+      "id": "97c73210-700c-4560-be13-d099fe313521",
+      "name": "锅包肉",
+      "category": "pork",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%94%85%E5%8C%85%E8%82%89%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E9%94%85%E5%8C%85%E8%82%89",
+      "ingredients": [
+        {
+          "name": "里脊肉",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "胡萝卜",
+          "qty": 1,
+          "unit": "根"
+        }
+      ]
+    },
+    {
+      "id": "2af25158-fd9e-4067-a613-90954b9bf41e",
+      "name": "农家小炒肉",
+      "category": "pork",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%86%9C%E5%AE%B6%E5%B0%8F%E7%82%92%E8%82%89",
+      "dyLink": "https://www.douyin.com/search/%E5%86%9C%E5%AE%B6%E5%B0%8F%E7%82%92%E8%82%89%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "五花肉",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "青椒",
+          "qty": 4,
+          "unit": "个"
+        },
+        {
+          "name": "豆豉",
+          "qty": 1,
+          "unit": "勺"
+        }
+      ]
+    },
+    {
+      "id": "089d6d52-fd72-422c-979f-f1271838021a",
+      "name": "香干炒肉",
+      "category": "pork",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%A6%99%E5%B9%B2%E7%82%92%E8%82%89",
+      "dyLink": "https://www.douyin.com/search/%E9%A6%99%E5%B9%B2%E7%82%92%E8%82%89%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "香干",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "五花肉",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "青椒",
+          "qty": 3,
+          "unit": "个"
+        }
+      ]
+    },
+    {
+      "id": "5968b64f-86b3-449e-b2ee-606ffbff83f7",
+      "name": "红烧狮子头",
+      "category": "pork",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E7%8B%AE%E5%AD%90%E5%A4%B4",
+      "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E7%8B%AE%E5%AD%90%E5%A4%B4%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "肉末",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "马蹄",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "鸡蛋",
+          "qty": 2,
+          "unit": "个"
+        }
+      ]
+    },
+    {
+      "id": "a3254013-3500-432c-9c04-15d9b796979e",
+      "name": "酱骨架",
+      "category": "pork",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%85%B1%E9%AA%A8%E6%9E%B6%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E9%85%B1%E9%AA%A8%E6%9E%B6",
+      "ingredients": [
+        {
+          "name": "猪脊骨",
+          "qty": 1,
+          "unit": "根"
+        }
+      ]
+    },
+    {
+      "id": "41b2d10f-77df-4843-b00d-9a5c68d687e4",
+      "name": "蒜苗炒腊肉",
+      "category": "pork",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%9C%E8%8B%97%E7%82%92%E8%85%8A%E8%82%89",
+      "dyLink": "https://www.douyin.com/search/%E8%92%9C%E8%8B%97%E7%82%92%E8%85%8A%E8%82%89%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "腊肉",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "蒜苗",
+          "qty": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "5f7742d9-92b8-4bc2-9c74-278ec4c5323b",
       "name": "土豆炖牛肉",
       "category": "beef",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89",
+      "dyLink": "https://www.douyin.com/search/%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "牛腩",
@@ -316,15 +353,11 @@
       ]
     },
     {
-      "id": "85afa8ca-cc9f-4237-883d-7c4fa58d65ea",
+      "id": "afbcb42b-a707-432b-9533-2afb0dd086d2",
       "name": "孜然羊肉",
       "category": "beef",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E5%AD%9C%E7%84%B6%E7%BE%8A%E8%82%89",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%AD%9C%E7%84%B6%E7%BE%8A%E8%82%89",
+      "dyLink": "https://www.douyin.com/search/%E5%AD%9C%E7%84%B6%E7%BE%8A%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "羊肉片",
@@ -335,34 +368,15 @@
           "name": "洋葱",
           "qty": 1,
           "unit": "个"
-        },
-        {
-          "name": "孜然粉",
-          "qty": 2,
-          "unit": "勺"
-        },
-        {
-          "name": "辣椒面",
-          "qty": 1,
-          "unit": "勺"
-        },
-        {
-          "name": "香菜",
-          "qty": 3,
-          "unit": "根"
         }
       ]
     },
     {
-      "id": "64b34602-7848-4fb8-b2ea-2e0853d410a9",
+      "id": "273ac858-9ceb-4992-a97a-233bb88b8bb6",
       "name": "葱爆羊肉",
       "category": "beef",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E8%91%B1%E7%88%86%E7%BE%8A%E8%82%89",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%91%B1%E7%88%86%E7%BE%8A%E8%82%89",
+      "dyLink": "https://www.douyin.com/search/%E8%91%B1%E7%88%86%E7%BE%8A%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "羊肉片",
@@ -373,29 +387,15 @@
           "name": "大葱",
           "qty": 3,
           "unit": "根"
-        },
-        {
-          "name": "姜",
-          "qty": 1,
-          "unit": "块"
-        },
-        {
-          "name": "酱油",
-          "qty": 2,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "6d2c7245-e6ed-416f-b8d5-06825ab7d85b",
+      "id": "f0fee31e-e929-4c3e-ac35-7737f3d7f4e6",
       "name": "水煮牛肉",
       "category": "beef",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89",
+      "dyLink": "https://www.douyin.com/search/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "牛肉",
@@ -411,34 +411,15 @@
           "name": "豆芽",
           "qty": 200,
           "unit": "g"
-        },
-        {
-          "name": "干辣椒",
-          "qty": 10,
-          "unit": "个"
-        },
-        {
-          "name": "花椒",
-          "qty": 2,
-          "unit": "勺"
-        },
-        {
-          "name": "郫县豆瓣",
-          "qty": 2,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "0597203f-36bc-4ccf-9456-a2b09a2be6ae",
+      "id": "71c3d6fd-44aa-4807-9af9-124d572e452d",
       "name": "萝卜炖牛腩",
       "category": "beef",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E8%90%9D%E5%8D%9C%E7%82%96%E7%89%9B%E8%85%A9",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%90%9D%E5%8D%9C%E7%82%96%E7%89%9B%E8%85%A9",
+      "dyLink": "https://www.douyin.com/search/%E8%90%9D%E5%8D%9C%E7%82%96%E7%89%9B%E8%85%A9%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "牛腩",
@@ -449,29 +430,15 @@
           "name": "白萝卜",
           "qty": 1,
           "unit": "根"
-        },
-        {
-          "name": "姜",
-          "qty": 1,
-          "unit": "块"
-        },
-        {
-          "name": "八角",
-          "qty": 3,
-          "unit": "个"
         }
       ]
     },
     {
-      "id": "d57d843e-1503-4ae7-af13-f8830935a6bb",
+      "id": "823247dc-3799-4c95-983f-f8a9d8ad4ebb",
       "name": "西红柿炖牛腩",
       "category": "beef",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%96%E7%89%9B%E8%85%A9",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%96%E7%89%9B%E8%85%A9",
+      "dyLink": "https://www.douyin.com/search/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%96%E7%89%9B%E8%85%A9%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "牛腩",
@@ -496,15 +463,92 @@
       ]
     },
     {
-      "id": "841c89dc-8547-4549-ada6-0eee0a80df9d",
+      "id": "e8ee9b15-84ee-4df4-a77c-c37ce0235ee2",
+      "name": "黑椒牛柳",
+      "category": "beef",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%BB%91%E6%A4%92%E7%89%9B%E6%9F%B3",
+      "dyLink": "https://www.douyin.com/search/%E9%BB%91%E6%A4%92%E7%89%9B%E6%9F%B3%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "牛肉",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "青椒",
+          "qty": 2,
+          "unit": "个"
+        },
+        {
+          "name": "洋葱",
+          "qty": 1,
+          "unit": "个"
+        }
+      ]
+    },
+    {
+      "id": "b75c5896-c717-4680-b941-b3ef4fbf3425",
+      "name": "红烧羊肉",
+      "category": "beef",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E7%BE%8A%E8%82%89%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E7%BE%8A%E8%82%89",
+      "ingredients": [
+        {
+          "name": "羊肉",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "name": "胡萝卜",
+          "qty": 2,
+          "unit": "根"
+        }
+      ]
+    },
+    {
+      "id": "d292f158-682a-4e4c-b1a1-0c37974d718e",
+      "name": "牛排",
+      "category": "beef",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%89%9B%E6%8E%92%20%E5%AE%B6%E5%B8%B8%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%89%9B%E6%8E%92%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "牛排",
+          "qty": 5,
+          "unit": "块"
+        },
+        {
+          "name": "西兰花",
+          "qty": 1,
+          "unit": "颗"
+        }
+      ]
+    },
+    {
+      "id": "8a223cc0-7506-4295-be4b-35671a02dde8",
+      "name": "香菜牛肉",
+      "category": "beef",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%A6%99%E8%8F%9C%E7%89%9B%E8%82%89",
+      "dyLink": "https://www.douyin.com/search/%E9%A6%99%E8%8F%9C%E7%89%9B%E8%82%89%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "牛肉",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "香菜",
+          "qty": 1,
+          "unit": "把"
+        }
+      ]
+    },
+    {
+      "id": "cc946891-2f22-4a2b-b4af-ee656bca0d1c",
       "name": "宫保鸡丁",
       "category": "poultry",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81",
+      "dyLink": "https://www.douyin.com/search/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "鸡胸肉",
@@ -520,29 +564,15 @@
           "name": "黄瓜",
           "qty": 1,
           "unit": "根"
-        },
-        {
-          "name": "干辣椒",
-          "qty": 8,
-          "unit": "个"
-        },
-        {
-          "name": "花椒",
-          "qty": 1,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "f02eb80b-ea20-4bc4-bcdd-90c2eeda708c",
+      "id": "ae9f4646-f5e7-43b6-a403-15579a51500b",
       "name": "啤酒鸭",
       "category": "poultry",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E5%95%A4%E9%85%92%E9%B8%AD",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%95%A4%E9%85%92%E9%B8%AD%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E5%95%A4%E9%85%92%E9%B8%AD",
       "ingredients": [
         {
           "name": "鸭",
@@ -553,87 +583,39 @@
           "name": "啤酒",
           "qty": 1,
           "unit": "罐"
-        },
-        {
-          "name": "八角",
-          "qty": 3,
-          "unit": "个"
-        },
-        {
-          "name": "桂皮",
-          "qty": 1,
-          "unit": "块"
-        },
-        {
-          "name": "干辣椒",
-          "qty": 6,
-          "unit": "个"
-        },
-        {
-          "name": "蒜",
-          "qty": 5,
-          "unit": "瓣"
         }
       ]
     },
     {
-      "id": "e6cbea61-2806-4833-a929-6e11bde13e78",
+      "id": "8c604a68-a344-4124-b72c-6a93a3f9efcb",
       "name": "可乐鸡翅",
       "category": "poultry",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E5%8F%AF%E4%B9%90%E9%B8%A1%E7%BF%85",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%8F%AF%E4%B9%90%E9%B8%A1%E7%BF%85",
+      "dyLink": "https://www.douyin.com/search/%E5%8F%AF%E4%B9%90%E9%B8%A1%E7%BF%85%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "鸡翅",
-          "qty": 12,
+          "qty": 15,
           "unit": "个"
         },
         {
           "name": "可乐",
           "qty": 1,
           "unit": "罐"
-        },
-        {
-          "name": "生抽",
-          "qty": 2,
-          "unit": "勺"
-        },
-        {
-          "name": "姜",
-          "qty": 1,
-          "unit": "块"
         }
       ]
     },
     {
-      "id": "c587de0d-102a-43a8-ae08-0bb29070b2be",
+      "id": "d8db538b-bd3b-4f6e-8991-721fdd750b70",
       "name": "辣子鸡",
       "category": "poultry",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E8%BE%A3%E5%AD%90%E9%B8%A1",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%BE%A3%E5%AD%90%E9%B8%A1",
+      "dyLink": "https://www.douyin.com/search/%E8%BE%A3%E5%AD%90%E9%B8%A1%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "鸡腿肉",
           "qty": 600,
           "unit": "g"
-        },
-        {
-          "name": "干辣椒",
-          "qty": 20,
-          "unit": "个"
-        },
-        {
-          "name": "花椒",
-          "qty": 2,
-          "unit": "勺"
         },
         {
           "name": "花生",
@@ -643,15 +625,11 @@
       ]
     },
     {
-      "id": "2d5d124e-2d16-4f50-958e-77244b8764ae",
+      "id": "6a471e72-a03f-48cf-957b-1e9291c83e28",
       "name": "小鸡炖蘑菇",
       "category": "poultry",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87",
+      "dyLink": "https://www.douyin.com/search/%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "三黄鸡",
@@ -667,24 +645,15 @@
           "name": "粉条",
           "qty": 100,
           "unit": "g"
-        },
-        {
-          "name": "姜",
-          "qty": 1,
-          "unit": "块"
         }
       ]
     },
     {
-      "id": "25186242-52a6-42dc-b259-dc580f2f6904",
+      "id": "b7d9a668-6fda-4eba-987f-1dd91c2b8888",
       "name": "红烧鸡块",
       "category": "poultry",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E9%B8%A1%E5%9D%97",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E9%B8%A1%E5%9D%97%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E9%B8%A1%E5%9D%97",
       "ingredients": [
         {
           "name": "鸡",
@@ -700,166 +669,214 @@
           "name": "青椒",
           "qty": 2,
           "unit": "个"
-        },
-        {
-          "name": "生抽",
-          "qty": 3,
-          "unit": "勺"
-        },
-        {
-          "name": "八角",
-          "qty": 3,
-          "unit": "个"
         }
       ]
     },
     {
-      "id": "119f5f8d-f726-4bb5-8188-85cd7c381167",
+      "id": "d065bea0-abf9-441d-b63d-90f9c66c20cb",
       "name": "白切鸡",
       "category": "poultry",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E7%99%BD%E5%88%87%E9%B8%A1",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%99%BD%E5%88%87%E9%B8%A1%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%99%BD%E5%88%87%E9%B8%A1",
       "ingredients": [
         {
           "name": "三黄鸡",
           "qty": 1,
           "unit": "只"
-        },
-        {
-          "name": "姜",
-          "qty": 2,
-          "unit": "块"
-        },
-        {
-          "name": "葱",
-          "qty": 3,
-          "unit": "根"
-        },
-        {
-          "name": "沙姜",
-          "qty": 1,
-          "unit": "块"
         }
       ]
     },
     {
-      "id": "168a33f8-10e5-4019-bcda-7a2ec11c1489",
+      "id": "ac5b5754-d788-4365-8cf5-d41454450e7d",
+      "name": "黄焖鸡",
+      "category": "poultry",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%BB%84%E7%84%96%E9%B8%A1%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E9%BB%84%E7%84%96%E9%B8%A1",
+      "ingredients": [
+        {
+          "name": "鸡腿肉",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "香菇",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "土豆",
+          "qty": 2,
+          "unit": "个"
+        }
+      ]
+    },
+    {
+      "id": "8ea42041-0cd6-4be6-8f5e-f2a1985372f7",
+      "name": "大盘鸡",
+      "category": "poultry",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%A7%E7%9B%98%E9%B8%A1%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E5%A4%A7%E7%9B%98%E9%B8%A1",
+      "ingredients": [
+        {
+          "name": "鸡",
+          "qty": 1,
+          "unit": "只"
+        },
+        {
+          "name": "土豆",
+          "qty": 4,
+          "unit": "个"
+        },
+        {
+          "name": "青椒",
+          "qty": 3,
+          "unit": "个"
+        },
+        {
+          "name": "皮带面",
+          "qty": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "8e2b19ef-09e2-41b8-a0a5-061d88b808a0",
+      "name": "柠檬鸡爪",
+      "category": "poultry",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%9F%A0%E6%AA%AC%E9%B8%A1%E7%88%AA",
+      "dyLink": "https://www.douyin.com/search/%E6%9F%A0%E6%AA%AC%E9%B8%A1%E7%88%AA%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "鸡爪",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "name": "柠檬",
+          "qty": 2,
+          "unit": "个"
+        }
+      ]
+    },
+    {
+      "id": "24850746-bc01-4be7-ab8e-3f9ad0882f3f",
+      "name": "烤鸡翅",
+      "category": "poultry",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%83%A4%E9%B8%A1%E7%BF%85%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%83%A4%E9%B8%A1%E7%BF%85",
+      "ingredients": [
+        {
+          "name": "鸡翅",
+          "qty": 15,
+          "unit": "个"
+        },
+        {
+          "name": "蜂蜜",
+          "qty": 1,
+          "unit": "勺"
+        }
+      ]
+    },
+    {
+      "id": "694c8d0f-a083-4f81-9885-157c79b83817",
+      "name": "口水鸡",
+      "category": "poultry",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%8F%A3%E6%B0%B4%E9%B8%A1%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E5%8F%A3%E6%B0%B4%E9%B8%A1",
+      "ingredients": [
+        {
+          "name": "鸡腿",
+          "qty": 5,
+          "unit": "个"
+        },
+        {
+          "name": "花生碎",
+          "qty": 50,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "b359b01f-1ee6-4157-b4d7-3fff105a7476",
+      "name": "盐水鸭",
+      "category": "poultry",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%9B%90%E6%B0%B4%E9%B8%AD%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%9B%90%E6%B0%B4%E9%B8%AD",
+      "ingredients": [
+        {
+          "name": "鸭子",
+          "qty": 1,
+          "unit": "只"
+        }
+      ]
+    },
+    {
+      "id": "2860b914-0400-4ec2-88dc-bdca350327c2",
+      "name": "三杯鸡",
+      "category": "poultry",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%89%E6%9D%AF%E9%B8%A1%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E4%B8%89%E6%9D%AF%E9%B8%A1",
+      "ingredients": [
+        {
+          "name": "鸡腿肉",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "罗勒叶",
+          "qty": 1,
+          "unit": "把"
+        }
+      ]
+    },
+    {
+      "id": "5a6e465f-302e-4bf9-aabc-63bcf6951652",
       "name": "清蒸鲈鱼",
       "category": "seafood",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC",
+      "dyLink": "https://www.douyin.com/search/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "鲈鱼",
           "qty": 1,
           "unit": "条"
-        },
-        {
-          "name": "葱",
-          "qty": 3,
-          "unit": "根"
-        },
-        {
-          "name": "姜",
-          "qty": 1,
-          "unit": "块"
-        },
-        {
-          "name": "蒸鱼豉油",
-          "qty": 3,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "c215e925-2fab-49d0-9935-286eb6dd1ca9",
+      "id": "06eb15e6-7dde-491d-856e-db1cd647b9f9",
       "name": "油焖大虾",
       "category": "seafood",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE",
+      "dyLink": "https://www.douyin.com/search/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "大虾",
           "qty": 700,
           "unit": "g"
-        },
-        {
-          "name": "蒜",
-          "qty": 8,
-          "unit": "瓣"
-        },
-        {
-          "name": "番茄酱",
-          "qty": 2,
-          "unit": "勺"
-        },
-        {
-          "name": "生抽",
-          "qty": 2,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "d23d980b-d068-405e-8e88-db1852508979",
+      "id": "4ea5de86-dc63-40c1-bfda-f9ba7d99f694",
       "name": "红烧带鱼",
       "category": "seafood",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E5%B8%A6%E9%B1%BC",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E5%B8%A6%E9%B1%BC%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E5%B8%A6%E9%B1%BC",
       "ingredients": [
         {
           "name": "带鱼",
           "qty": 600,
           "unit": "g"
-        },
-        {
-          "name": "葱",
-          "qty": 2,
-          "unit": "根"
-        },
-        {
-          "name": "姜",
-          "qty": 1,
-          "unit": "块"
-        },
-        {
-          "name": "生抽",
-          "qty": 3,
-          "unit": "勺"
-        },
-        {
-          "name": "糖",
-          "qty": 1,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "aed88e3a-a445-45f6-b2b5-3a83c12e0145",
+      "id": "3c31a9f6-713a-439d-8364-210d81dd19db",
       "name": "蒜蓉粉丝蒸虾",
       "category": "seafood",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%9C%E8%93%89%E7%B2%89%E4%B8%9D%E8%92%B8%E8%99%BE",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%9C%E8%93%89%E7%B2%89%E4%B8%9D%E8%92%B8%E8%99%BE",
+      "dyLink": "https://www.douyin.com/search/%E8%92%9C%E8%93%89%E7%B2%89%E4%B8%9D%E8%92%B8%E8%99%BE%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "大虾",
@@ -870,29 +887,15 @@
           "name": "粉丝",
           "qty": 100,
           "unit": "g"
-        },
-        {
-          "name": "蒜",
-          "qty": 10,
-          "unit": "瓣"
-        },
-        {
-          "name": "小米辣",
-          "qty": 3,
-          "unit": "个"
         }
       ]
     },
     {
-      "id": "cdd0e962-9eb0-49b0-8bb3-0d39e975f290",
+      "id": "5ad868a3-1492-48f3-b348-fe442efe0933",
       "name": "水煮鱼",
       "category": "seafood",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E6%B0%B4%E7%85%AE%E9%B1%BC",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B0%B4%E7%85%AE%E9%B1%BC%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E6%B0%B4%E7%85%AE%E9%B1%BC",
       "ingredients": [
         {
           "name": "草鱼",
@@ -903,34 +906,15 @@
           "name": "豆芽",
           "qty": 300,
           "unit": "g"
-        },
-        {
-          "name": "干辣椒",
-          "qty": 15,
-          "unit": "个"
-        },
-        {
-          "name": "花椒",
-          "qty": 3,
-          "unit": "勺"
-        },
-        {
-          "name": "郫县豆瓣",
-          "qty": 2,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "9ad8db41-31ef-4089-b894-4e01ab49a056",
+      "id": "9725bd4a-6b46-4528-bcbc-b2bcd5b379f5",
       "name": "剁椒鱼头",
       "category": "seafood",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E5%89%81%E6%A4%92%E9%B1%BC%E5%A4%B4",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%89%81%E6%A4%92%E9%B1%BC%E5%A4%B4",
+      "dyLink": "https://www.douyin.com/search/%E5%89%81%E6%A4%92%E9%B1%BC%E5%A4%B4%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "胖头鱼头",
@@ -941,68 +925,157 @@
           "name": "剁椒",
           "qty": 200,
           "unit": "g"
-        },
-        {
-          "name": "姜",
-          "qty": 1,
-          "unit": "块"
-        },
-        {
-          "name": "蒜",
-          "qty": 5,
-          "unit": "瓣"
-        },
-        {
-          "name": "蒸鱼豉油",
-          "qty": 2,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "2991b500-ec66-495c-b419-9f048883f2d9",
+      "id": "e9254815-44b6-4348-9aa0-2bf61fdfe100",
       "name": "葱姜炒花蟹",
       "category": "seafood",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E8%91%B1%E5%A7%9C%E7%82%92%E8%8A%B1%E8%9F%B9",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%91%B1%E5%A7%9C%E7%82%92%E8%8A%B1%E8%9F%B9",
+      "dyLink": "https://www.douyin.com/search/%E8%91%B1%E5%A7%9C%E7%82%92%E8%8A%B1%E8%9F%B9%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "花蟹",
-          "qty": 3,
+          "qty": 4,
           "unit": "只"
-        },
-        {
-          "name": "葱",
-          "qty": 3,
-          "unit": "根"
-        },
-        {
-          "name": "姜",
-          "qty": 2,
-          "unit": "块"
-        },
-        {
-          "name": "料酒",
-          "qty": 2,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "5ac53121-7900-4642-910b-cdb6126ef1fb",
+      "id": "14cd6991-35c8-4110-9b2f-8e7beefc8555",
+      "name": "蒜香烤鱼",
+      "category": "seafood",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%9C%E9%A6%99%E7%83%A4%E9%B1%BC%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E8%92%9C%E9%A6%99%E7%83%A4%E9%B1%BC",
+      "ingredients": [
+        {
+          "name": "鱼",
+          "qty": 1,
+          "unit": "条"
+        },
+        {
+          "name": "土豆",
+          "qty": 2,
+          "unit": "个"
+        },
+        {
+          "name": "藕",
+          "qty": 1,
+          "unit": "节"
+        }
+      ]
+    },
+    {
+      "id": "e36c12ab-b51e-4cef-867d-6f5a26989f1a",
+      "name": "香辣虾",
+      "category": "seafood",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%A6%99%E8%BE%A3%E8%99%BE%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E9%A6%99%E8%BE%A3%E8%99%BE",
+      "ingredients": [
+        {
+          "name": "大虾",
+          "qty": 700,
+          "unit": "g"
+        },
+        {
+          "name": "藕",
+          "qty": 1,
+          "unit": "节"
+        },
+        {
+          "name": "土豆",
+          "qty": 2,
+          "unit": "个"
+        }
+      ]
+    },
+    {
+      "id": "a633a0df-0b8c-45f1-b93f-a623627b4a1c",
+      "name": "清蒸大闸蟹",
+      "category": "seafood",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B8%85%E8%92%B8%E5%A4%A7%E9%97%B8%E8%9F%B9",
+      "dyLink": "https://www.douyin.com/search/%E6%B8%85%E8%92%B8%E5%A4%A7%E9%97%B8%E8%9F%B9%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "大闸蟹",
+          "qty": 6,
+          "unit": "只"
+        }
+      ]
+    },
+    {
+      "id": "00d0f7f6-493f-43a6-8a30-adfe0d627108",
+      "name": "椒盐皮皮虾",
+      "category": "seafood",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%A4%92%E7%9B%90%E7%9A%AE%E7%9A%AE%E8%99%BE",
+      "dyLink": "https://www.douyin.com/search/%E6%A4%92%E7%9B%90%E7%9A%AE%E7%9A%AE%E8%99%BE%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "皮皮虾",
+          "qty": 800,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "eb3cb1fe-0e42-4673-8327-e7882065fd06",
+      "name": "酸菜鱼",
+      "category": "seafood",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%85%B8%E8%8F%9C%E9%B1%BC%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E9%85%B8%E8%8F%9C%E9%B1%BC",
+      "ingredients": [
+        {
+          "name": "草鱼",
+          "qty": 1,
+          "unit": "条"
+        },
+        {
+          "name": "酸菜",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "豆芽",
+          "qty": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "242889cd-67c4-4c6d-ad69-28ac4a377fe1",
+      "name": "香煎带鱼",
+      "category": "seafood",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%A6%99%E7%85%8E%E5%B8%A6%E9%B1%BC",
+      "dyLink": "https://www.douyin.com/search/%E9%A6%99%E7%85%8E%E5%B8%A6%E9%B1%BC%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "带鱼",
+          "qty": 600,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "97323a28-a9f2-4af2-ba93-322df7e4c83f",
+      "name": "白灼虾",
+      "category": "seafood",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%99%BD%E7%81%BC%E8%99%BE%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%99%BD%E7%81%BC%E8%99%BE",
+      "ingredients": [
+        {
+          "name": "基围虾",
+          "qty": 700,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "64933c29-2ad5-4fd4-9ca7-8af4719a154a",
       "name": "番茄炒蛋",
       "category": "eggtofu",
-      "mealTypes": [
-        "早",
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B",
+      "dyLink": "https://www.douyin.com/search/%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "番茄",
@@ -1013,29 +1086,15 @@
           "name": "鸡蛋",
           "qty": 8,
           "unit": "个"
-        },
-        {
-          "name": "葱",
-          "qty": 2,
-          "unit": "根"
-        },
-        {
-          "name": "糖",
-          "qty": 1,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "054666e4-2e8f-42a3-8efc-d6ea142a13ce",
+      "id": "c178f9d1-cde3-49cb-bf38-4e0d9f05cb78",
       "name": "麻婆豆腐",
       "category": "eggtofu",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90",
+      "dyLink": "https://www.douyin.com/search/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "嫩豆腐",
@@ -1046,35 +1105,15 @@
           "name": "肉末",
           "qty": 150,
           "unit": "g"
-        },
-        {
-          "name": "豆瓣酱",
-          "qty": 2,
-          "unit": "勺"
-        },
-        {
-          "name": "花椒粉",
-          "qty": 1,
-          "unit": "勺"
-        },
-        {
-          "name": "蒜",
-          "qty": 3,
-          "unit": "瓣"
         }
       ]
     },
     {
-      "id": "cca5bda1-2e98-4953-b894-0b656bc784c2",
+      "id": "6d8b1a8d-f60e-42be-b9a4-1c863d061c76",
       "name": "韭菜炒蛋",
       "category": "eggtofu",
-      "mealTypes": [
-        "早",
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E9%9F%AD%E8%8F%9C%E7%82%92%E8%9B%8B",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%9F%AD%E8%8F%9C%E7%82%92%E8%9B%8B",
+      "dyLink": "https://www.douyin.com/search/%E9%9F%AD%E8%8F%9C%E7%82%92%E8%9B%8B%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "韭菜",
@@ -1085,24 +1124,15 @@
           "name": "鸡蛋",
           "qty": 8,
           "unit": "个"
-        },
-        {
-          "name": "盐",
-          "qty": 1,
-          "unit": "小勺"
         }
       ]
     },
     {
-      "id": "7540811d-73aa-4362-a924-060a5c55a353",
+      "id": "7f1431e1-417b-42e7-852f-9f82ad77e872",
       "name": "家常豆腐",
       "category": "eggtofu",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E5%AE%B6%E5%B8%B8%E8%B1%86%E8%85%90",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%AE%B6%E5%B8%B8%E8%B1%86%E8%85%90",
+      "dyLink": "https://www.douyin.com/search/%E5%AE%B6%E5%B8%B8%E8%B1%86%E8%85%90%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "老豆腐",
@@ -1118,24 +1148,15 @@
           "name": "木耳",
           "qty": 50,
           "unit": "g"
-        },
-        {
-          "name": "豆瓣酱",
-          "qty": 1,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "6ffa0780-d1c4-43f2-87c7-5b2509e429af",
+      "id": "3191218d-22a3-41ed-b0bf-de29c5d51748",
       "name": "虾仁蒸蛋",
       "category": "eggtofu",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E8%99%BE%E4%BB%81%E8%92%B8%E8%9B%8B",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%99%BE%E4%BB%81%E8%92%B8%E8%9B%8B",
+      "dyLink": "https://www.douyin.com/search/%E8%99%BE%E4%BB%81%E8%92%B8%E8%9B%8B%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "鸡蛋",
@@ -1151,24 +1172,15 @@
           "name": "温水",
           "qty": 1,
           "unit": "碗"
-        },
-        {
-          "name": "生抽",
-          "qty": 1,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "9528338f-42c5-4cee-b55a-621d2055f4ed",
+      "id": "197cef7a-6f29-4cd0-8c88-74f7d97b1d30",
       "name": "皮蛋拌豆腐",
       "category": "eggtofu",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E7%9A%AE%E8%9B%8B%E6%8B%8C%E8%B1%86%E8%85%90",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%9A%AE%E8%9B%8B%E6%8B%8C%E8%B1%86%E8%85%90",
+      "dyLink": "https://www.douyin.com/search/%E7%9A%AE%E8%9B%8B%E6%8B%8C%E8%B1%86%E8%85%90%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "嫩豆腐",
@@ -1179,133 +1191,171 @@
           "name": "皮蛋",
           "qty": 4,
           "unit": "个"
-        },
-        {
-          "name": "蒜",
-          "qty": 3,
-          "unit": "瓣"
-        },
-        {
-          "name": "生抽",
-          "qty": 2,
-          "unit": "勺"
-        },
-        {
-          "name": "香油",
-          "qty": 1,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "64a33335-5b88-40cd-ab5e-ee4bfb258f6a",
+      "id": "e3087546-7aa4-4bc8-97e3-b15dd52c22f7",
+      "name": "红烧日本豆腐",
+      "category": "eggtofu",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E6%97%A5%E6%9C%AC%E8%B1%86%E8%85%90",
+      "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E6%97%A5%E6%9C%AC%E8%B1%86%E8%85%90%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "日本豆腐",
+          "qty": 5,
+          "unit": "条"
+        },
+        {
+          "name": "青椒",
+          "qty": 2,
+          "unit": "个"
+        },
+        {
+          "name": "胡萝卜",
+          "qty": 1,
+          "unit": "根"
+        }
+      ]
+    },
+    {
+      "id": "9c4a3976-9b4b-4f8a-a732-decd68f5b6b9",
+      "name": "肉末蒸蛋",
+      "category": "eggtofu",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%82%89%E6%9C%AB%E8%92%B8%E8%9B%8B",
+      "dyLink": "https://www.douyin.com/search/%E8%82%89%E6%9C%AB%E8%92%B8%E8%9B%8B%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "鸡蛋",
+          "qty": 6,
+          "unit": "个"
+        },
+        {
+          "name": "肉末",
+          "qty": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "f6e5daf7-9799-45d7-ac35-bc436d06a1f1",
+      "name": "煎豆腐",
+      "category": "eggtofu",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%85%8E%E8%B1%86%E8%85%90%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%85%8E%E8%B1%86%E8%85%90",
+      "ingredients": [
+        {
+          "name": "老豆腐",
+          "qty": 2,
+          "unit": "块"
+        }
+      ]
+    },
+    {
+      "id": "a73dbc15-4740-4ef1-9db2-31994ff30c07",
+      "name": "臭豆腐煲",
+      "category": "eggtofu",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%87%AD%E8%B1%86%E8%85%90%E7%85%B2",
+      "dyLink": "https://www.douyin.com/search/%E8%87%AD%E8%B1%86%E8%85%90%E7%85%B2%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "臭豆腐",
+          "qty": 1,
+          "unit": "份"
+        }
+      ]
+    },
+    {
+      "id": "b3aa7ceb-5e21-40bf-a490-bf30d263ca65",
+      "name": "腐竹炒肉",
+      "category": "eggtofu",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%85%90%E7%AB%B9%E7%82%92%E8%82%89",
+      "dyLink": "https://www.douyin.com/search/%E8%85%90%E7%AB%B9%E7%82%92%E8%82%89%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "腐竹",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "五花肉",
+          "qty": 250,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "a55c757a-00cd-457f-870a-b592ec1f3569",
+      "name": "韭菜炒豆芽",
+      "category": "eggtofu",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%9F%AD%E8%8F%9C%E7%82%92%E8%B1%86%E8%8A%BD",
+      "dyLink": "https://www.douyin.com/search/%E9%9F%AD%E8%8F%9C%E7%82%92%E8%B1%86%E8%8A%BD%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "韭菜",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "豆芽",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "鸡蛋",
+          "qty": 4,
+          "unit": "个"
+        }
+      ]
+    },
+    {
+      "id": "68634092-db3c-409f-97a0-ab8f48ba4db4",
       "name": "蒜蓉空心菜",
       "category": "veggie",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "无",
-      "link": "",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C",
+      "dyLink": "https://www.douyin.com/search/%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "空心菜",
           "qty": 2,
           "unit": "把"
-        },
-        {
-          "name": "蒜",
-          "qty": 10,
-          "unit": "瓣"
-        },
-        {
-          "name": "盐",
-          "qty": 1,
-          "unit": "小勺"
         }
       ]
     },
     {
-      "id": "029988d7-1001-4b42-9366-08850555ccb6",
+      "id": "fe52946d-52f7-4f59-9a3e-77c2a179e3f4",
       "name": "干煸四季豆",
       "category": "veggie",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E5%B9%B2%E7%85%B8%E5%9B%9B%E5%AD%A3%E8%B1%86",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%B9%B2%E7%85%B8%E5%9B%9B%E5%AD%A3%E8%B1%86",
+      "dyLink": "https://www.douyin.com/search/%E5%B9%B2%E7%85%B8%E5%9B%9B%E5%AD%A3%E8%B1%86%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "四季豆",
           "qty": 600,
           "unit": "g"
-        },
-        {
-          "name": "干辣椒",
-          "qty": 6,
-          "unit": "个"
-        },
-        {
-          "name": "花椒",
-          "qty": 1,
-          "unit": "勺"
-        },
-        {
-          "name": "蒜",
-          "qty": 5,
-          "unit": "瓣"
         }
       ]
     },
     {
-      "id": "ff9db71e-7230-45c9-87ce-f379d170cfc7",
+      "id": "101bb6cf-8182-4e20-bc81-ffe0f2e8ea94",
       "name": "手撕包菜",
       "category": "veggie",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C",
+      "dyLink": "https://www.douyin.com/search/%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "包菜",
           "qty": 1,
           "unit": "个"
-        },
-        {
-          "name": "干辣椒",
-          "qty": 8,
-          "unit": "个"
-        },
-        {
-          "name": "蒜",
-          "qty": 5,
-          "unit": "瓣"
-        },
-        {
-          "name": "生抽",
-          "qty": 2,
-          "unit": "勺"
-        },
-        {
-          "name": "醋",
-          "qty": 1,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "cbc49003-2d5a-417d-8ddc-0736122a7598",
+      "id": "f87bdbc4-21e6-4fbf-94fb-afc13e3bfc98",
       "name": "地三鲜",
       "category": "veggie",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E5%9C%B0%E4%B8%89%E9%B2%9C",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%9C%B0%E4%B8%89%E9%B2%9C%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E5%9C%B0%E4%B8%89%E9%B2%9C",
       "ingredients": [
         {
           "name": "土豆",
@@ -1321,161 +1371,208 @@
           "name": "青椒",
           "qty": 3,
           "unit": "个"
-        },
-        {
-          "name": "蒜",
-          "qty": 5,
-          "unit": "瓣"
-        },
-        {
-          "name": "生抽",
-          "qty": 2,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "abae40f2-b088-4fb0-80f9-a90f7332ca05",
+      "id": "c84e96b4-7dee-44b4-af4d-a2fe77929233",
       "name": "蚝油生菜",
       "category": "veggie",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E8%9A%9D%E6%B2%B9%E7%94%9F%E8%8F%9C",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%9A%9D%E6%B2%B9%E7%94%9F%E8%8F%9C",
+      "dyLink": "https://www.douyin.com/search/%E8%9A%9D%E6%B2%B9%E7%94%9F%E8%8F%9C%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "生菜",
           "qty": 2,
           "unit": "棵"
-        },
-        {
-          "name": "蚝油",
-          "qty": 3,
-          "unit": "勺"
-        },
-        {
-          "name": "蒜",
-          "qty": 8,
-          "unit": "瓣"
         }
       ]
     },
     {
-      "id": "d5f3faf3-868c-4547-8872-44957c2eb1cf",
+      "id": "24ab9a29-a47f-4faa-9a1f-778ad2a24f4c",
       "name": "醋溜白菜",
       "category": "veggie",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E9%86%8B%E6%BA%9C%E7%99%BD%E8%8F%9C",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%86%8B%E6%BA%9C%E7%99%BD%E8%8F%9C",
+      "dyLink": "https://www.douyin.com/search/%E9%86%8B%E6%BA%9C%E7%99%BD%E8%8F%9C%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "大白菜",
           "qty": 1,
           "unit": "棵"
-        },
-        {
-          "name": "干辣椒",
-          "qty": 5,
-          "unit": "个"
-        },
-        {
-          "name": "醋",
-          "qty": 3,
-          "unit": "勺"
-        },
-        {
-          "name": "蒜",
-          "qty": 5,
-          "unit": "瓣"
         }
       ]
     },
     {
-      "id": "82134ac9-5e46-4dcb-a08e-abf832b4d334",
+      "id": "75a921fd-adf1-4d9a-807e-4b01bb0b56f1",
       "name": "清炒西兰花",
       "category": "veggie",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E6%B8%85%E7%82%92%E8%A5%BF%E5%85%B0%E8%8A%B1",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B8%85%E7%82%92%E8%A5%BF%E5%85%B0%E8%8A%B1",
+      "dyLink": "https://www.douyin.com/search/%E6%B8%85%E7%82%92%E8%A5%BF%E5%85%B0%E8%8A%B1%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "西兰花",
           "qty": 2,
           "unit": "颗"
-        },
-        {
-          "name": "蒜",
-          "qty": 6,
-          "unit": "瓣"
-        },
-        {
-          "name": "盐",
-          "qty": 1,
-          "unit": "小勺"
-        },
-        {
-          "name": "蚝油",
-          "qty": 1,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "0ef35d6a-3465-41bc-bb36-e230d9dd2253",
+      "id": "0e170c3e-fcec-4fcd-8fbb-cbeb666e73ff",
+      "name": "蒜蓉油麦菜",
+      "category": "veggie",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%9C%E8%93%89%E6%B2%B9%E9%BA%A6%E8%8F%9C",
+      "dyLink": "https://www.douyin.com/search/%E8%92%9C%E8%93%89%E6%B2%B9%E9%BA%A6%E8%8F%9C%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "油麦菜",
+          "qty": 2,
+          "unit": "把"
+        }
+      ]
+    },
+    {
+      "id": "ab554e2e-5e07-49f4-9e29-be44546fea71",
+      "name": "酸辣土豆丝",
+      "category": "veggie",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D",
+      "dyLink": "https://www.douyin.com/search/%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "土豆",
+          "qty": 4,
+          "unit": "个"
+        },
+        {
+          "name": "青椒",
+          "qty": 2,
+          "unit": "个"
+        }
+      ]
+    },
+    {
+      "id": "52023723-3776-468a-8d9a-b0587a2e5e6f",
+      "name": "鱼香茄子",
+      "category": "veggie",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%B1%BC%E9%A6%99%E8%8C%84%E5%AD%90",
+      "dyLink": "https://www.douyin.com/search/%E9%B1%BC%E9%A6%99%E8%8C%84%E5%AD%90%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "茄子",
+          "qty": 3,
+          "unit": "个"
+        },
+        {
+          "name": "肉末",
+          "qty": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "8a948dcf-c3b5-420a-ae4f-04d28d08161b",
+      "name": "清炒豆苗",
+      "category": "veggie",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B8%85%E7%82%92%E8%B1%86%E8%8B%97",
+      "dyLink": "https://www.douyin.com/search/%E6%B8%85%E7%82%92%E8%B1%86%E8%8B%97%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "豆苗",
+          "qty": 400,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "f3e8e8c0-c809-486a-8cc2-8e0ed1f02f49",
+      "name": "红烧冬瓜",
+      "category": "veggie",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C",
+      "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "冬瓜",
+          "qty": 500,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "b55a0272-3045-4e7c-8bd4-87d410fd1540",
+      "name": "上汤娃娃菜",
+      "category": "veggie",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C",
+      "dyLink": "https://www.douyin.com/search/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "娃娃菜",
+          "qty": 3,
+          "unit": "棵"
+        },
+        {
+          "name": "皮蛋",
+          "qty": 2,
+          "unit": "个"
+        },
+        {
+          "name": "火腿",
+          "qty": 50,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "844d6b73-dfa1-4bb3-8adf-6574e408faf9",
+      "name": "香菇油菜",
+      "category": "veggie",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%A6%99%E8%8F%87%E6%B2%B9%E8%8F%9C",
+      "dyLink": "https://www.douyin.com/search/%E9%A6%99%E8%8F%87%E6%B2%B9%E8%8F%9C%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "油菜",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "香菇",
+          "qty": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "bde5bbc7-7520-49aa-afa2-916744930262",
+      "name": "清炒时蔬",
+      "category": "veggie",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B8%85%E7%82%92%E6%97%B6%E8%94%AC",
+      "dyLink": "https://www.douyin.com/search/%E6%B8%85%E7%82%92%E6%97%B6%E8%94%AC",
+      "ingredients": [
+        {
+          "name": "时蔬",
+          "qty": 500,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "3d74721a-b92e-4420-8ef8-14fd8dbfdbac",
       "name": "拍黄瓜",
       "category": "cold",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "无",
-      "link": "",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%8B%8D%E9%BB%84%E7%93%9C%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E6%8B%8D%E9%BB%84%E7%93%9C",
       "ingredients": [
         {
           "name": "黄瓜",
           "qty": 4,
           "unit": "根"
-        },
-        {
-          "name": "蒜",
-          "qty": 8,
-          "unit": "瓣"
-        },
-        {
-          "name": "醋",
-          "qty": 3,
-          "unit": "勺"
-        },
-        {
-          "name": "生抽",
-          "qty": 2,
-          "unit": "勺"
-        },
-        {
-          "name": "辣椒油",
-          "qty": 1,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "b379e7b9-82ee-4a5a-a33c-54c7da697685",
+      "id": "00eb4583-df27-4a67-8596-a3de3a9f2af3",
       "name": "凉拌木耳",
       "category": "cold",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E5%87%89%E6%8B%8C%E6%9C%A8%E8%80%B3",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%87%89%E6%8B%8C%E6%9C%A8%E8%80%B3",
+      "dyLink": "https://www.douyin.com/search/%E5%87%89%E6%8B%8C%E6%9C%A8%E8%80%B3%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "木耳",
@@ -1486,39 +1583,15 @@
           "name": "香菜",
           "qty": 4,
           "unit": "根"
-        },
-        {
-          "name": "蒜",
-          "qty": 5,
-          "unit": "瓣"
-        },
-        {
-          "name": "醋",
-          "qty": 2,
-          "unit": "勺"
-        },
-        {
-          "name": "生抽",
-          "qty": 2,
-          "unit": "勺"
-        },
-        {
-          "name": "辣椒油",
-          "qty": 1,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "8f2c9232-5db7-4a3d-95b3-d176ded35e4a",
+      "id": "e8a49558-5534-40fb-860d-3fe94d0bb934",
       "name": "凉拌三丝",
       "category": "cold",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E5%87%89%E6%8B%8C%E4%B8%89%E4%B8%9D",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%87%89%E6%8B%8C%E4%B8%89%E4%B8%9D",
+      "dyLink": "https://www.douyin.com/search/%E5%87%89%E6%8B%8C%E4%B8%89%E4%B8%9D%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "粉丝",
@@ -1534,133 +1607,123 @@
           "name": "胡萝卜",
           "qty": 1,
           "unit": "根"
-        },
-        {
-          "name": "蒜",
-          "qty": 5,
-          "unit": "瓣"
-        },
-        {
-          "name": "醋",
-          "qty": 2,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "4c1f109e-e151-48a4-89d1-268fc5e98e19",
-      "name": "口水鸡",
-      "category": "cold",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E5%8F%A3%E6%B0%B4%E9%B8%A1",
-      "ingredients": [
-        {
-          "name": "鸡腿",
-          "qty": 4,
-          "unit": "个"
-        },
-        {
-          "name": "花生碎",
-          "qty": 50,
-          "unit": "g"
-        },
-        {
-          "name": "红油",
-          "qty": 3,
-          "unit": "勺"
-        },
-        {
-          "name": "花椒粉",
-          "qty": 1,
-          "unit": "勺"
-        },
-        {
-          "name": "蒜",
-          "qty": 5,
-          "unit": "瓣"
-        },
-        {
-          "name": "芝麻酱",
-          "qty": 1,
-          "unit": "勺"
-        }
-      ]
-    },
-    {
-      "id": "ec65eb9a-6e20-478e-b70c-d6aefa6e207e",
+      "id": "06592fcc-eb54-4442-b103-4161ca390b5f",
       "name": "炸花生米",
       "category": "cold",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "无",
-      "link": "",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%82%B8%E8%8A%B1%E7%94%9F%E7%B1%B3",
+      "dyLink": "https://www.douyin.com/search/%E7%82%B8%E8%8A%B1%E7%94%9F%E7%B1%B3%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "花生米",
           "qty": 300,
           "unit": "g"
-        },
-        {
-          "name": "盐",
-          "qty": 1,
-          "unit": "小勺"
-        },
-        {
-          "name": "油",
-          "qty": 2,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "9c4d91d6-c533-44a6-b291-0d0891598bee",
+      "id": "83a7d7a2-b4a9-4a5a-89ce-ad26546d93a8",
       "name": "凉拌海带丝",
       "category": "cold",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E5%87%89%E6%8B%8C%E6%B5%B7%E5%B8%A6%E4%B8%9D",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%87%89%E6%8B%8C%E6%B5%B7%E5%B8%A6%E4%B8%9D",
+      "dyLink": "https://www.douyin.com/search/%E5%87%89%E6%8B%8C%E6%B5%B7%E5%B8%A6%E4%B8%9D%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "海带丝",
           "qty": 300,
           "unit": "g"
-        },
-        {
-          "name": "蒜",
-          "qty": 5,
-          "unit": "瓣"
-        },
-        {
-          "name": "醋",
-          "qty": 2,
-          "unit": "勺"
-        },
-        {
-          "name": "辣椒油",
-          "qty": 1,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "8c2fb50b-d02d-4528-ab8f-74db5f5726f6",
+      "id": "f7db4e50-5712-4d94-92dc-19b8f84e8ef1",
+      "name": "泡椒凤爪",
+      "category": "cold",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B3%A1%E6%A4%92%E5%87%A4%E7%88%AA",
+      "dyLink": "https://www.douyin.com/search/%E6%B3%A1%E6%A4%92%E5%87%A4%E7%88%AA%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "鸡爪",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "name": "泡椒",
+          "qty": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "fad520cb-aee5-416e-97b9-f92833e01a35",
+      "name": "凉拌腐竹",
+      "category": "cold",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%87%89%E6%8B%8C%E8%85%90%E7%AB%B9",
+      "dyLink": "https://www.douyin.com/search/%E5%87%89%E6%8B%8C%E8%85%90%E7%AB%B9%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "腐竹",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "黄瓜",
+          "qty": 2,
+          "unit": "根"
+        }
+      ]
+    },
+    {
+      "id": "86ed3511-21e0-4381-924e-6fd010e5515a",
+      "name": "手撕鸡",
+      "category": "cold",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%89%8B%E6%92%95%E9%B8%A1%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E6%89%8B%E6%92%95%E9%B8%A1",
+      "ingredients": [
+        {
+          "name": "三黄鸡",
+          "qty": 1,
+          "unit": "只"
+        }
+      ]
+    },
+    {
+      "id": "7c1eee28-c8ee-429d-9845-9ae630eb20e6",
+      "name": "卤牛肉",
+      "category": "cold",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%8D%A4%E7%89%9B%E8%82%89%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E5%8D%A4%E7%89%9B%E8%82%89",
+      "ingredients": [
+        {
+          "name": "牛腱子",
+          "qty": 600,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "f11b319e-9e9b-469d-bf19-6be4edf95110",
+      "name": "凉拌藕片",
+      "category": "cold",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%87%89%E6%8B%8C%E8%97%95%E7%89%87",
+      "dyLink": "https://www.douyin.com/search/%E5%87%89%E6%8B%8C%E8%97%95%E7%89%87%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "藕",
+          "qty": 2,
+          "unit": "节"
+        }
+      ]
+    },
+    {
+      "id": "4ec91c07-bc0f-49a9-8b1f-19e706f3a539",
       "name": "紫菜蛋花汤",
       "category": "soup",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "无",
-      "link": "",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%B4%AB%E8%8F%9C%E8%9B%8B%E8%8A%B1%E6%B1%A4",
+      "dyLink": "https://www.douyin.com/search/%E7%B4%AB%E8%8F%9C%E8%9B%8B%E8%8A%B1%E6%B1%A4%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "紫菜",
@@ -1673,32 +1736,18 @@
           "unit": "个"
         },
         {
-          "name": "葱",
-          "qty": 2,
-          "unit": "根"
-        },
-        {
           "name": "虾皮",
           "qty": 1,
           "unit": "小勺"
-        },
-        {
-          "name": "香油",
-          "qty": 1,
-          "unit": "勺"
         }
       ]
     },
     {
-      "id": "53d6d35a-e0ab-4feb-b0bd-c258857e2cf4",
+      "id": "ecdb9124-dd2a-4e39-bbce-ef031da56c0d",
       "name": "排骨玉米汤",
       "category": "soup",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E6%8E%92%E9%AA%A8%E7%8E%89%E7%B1%B3%E6%B1%A4",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%8E%92%E9%AA%A8%E7%8E%89%E7%B1%B3%E6%B1%A4",
+      "dyLink": "https://www.douyin.com/search/%E6%8E%92%E9%AA%A8%E7%8E%89%E7%B1%B3%E6%B1%A4%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "排骨",
@@ -1714,24 +1763,15 @@
           "name": "胡萝卜",
           "qty": 2,
           "unit": "根"
-        },
-        {
-          "name": "姜",
-          "qty": 1,
-          "unit": "块"
         }
       ]
     },
     {
-      "id": "9e8a14f6-8dba-4eeb-96ab-b1e408ec4681",
+      "id": "503c501a-6065-43ad-9b16-e801d652b449",
       "name": "番茄蛋汤",
       "category": "soup",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E7%95%AA%E8%8C%84%E8%9B%8B%E6%B1%A4",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%95%AA%E8%8C%84%E8%9B%8B%E6%B1%A4",
+      "dyLink": "https://www.douyin.com/search/%E7%95%AA%E8%8C%84%E8%9B%8B%E6%B1%A4%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "番茄",
@@ -1742,24 +1782,15 @@
           "name": "鸡蛋",
           "qty": 5,
           "unit": "个"
-        },
-        {
-          "name": "葱",
-          "qty": 2,
-          "unit": "根"
         }
       ]
     },
     {
-      "id": "d89d01df-2606-488a-8b40-78720a4c9c37",
+      "id": "e026139d-c92a-4af3-beef-401aa7a6eda9",
       "name": "冬瓜排骨汤",
       "category": "soup",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E5%86%AC%E7%93%9C%E6%8E%92%E9%AA%A8%E6%B1%A4",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%86%AC%E7%93%9C%E6%8E%92%E9%AA%A8%E6%B1%A4",
+      "dyLink": "https://www.douyin.com/search/%E5%86%AC%E7%93%9C%E6%8E%92%E9%AA%A8%E6%B1%A4%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
           "name": "排骨",
@@ -1775,24 +1806,15 @@
           "name": "薏米",
           "qty": 50,
           "unit": "g"
-        },
-        {
-          "name": "姜",
-          "qty": 1,
-          "unit": "块"
         }
       ]
     },
     {
-      "id": "c2f86fa3-f196-45ee-88dd-e3ee17e460db",
+      "id": "4e1bc1a7-f16f-4a85-a95c-6089d0b14656",
       "name": "菌菇汤",
       "category": "soup",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E8%8F%8C%E8%8F%87%E6%B1%A4",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%8F%8C%E8%8F%87%E6%B1%A4%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E8%8F%8C%E8%8F%87%E6%B1%A4",
       "ingredients": [
         {
           "name": "香菇",
@@ -1813,24 +1835,15 @@
           "name": "枸杞",
           "qty": 1,
           "unit": "小勺"
-        },
-        {
-          "name": "姜",
-          "qty": 1,
-          "unit": "块"
         }
       ]
     },
     {
-      "id": "6d80232b-42a1-4988-986f-e817758c9ec5",
+      "id": "d0c5a587-7376-4d47-b410-78dd47b0c696",
       "name": "酸辣汤",
       "category": "soup",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E9%85%B8%E8%BE%A3%E6%B1%A4",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%85%B8%E8%BE%A3%E6%B1%A4%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E9%85%B8%E8%BE%A3%E6%B1%A4",
       "ingredients": [
         {
           "name": "豆腐",
@@ -1848,16 +1861,6 @@
           "unit": "g"
         },
         {
-          "name": "醋",
-          "qty": 3,
-          "unit": "勺"
-        },
-        {
-          "name": "白胡椒粉",
-          "qty": 1,
-          "unit": "勺"
-        },
-        {
           "name": "火腿",
           "qty": 100,
           "unit": "g"
@@ -1865,16 +1868,97 @@
       ]
     },
     {
-      "id": "cdffafcc-d5ee-47b4-b52c-9e12eaf2e7ca",
+      "id": "94ea5b6b-53eb-41e5-83ee-b7b154deb286",
+      "name": "鲫鱼豆腐汤",
+      "category": "soup",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%B2%AB%E9%B1%BC%E8%B1%86%E8%85%90%E6%B1%A4",
+      "dyLink": "https://www.douyin.com/search/%E9%B2%AB%E9%B1%BC%E8%B1%86%E8%85%90%E6%B1%A4%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "鲫鱼",
+          "qty": 2,
+          "unit": "条"
+        },
+        {
+          "name": "豆腐",
+          "qty": 1,
+          "unit": "块"
+        }
+      ]
+    },
+    {
+      "id": "405f59ac-7e6e-426a-832a-026b90393ae6",
+      "name": "莲藕排骨汤",
+      "category": "soup",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%8E%B2%E8%97%95%E6%8E%92%E9%AA%A8%E6%B1%A4",
+      "dyLink": "https://www.douyin.com/search/%E8%8E%B2%E8%97%95%E6%8E%92%E9%AA%A8%E6%B1%A4%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "排骨",
+          "qty": 700,
+          "unit": "g"
+        },
+        {
+          "name": "莲藕",
+          "qty": 2,
+          "unit": "节"
+        },
+        {
+          "name": "花生",
+          "qty": 50,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "d91b45a8-d16c-44c6-9695-671d108bd17d",
+      "name": "山药排骨汤",
+      "category": "soup",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%B1%B1%E8%8D%AF%E6%8E%92%E9%AA%A8%E6%B1%A4",
+      "dyLink": "https://www.douyin.com/search/%E5%B1%B1%E8%8D%AF%E6%8E%92%E9%AA%A8%E6%B1%A4%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "排骨",
+          "qty": 700,
+          "unit": "g"
+        },
+        {
+          "name": "山药",
+          "qty": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "7dd448d7-92c2-41e4-abaf-36298b0edceb",
+      "name": "白萝卜排骨汤",
+      "category": "soup",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%99%BD%E8%90%9D%E5%8D%9C%E6%8E%92%E9%AA%A8%E6%B1%A4",
+      "dyLink": "https://www.douyin.com/search/%E7%99%BD%E8%90%9D%E5%8D%9C%E6%8E%92%E9%AA%A8%E6%B1%A4%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "排骨",
+          "qty": 700,
+          "unit": "g"
+        },
+        {
+          "name": "白萝卜",
+          "qty": 1,
+          "unit": "根"
+        },
+        {
+          "name": "枸杞",
+          "qty": 1,
+          "unit": "小勺"
+        }
+      ]
+    },
+    {
+      "id": "c78d510e-65fd-4496-9cdd-2a6e20ab8e84",
       "name": "白米饭",
       "category": "staple",
-      "mealTypes": [
-        "早",
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "无",
-      "link": "",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%B8%E7%B1%B3%E9%A5%AD%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E8%92%B8%E7%B1%B3%E9%A5%AD",
       "ingredients": [
         {
           "name": "大米",
@@ -1884,14 +1968,11 @@
       ]
     },
     {
-      "id": "6d6eb12b-2607-412f-8c76-acccb554aa6a",
+      "id": "8dde7e38-607a-49db-b6c8-91d5eb696b50",
       "name": "小米粥",
       "category": "staple",
-      "mealTypes": [
-        "早"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E5%B0%8F%E7%B1%B3%E7%B2%A5",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%B0%8F%E7%B1%B3%E7%B2%A5%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E5%B0%8F%E7%B1%B3%E7%B2%A5",
       "ingredients": [
         {
           "name": "小米",
@@ -1901,15 +1982,92 @@
       ]
     },
     {
-      "id": "53e3f35a-cc7c-49cb-848d-c23c027fa001",
+      "id": "21aa34f3-3b52-48aa-91dc-de85d0d617f2",
+      "name": "馒头",
+      "category": "staple",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%B8%E9%A6%92%E5%A4%B4%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E8%92%B8%E9%A6%92%E5%A4%B4",
+      "ingredients": [
+        {
+          "name": "面粉",
+          "qty": 750,
+          "unit": "g"
+        },
+        {
+          "name": "酵母",
+          "qty": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "afd8e944-f474-4d4c-bff2-54828b0e4388",
+      "name": "饺子",
+      "category": "staple",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%A5%BA%E5%AD%90%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E5%8C%85%E9%A5%BA%E5%AD%90",
+      "ingredients": [
+        {
+          "name": "面粉",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "肉末",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "白菜",
+          "qty": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "eedcb391-103b-4e9a-9d44-dccb80a29a12",
+      "name": "南瓜粥",
+      "category": "staple",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E7%93%9C%E7%B2%A5%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E5%8D%97%E7%93%9C%E7%B2%A5",
+      "ingredients": [
+        {
+          "name": "大米",
+          "qty": 2,
+          "unit": "杯"
+        },
+        {
+          "name": "南瓜",
+          "qty": 500,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "ead1cc50-229d-4a15-a099-21f80a9cefcb",
+      "name": "葱油拌面",
+      "category": "staple",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%91%B1%E6%B2%B9%E6%8B%8C%E9%9D%A2%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E8%91%B1%E6%B2%B9%E6%8B%8C%E9%9D%A2",
+      "ingredients": [
+        {
+          "name": "面条",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "小葱",
+          "qty": 6,
+          "unit": "根"
+        }
+      ]
+    },
+    {
+      "id": "919d1c48-62a9-4527-aabc-21bc36c8c9fe",
       "name": "蛋炒饭",
       "category": "staple",
-      "mealTypes": [
-        "早",
-        "午"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E8%9B%8B%E7%82%92%E9%A5%AD",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%9B%8B%E7%82%92%E9%A5%AD%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E8%9B%8B%E7%82%92%E9%A5%AD",
       "ingredients": [
         {
           "name": "米饭",
@@ -1930,24 +2088,39 @@
           "name": "青豆",
           "qty": 50,
           "unit": "g"
-        },
-        {
-          "name": "葱",
-          "qty": 2,
-          "unit": "根"
         }
       ]
     },
     {
-      "id": "ea9fb693-781c-4dce-adcd-f850e3993fff",
-      "name": "葱油拌面",
+      "id": "5b9ab06f-5fd2-4ec2-afc6-93ff83c7b91e",
+      "name": "炒河粉",
       "category": "staple",
-      "mealTypes": [
-        "早",
-        "午"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E8%91%B1%E6%B2%B9%E6%8B%8C%E9%9D%A2",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%82%92%E6%B2%B3%E7%B2%89%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%82%92%E6%B2%B3%E7%B2%89",
+      "ingredients": [
+        {
+          "name": "河粉",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "牛肉",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "豆芽",
+          "qty": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "8f556fcf-fb2d-42a8-a02f-aa02771fd40e",
+      "name": "炸酱面",
+      "category": "staple",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%82%B8%E9%85%B1%E9%9D%A2%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%82%B8%E9%85%B1%E9%9D%A2",
       "ingredients": [
         {
           "name": "面条",
@@ -1955,108 +2128,119 @@
           "unit": "g"
         },
         {
-          "name": "小葱",
-          "qty": 6,
-          "unit": "根"
-        },
-        {
-          "name": "油",
-          "qty": 4,
-          "unit": "勺"
-        },
-        {
-          "name": "生抽",
-          "qty": 3,
-          "unit": "勺"
-        },
-        {
-          "name": "老抽",
-          "qty": 1,
-          "unit": "勺"
-        }
-      ]
-    },
-    {
-      "id": "ef650749-259a-4789-8250-4667d82d36f7",
-      "name": "馒头",
-      "category": "staple",
-      "mealTypes": [
-        "早",
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "无",
-      "link": "",
-      "ingredients": [
-        {
-          "name": "面粉",
-          "qty": 750,
-          "unit": "g"
-        },
-        {
-          "name": "酵母",
-          "qty": 5,
-          "unit": "g"
-        }
-      ]
-    },
-    {
-      "id": "e3d2bbcd-185c-4a9a-874c-2591e61094e4",
-      "name": "饺子",
-      "category": "staple",
-      "mealTypes": [
-        "午",
-        "晚"
-      ],
-      "linkPlatform": "抖音",
-      "link": "https://www.douyin.com/search/%E9%A5%BA%E5%AD%90",
-      "ingredients": [
-        {
-          "name": "面粉",
-          "qty": 500,
-          "unit": "g"
-        },
-        {
           "name": "肉末",
-          "qty": 500,
-          "unit": "g"
-        },
-        {
-          "name": "白菜",
           "qty": 300,
           "unit": "g"
         },
         {
-          "name": "葱姜",
-          "qty": 1,
-          "unit": "份"
+          "name": "黄瓜",
+          "qty": 2,
+          "unit": "根"
+        },
+        {
+          "name": "黄豆芽",
+          "qty": 100,
+          "unit": "g"
         }
       ]
     },
     {
-      "id": "b2dccda3-70b1-49ed-8ad0-8a77f3688cb1",
-      "name": "南瓜粥",
+      "id": "7535f977-edc9-4d2a-93ee-088e5f2c6193",
+      "name": "红烧牛肉面",
       "category": "staple",
-      "mealTypes": [
-        "早"
-      ],
-      "linkPlatform": "小红书",
-      "link": "https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E7%93%9C%E7%B2%A5",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E7%89%9B%E8%82%89%E9%9D%A2%20%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E7%89%9B%E8%82%89%E9%9D%A2",
       "ingredients": [
         {
-          "name": "大米",
-          "qty": 2,
-          "unit": "杯"
-        },
-        {
-          "name": "南瓜",
+          "name": "面条",
           "qty": 500,
           "unit": "g"
+        },
+        {
+          "name": "牛肉",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "白萝卜",
+          "qty": 1,
+          "unit": "根"
         }
       ]
     }
   ],
-  "orders": [],
+  "orders": [
+    {
+      "id": "ec60a754-38a3-4a14-97e3-e09986cd1735",
+      "date": "2026-08-02",
+      "memberId": "t1",
+      "mealType": "正餐",
+      "dishId": "3142d0a4-6692-4b40-802e-9898184daf09",
+      "dishName": "红烧肉",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E8%82%89%20%E5%AE%B6%E5%B8%B8%E5%81%9A%E6%B3%95",
+      "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E8%82%89%20%E6%AD%A3%E5%AE%97%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "五花肉",
+          "qty": 750,
+          "unit": "g"
+        },
+        {
+          "name": "鹌鹑蛋",
+          "qty": 15,
+          "unit": "个"
+        }
+      ],
+      "note": "",
+      "done": false,
+      "createdAt": "2026-08-02T15:46:24.453Z"
+    },
+    {
+      "id": "53677b02-3f48-41ff-b893-1ab2d412617e",
+      "date": "2026-08-02",
+      "memberId": "t2",
+      "mealType": "正餐",
+      "dishId": "64933c29-2ad5-4fd4-9ca7-8af4719a154a",
+      "dishName": "番茄炒蛋",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B",
+      "dyLink": "https://www.douyin.com/search/%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "番茄",
+          "qty": 5,
+          "unit": "个"
+        },
+        {
+          "name": "鸡蛋",
+          "qty": 8,
+          "unit": "个"
+        }
+      ],
+      "note": "",
+      "done": false,
+      "createdAt": "2026-08-02T15:46:24.465Z"
+    },
+    {
+      "id": "e24339a7-2c9a-4042-a51a-b62272fe8f2a",
+      "date": "2026-08-02",
+      "memberId": "t3",
+      "mealType": "正餐",
+      "dishId": "5a6e465f-302e-4bf9-aabc-63bcf6951652",
+      "dishName": "清蒸鲈鱼",
+      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC",
+      "dyLink": "https://www.douyin.com/search/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC%20%E5%81%9A%E6%B3%95",
+      "ingredients": [
+        {
+          "name": "鲈鱼",
+          "qty": 1,
+          "unit": "条"
+        }
+      ],
+      "note": "",
+      "done": false,
+      "createdAt": "2026-08-02T15:46:24.467Z"
+    }
+  ],
   "shopping": {},
   "settings": {
     "pin": ""
