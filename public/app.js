@@ -64,10 +64,28 @@ function connectSSE() {
 function render() {
   var gd = document.getElementById('globalDate');
   if (gd) gd.value = day.date;
+  // 更新各 tab 角标
+  var myCnt = day.orders.filter(function(o) { return o.memberId === deviceId && o.date === day.date; }).length;
+  setBadge('order', myCnt);
+  var allCnt = day.orders.filter(function(o) { return o.date === day.date; }).length;
+  setBadge('overview', allCnt);
+  var shopCnt = day.shopping.reduce(function(s,i){return s+(i.bought?0:1)},0);
+  setBadge('shopping', shopCnt);
+
   if (currentTab === 'order') renderOrder();
   else if (currentTab === 'overview') renderOverview();
   else if (currentTab === 'shopping') renderShopping();
   else if (currentTab === 'admin') renderAdmin();
+}
+function setBadge(tab, n) {
+  var b = document.querySelector('.tabbar button[data-tab="' + tab + '"]');
+  if (!b) return;
+  b.querySelector('.badge') && b.querySelector('.badge').remove();
+  if (n > 0) {
+    var s = document.createElement('span');
+    s.className = 'badge'; s.textContent = n;
+    b.appendChild(s);
+  }
 }
 
 /* ========== 点餐 ========== */
@@ -128,10 +146,10 @@ function renderOverview() {
   Object.keys(byDish).forEach(function(k) {
     var os = byDish[k], first = os[0], count = os.length;
     var kw = encodeURIComponent(first.dishName);
-    // App 跳转：先试 scheme 唤起 App，800ms 无响应回退网页
-    var xhsBtn = '', dyBtn = '', xhsWeb = first.xhsLink, dyWeb = first.dyLink;
-    if (xhsWeb) xhsBtn = '<button class="ov-app-btn xhs" onclick="event.stopPropagation();var s=\'xhsdiscover://search?keyword=' + kw + '\',w=\'' + esc(xhsWeb) + '\';location.href=s;setTimeout(function(){window.open(w,\'_blank\')},800)">📕 小红书做法</button>';
-    if (dyWeb) dyBtn = '<button class="ov-app-btn dy" onclick="event.stopPropagation();var s=\'snssdk1128://search?keyword=' + kw + '\',w=\'' + esc(dyWeb) + '\';location.href=s;setTimeout(function(){window.open(w,\'_blank\')},800)">🎵 抖音做法</button>';
+    var dyBtn = '';
+    if (first.dyLink) {
+      dyBtn = '<button class="ov-app-btn dy" onclick="var s=\'snssdk1128://search?keyword=' + kw + '\',w=\'' + esc(first.dyLink) + '\';var t=setTimeout(function(){window.open(w,\'_blank\')},800);window.addEventListener(\'pagehide\',function(){clearTimeout(t)},{once:true});location.href=s;">🎵 抖音做法</button>';
+    }
     var ingsHtml = (first.ingredients || []).map(function(i) {
       return '<span style="display:inline-block;background:#f2f2f7;border-radius:4px;padding:2px 6px;margin:2px;font-size:11px">' + esc(i.name) + ' ' + i.qty + esc(i.unit) + '</span>';
     }).join('');
@@ -142,7 +160,7 @@ function renderOverview() {
       + '<div class="ov-name">' + esc(first.dishName) + '<span class="ov-count">×' + count + '份</span></div>'
       + '<div style="margin-top:4px;line-height:1.6">' + ingsHtml + '</div>' + noteHtml + '</div>'
       + '<div style="display:flex;flex-direction:column;gap:6px;align-items:flex-end;flex:none">'
-      + xhsBtn + dyBtn
+      + dyBtn
       + '</div></div>');
   });
 
