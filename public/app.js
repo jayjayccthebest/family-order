@@ -36,6 +36,17 @@ function catName(key) {
   var c = CATEGORIES.find(function(x) { return x.key === key; });
   return c ? c.emoji + ' ' + c.name : '其他';
 }
+// App 跳转：先尝试唤起 App，1秒无响应回退到网页
+function openApp(scheme, webUrl) {
+  var w = window.open(scheme, '_blank');
+  if (!w || w.closed || typeof w.closed === 'undefined') {
+    // 非 iOS 或无法判断，直接跳网页
+    window.open(webUrl, '_blank');
+    return;
+  }
+  var timer = setTimeout(function() { window.open(webUrl, '_blank'); }, 1000);
+  window.addEventListener('pagehide', function() { clearTimeout(timer); }, { once: true });
+}
 function toast(msg) {
   var t = document.getElementById('toast');
   t.textContent = msg; t.classList.add('show');
@@ -72,11 +83,6 @@ function render() {
 
 /* ========== 点餐 ========== */
 function renderOrder() {
-  var catChips = ['all'].concat(CATEGORIES.map(function(c) { return c.key; })).map(function(k) {
-    var label = k === 'all' ? '全部' : catName(k);
-    return '<button class="cat-chip ' + (k === currentCategory ? 'sel' : '') + '" data-action="setcat" data-cat="' + k + '">' + label + '</button>';
-  }).join('');
-
   var filtered = currentCategory === 'all' ? meta.dishes : meta.dishes.filter(function(d) { return d.category === currentCategory; });
   if (searchQuery) {
     var q = searchQuery.toLowerCase();
@@ -85,46 +91,54 @@ function renderOrder() {
 
   var myOrders = day.orders.filter(function(o) { return o.memberId === deviceId && o.date === day.date; });
 
-  var dishHtml = filtered.length ? filtered.map(function(d) {
+  // 左侧分类栏
+  var catBar = ['all'].concat(CATEGORIES.map(function(c) { return c.key; })).map(function(k) {
+    var cat = k === 'all' ? { key:'all', emoji:'📋', name:'全部' } : CATEGORIES.find(function(c) { return c.key === k; });
+    return '<button class="cat-bar-item' + (k === currentCategory ? ' sel' : '') + '" data-action="setcat" data-cat="' + k + '"><span class="ci">' + cat.emoji + '</span>' + cat.name + '</button>';
+  }).join('');
+
+  // 右侧菜品列表
+  var dishHtml = filtered.length ? filtered.map(function(d, idx) {
     var added = myOrders.find(function(o) { return o.dishId === d.id; });
-    var xhs = d.xhsLink || '', dy = d.dyLink || '';
-    var linkBtns = '';
-    if (xhs) linkBtns += '<button class="link-pill xhs" onclick="event.stopPropagation();window.open(\'' + esc(xhs) + '\',\'_blank\')">📕 小红书做法</button>';
-    if (dy) linkBtns += '<button class="link-pill dy" onclick="event.stopPropagation();window.open(\'' + esc(dy) + '\',\'_blank\')">🎵 抖音做法</button>';
-    var ingsHtml = (d.ingredients || []).map(function(i) {
-      return '<span class="ing-tag">' + esc(i.name) + '<b> ' + i.qty + esc(i.unit) + '</b></span>';
-    }).join('') || '<span style="font-size:12px;color:var(--sub)">暂无食材</span>';
+    // App deep links
+    var xhsScheme = '', dyScheme = '';
+    if (d.xhsLink) {
+      var kw = encodeURIComponent(d.name);
+      xhsScheme = 'xhsdiscover://search?keyword=' + kw;
+    }
+    if (d.dyLink) {
+      dyScheme = 'snssdk1128://search?keyword=' + encodeURIComponent(d.name);
+    }
+    var xhsBtn = '', dyBtn = '';
+    if (xhsScheme) xhsBtn = '<button class="app-link xhs" onclick="event.stopPropagation();window.location.href=\'' + xhsScheme + '\';setTimeout(function(){window.open(\'' + esc(d.xhsLink) + '\',\'_blank\')},800)">📕</button>';
+    if (dyScheme) dyBtn = '<button class="app-link dy" onclick="event.stopPropagation();window.location.href=\'' + dyScheme + '\';setTimeout(function(){window.open(\'' + esc(d.dyLink) + '\',\'_blank\')},800)">🎵</button>';
+
     return '<div class="dish-card card-in' + (added ? ' added' : '') + '" data-action="adddish" data-id="' + d.id + '">'
       + '<div class="dish-left">'
-      + '<div class="dish-name">' + esc(d.name) + '<span class="tag">' + catName(d.category) + '</span></div>'
-      + '<div class="dish-meta">📋 参考食材 · 以做法链接为准</div>'
-      + '<div class="dish-ings">' + ingsHtml + '</div>'
+      + '<div class="dish-name">' + esc(d.name) + '</div>'
       + '</div>'
       + '<div class="dish-right">'
-      + '<div class="link-row">' + linkBtns + '</div>'
-      + '<button class="btn-order' + (added ? ' added' : '') + '" data-action="adddish" data-id="' + d.id + '">' + (added ? '已选 ✓' : '点单') + '</button>'
+      + (xhsBtn || dyBtn ? '<div style="display:flex;gap:3px">' + xhsBtn + dyBtn + '</div>' : '')
+      + '<button class="btn-order' + (added ? ' added' : '') + '" data-action="adddish" data-id="' + d.id + '">' + (added ? '已选' : '点单') + '</button>'
       + '</div></div>';
-  }).join('') : '<div class="empty">没有匹配的菜品，试试搜别的关键词</div>';
+  }).join('') : '<div class="empty">没有匹配的菜品</div>';
 
+  // 已点区
   var myOrdersHtml = myOrders.length ? myOrders.map(function(o) {
-    var xhs = o.xhsLink || '', dy = o.dyLink || '';
-    var linkBtns = '';
-    if (xhs) linkBtns += '<button class="link-pill xhs" style="padding:3px 8px;font-size:11px" onclick="event.stopPropagation();window.open(\'' + esc(xhs) + '\',\'_blank\')">📕</button>';
-    if (dy) linkBtns += '<button class="link-pill dy" style="padding:3px 8px;font-size:11px" onclick="event.stopPropagation();window.open(\'' + esc(dy) + '\',\'_blank\')">🎵</button>';
+    var xhsScheme = o.xhsLink ? ('xhsdiscover://search?keyword=' + encodeURIComponent(o.dishName)) : '';
+    var dyScheme = o.dyLink ? ('snssdk1128://search?keyword=' + encodeURIComponent(o.dishName)) : '';
     return '<div class="my-order-item">'
       + '<div style="flex:1;min-width:0"><div style="font-weight:600;margin-bottom:4px">' + esc(o.dishName) + '</div>'
       + '<input type="text" class="note-input" placeholder="备注…" value="' + esc(o.note) + '" data-action="note" data-id="' + o.id + '" />'
       + '</div>'
-      + '<div style="display:flex;gap:4px;align-items:center">' + linkBtns + '</div>'
       + '<button class="btn-del" data-action="rmorder" data-id="' + o.id + '">×</button></div>';
-  }).join('') : '<div class="empty">还没点菜，上面翻分类挑一个</div>';
+  }).join('') : '<div class="empty">还没点菜</div>';
 
   document.getElementById('view').innerHTML =
-    '<div class="card"><input type="text" class="search-input" id="searchBox" placeholder="🔍 搜索菜名…" value="' + esc(searchQuery) + '" /></div>'
-    + '<div style="padding:0 0 8px"><div class="cat-scroll">' + catChips + '</div></div>'
-    + '<div class="card"><div class="section-title">🍽️ 菜单<span style="font-weight:400;font-size:13px;color:var(--sub);margin-left:8px">' + filtered.length + '道</span></div>'
-    + dishHtml
-    + '<div class="section-hint">💡 每道菜的食材为参考，点击做法链接查看具体食谱</div>'
+    '<div class="card" style="padding:8px"><input type="text" class="search-input" id="searchBox" placeholder="🔍 搜索菜名…" value="' + esc(searchQuery) + '" /></div>'
+    + '<div class="card order-page" style="padding:0;overflow:hidden">'
+    + '<div class="cat-bar">' + catBar + '</div>'
+    + '<div class="dish-panel">' + dishHtml + '</div>'
     + '</div>'
     + '<div class="card"><div class="section-title">我已点</div>' + myOrdersHtml + '</div>';
 
