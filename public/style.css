@@ -149,16 +149,16 @@ body{
 .ov-dish:last-child{border-bottom:none}
 .ov-dish .ov-left{flex:1;min-width:0}
 .ov-dish .ov-name{font-size:17px;font-weight:600;}
-.ov-dish .ov-name.done-mark{text-decoration:line-through;color:var(--sub)}
 .ov-dish .ov-count{font-size:13px;font-weight:700;color:var(--orange);margin-left:4px}
 .ov-dish .ov-notes{font-size:12px;color:#e67e22;margin-top:4px}
-.done-btn{
-  border:none;border-radius:var(--radius-sm);padding:7px 14px;font-size:13px;
-  font-weight:700;cursor:pointer;font-family:var(--font);transition:all .15s;
-  background:rgba(0,0,0,.05);color:var(--ink);
+.ov-app-btn{
+  border:none;border-radius:12px;padding:12px 18px;font-size:15px;font-weight:700;
+  cursor:pointer;font-family:var(--font);transition:transform .1s;width:100%;
+  white-space:nowrap;
 }
-.done-btn:active{transform:scale(.94)}
-.done-btn.done-btn--on{background:var(--green);color:#fff}
+.ov-app-btn:active{transform:scale(.95)}
+.ov-app-btn.xhs{background:linear-gradient(135deg,#ff2741,#ff5e76);color:#fff}
+.ov-app-btn.dy{background:#111;color:#fff}
 
 /* ── 买菜清单 ── */
 .buy-item{display:flex;align-items:center;gap:12px;padding:14px 0;border-bottom:0.5px solid var(--line)}
@@ -241,15 +241,4 @@ body{
 .dish-panel .app-link.dy{background:#111;color:#fff}
 
 /* ── 动画 ── */
-@keyframes cardIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-.card-in{animation:cardIn .3s ease both}
-.dish-card:nth-child(1){animation-delay:0s}
-.dish-card:nth-child(2){animation-delay:.03s}
-.dish-card:nth-child(3){animation-delay:.06s}
-.dish-card:nth-child(4){animation-delay:.09s}
-.dish-card:nth-child(5){animation-delay:.12s}
-.dish-card:nth-child(6){animation-delay:.15s}
-.dish-card:nth-child(7){animation-delay:.18s}
-.dish-card:nth-child(8){animation-delay:.21s}
-.dish-card:nth-child(9){animation-delay:.24s}
-.dish-card:nth-child(10){animation-delay:.27s}
+@keyframes cardIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}

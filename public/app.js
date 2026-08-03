@@ -85,23 +85,12 @@ function renderOrder() {
     return '<button class="cat-bar-item' + (c.key === currentCategory ? ' sel' : '') + '" data-action="setcat" data-cat="' + c.key + '"><span class="ci">' + c.emoji + '</span>' + c.name + '</button>';
   }).join('');
 
-  // 右侧菜品列表
-  var dishHtml = filtered.length ? filtered.map(function(d, idx) {
+  // 右侧菜品列表（无做法按钮，干净菜单）
+  var dishHtml = filtered.length ? filtered.map(function(d) {
     var added = myOrders.find(function(o) { return o.dishId === d.id; });
-    // App deep links：抖音用 snssdk1128，小红书用 xhsdiscover
-    var kw = encodeURIComponent(d.name);
-    var xhsScheme = 'xhsdiscover://search?keyword=' + kw;
-    var dyScheme = 'snssdk1128://search?keyword=' + kw;
-    var xhsBtn = '', dyBtn = '';
-    if (d.xhsLink) xhsBtn = '<button class="app-link xhs" onclick="event.stopPropagation();var u=this.getAttribute(\'data-w\');location.href=u;setTimeout(function(){window.open(u,\'_blank\')},800)" data-w="' + esc(d.xhsLink) + '">📕</button>';
-    if (d.dyLink) dyBtn = '<button class="app-link dy" onclick="event.stopPropagation();var u=this.getAttribute(\'data-d\');location.href=u;setTimeout(function(){window.open(u,\'_blank\')},800)" data-d="' + esc(d.dyLink) + '">🎵</button>';
-
-    return '<div class="dish-card card-in' + (added ? ' added' : '') + '" data-action="adddish" data-id="' + d.id + '">'
-      + '<div class="dish-left">'
-      + '<div class="dish-name">' + esc(d.name) + '</div>'
-      + '</div>'
+    return '<div class="dish-card' + (added ? ' added' : '') + '" data-action="adddish" data-id="' + d.id + '">'
+      + '<div class="dish-left"><div class="dish-name">' + esc(d.name) + '</div></div>'
       + '<div class="dish-right">'
-      + (xhsBtn || dyBtn ? '<div style="display:flex;gap:3px">' + xhsBtn + dyBtn + '</div>' : '')
       + '<button class="btn-order' + (added ? ' added' : '') + '" data-action="adddish" data-id="' + d.id + '">' + (added ? '已选' : '点单') + '</button>'
       + '</div></div>';
   }).join('') : '<div class="empty">没有匹配的菜品</div>';
@@ -138,30 +127,29 @@ function renderOverview() {
   var cards = [];
   Object.keys(byDish).forEach(function(k) {
     var os = byDish[k], first = os[0], count = os.length;
-    var allDone = os.every(function(o) { return o.done; });
-    var xhs = first.xhsLink || '', dy = first.dyLink || '';
-    var linkBtns = '';
-    if (xhs) linkBtns += '<button class="link-pill xhs" style="padding:3px 8px;font-size:11px" onclick="event.stopPropagation();window.open(\'' + esc(xhs) + '\',\'_blank\')">📕</button>';
-    if (dy) linkBtns += '<button class="link-pill dy" style="padding:3px 8px;font-size:11px" onclick="event.stopPropagation();window.open(\'' + esc(dy) + '\',\'_blank\')">🎵</button>';
+    var kw = encodeURIComponent(first.dishName);
+    // App 跳转：先试 scheme 唤起 App，800ms 无响应回退网页
+    var xhsBtn = '', dyBtn = '', xhsWeb = first.xhsLink, dyWeb = first.dyLink;
+    if (xhsWeb) xhsBtn = '<button class="ov-app-btn xhs" onclick="event.stopPropagation();var s=\'xhsdiscover://search?keyword=' + kw + '\',w=\'' + esc(xhsWeb) + '\';location.href=s;setTimeout(function(){window.open(w,\'_blank\')},800)">📕 小红书做法</button>';
+    if (dyWeb) dyBtn = '<button class="ov-app-btn dy" onclick="event.stopPropagation();var s=\'snssdk1128://search?keyword=' + kw + '\',w=\'' + esc(dyWeb) + '\';location.href=s;setTimeout(function(){window.open(w,\'_blank\')},800)">🎵 抖音做法</button>';
     var ingsHtml = (first.ingredients || []).map(function(i) {
-      return '<span class="ing-tag" style="font-size:10px;padding:2px 6px">' + esc(i.name) + ' ' + i.qty + esc(i.unit) + '</span>';
+      return '<span style="display:inline-block;background:#f2f2f7;border-radius:4px;padding:2px 6px;margin:2px;font-size:11px">' + esc(i.name) + ' ' + i.qty + esc(i.unit) + '</span>';
     }).join('');
     var notes = [];
     os.forEach(function(o) { if (o.note) notes.push(esc(o.note)); });
     var noteHtml = notes.length ? '<div class="ov-notes">📝 ' + notes.join(' · ') + '</div>' : '';
     cards.push('<div class="ov-dish"><div class="ov-left">'
-      + '<div class="ov-name' + (allDone ? ' done-mark' : '') + '">' + esc(first.dishName) + '<span class="ov-count">×' + count + '份</span></div>'
-      + '<div class="dish-ings" style="margin-top:4px">' + ingsHtml + '</div>' + noteHtml + '</div>'
-      + '<div style="display:flex;flex-direction:column;gap:6px;align-items:flex-end">'
-      + '<div style="display:flex;gap:3px">' + linkBtns + '</div>'
-      + '<button class="done-btn' + (allDone ? ' done-btn--on' : '') + '" data-action="doneDish" data-dish="' + first.dishId + '">' + (allDone ? '已做 ✓' : '标记已做') + '</button>'
+      + '<div class="ov-name">' + esc(first.dishName) + '<span class="ov-count">×' + count + '份</span></div>'
+      + '<div style="margin-top:4px;line-height:1.6">' + ingsHtml + '</div>' + noteHtml + '</div>'
+      + '<div style="display:flex;flex-direction:column;gap:6px;align-items:flex-end;flex:none">'
+      + xhsBtn + dyBtn
       + '</div></div>');
   });
 
   document.getElementById('view').innerHTML =
     '<div class="card"><div class="section-title">🍽️ ' + esc(day.date) + ' · 全家点菜总览</div>'
     + (cards.length ? cards.join('') : '<div class="empty">今天还没有人点餐</div>')
-    + '<div class="section-hint">实时更新 · 打勾表示已做好</div></div>';
+    + '<div class="section-hint">实时更新</div></div>';
 }
 
 /* ========== 买菜清单 ========== */
@@ -250,13 +238,6 @@ async function onAction(action, el, e) {
     else if (action === 'note') {
       var v = el.value; clearTimeout(el._t);
       el._t = setTimeout(async function() { await api('/orders/' + el.dataset.id, { method: 'PUT', body: JSON.stringify({ note: v }) }); await refresh(); }, 500);
-    }
-    else if (action === 'doneDish') {
-      var dishId = el.dataset.dish;
-      var orders = day.orders.filter(function(o) { return o.date === day.date && o.dishId === dishId; });
-      var allDone = orders.every(function(o) { return o.done; });
-      for (var i = 0; i < orders.length; i++) { await api('/orders/' + orders[i].id, { method: 'PUT', body: JSON.stringify({ done: !allDone }) }); }
-      await refresh();
     }
     else if (action === 'toggleBought') { var key = el.dataset.key; var item = day.shopping.find(function(s) { return s.name + '|' + s.unit === key; }); await api('/shopping/' + encodeURIComponent(day.date), { method: 'PUT', body: JSON.stringify({ key: key, bought: !(item && item.bought) }) }); await refresh(); }
     else if (action === 'newDish') { dishForm = { name: '', category: 'veggie', xhsLink: '', dyLink: '', ingredients: [{ name: '', qty: '', unit: '' }] }; renderAdmin(); }
