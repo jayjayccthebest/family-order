@@ -104,6 +104,8 @@ function renderOrder() {
     var q = searchQuery.toLowerCase();
     filtered = filtered.filter(function(d) { return d.name.toLowerCase().indexOf(q) !== -1 || toPY(d.name).indexOf(q) !== -1; });
   }
+  // 按首字母排序
+  filtered.sort(function(a,b){return a.name.localeCompare(b.name,'zh')});
 
   var myOrders = day.orders.filter(function(o) { return o.memberId === deviceId && o.date === day.date; });
 
@@ -212,7 +214,8 @@ function renderAdmin() {
     return '<button class="cat-chip-sm'+(k===adminCat?' sel':'')+'" data-action="adminCat" data-cat="'+k+'">'+label+'</button>';
   }).join('');
   // 过滤
-  var dishes = adminCat==='all'?meta.dishes:meta.dishes.filter(function(d){return d.category===adminCat;});
+  var dishes = adminCat==='all'?meta.dishes.slice():meta.dishes.filter(function(d){return d.category===adminCat;});
+  dishes.sort(function(a,b){return a.name.localeCompare(b.name,'zh')});
   var dishList = dishes.map(function(d) {
     return '<div class="admin-item"><div style="flex:1;min-width:0">'
       + '<span style="font-weight:600">' + esc(d.name) + '</span>'
