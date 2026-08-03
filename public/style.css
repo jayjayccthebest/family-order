@@ -172,6 +172,18 @@ body{
 .ov-app-btn.xhs{background:linear-gradient(135deg,#ff2741,#ff5e76);color:#fff}
 .ov-app-btn.dy{background:#111;color:#fff}
 
+/* 管理页紧凑分类条 */
+.cat-scroll{display:flex;flex-wrap:nowrap;gap:6px;overflow-x:auto;padding:2px 0;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.cat-scroll::-webkit-scrollbar{display:none}
+.cat-chip-sm{
+  border:none;background:rgba(0,0,0,.04);color:var(--ink);
+  border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;
+  cursor:pointer;white-space:nowrap;flex-shrink:0;font-family:var(--font);
+  transition:background .15s;
+}
+.cat-chip-sm:active{background:rgba(0,0,0,.1)}
+.cat-chip-sm.sel{background:var(--orange);color:#fff}
+
 /* ── 买菜清单 ── */
 .buy-item{display:flex;align-items:center;gap:12px;padding:14px 0;border-bottom:0.5px solid var(--line)}
 .buy-item:last-child{border-bottom:none}

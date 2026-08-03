@@ -20,6 +20,7 @@ var currentTab = 'order';
 var searchQuery = '';
 var es = null;
 var dishForm = null;
+var adminCat = 'all';
 var deviceId = localStorage.getItem('fo_did');
 if (!deviceId) { deviceId = 'd' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6); localStorage.setItem('fo_did', deviceId); }
 
@@ -156,7 +157,7 @@ function renderOverview() {
     var kw = encodeURIComponent(first.dishName);
     var dyBtn = '';
     if (first.dyLink) {
-      dyBtn = '<button class="ov-app-btn dy" onclick="var s=\'snssdk1128://search?keyword=' + kw + '\',w=\'' + esc(first.dyLink) + '\';var t=setTimeout(function(){window.open(w,\'_blank\')},800);window.addEventListener(\'pagehide\',function(){clearTimeout(t)},{once:true});location.href=s;">🎵 抖音做法</button>';
+      dyBtn = '<button class="ov-app-btn dy" onclick="event.stopPropagation();location.href=\'snssdk1128://search?keyword=' + kw + '\'">🎵 抖音做法</button>';
     }
     var ingsHtml = (first.ingredients || []).map(function(i) {
       return '<span style="display:inline-block;background:#f2f2f7;border-radius:4px;padding:2px 6px;margin:2px;font-size:11px">' + esc(i.name) + ' ' + i.qty + esc(i.unit) + '</span>';
@@ -205,19 +206,28 @@ function renderAdmin() {
     var input = prompt('管理页已上锁，请输入 PIN：');
     if (input === null || input !== meta.settings.pin) { toast('PIN 错误'); switchTab('order'); return; }
   }
-  var dishes = meta.dishes.map(function(d) {
-    var ings = (d.ingredients || []).map(function(i) { return esc(i.name) + ' ' + i.qty + esc(i.unit); }).join('、') || '无';
+  // 分类过滤条
+  var catFilter = ['all'].concat(CATEGORIES.map(function(c){return c.key})).map(function(k){
+    var label = k==='all'?'全部':CATEGORIES.find(function(c){return c.key===k}).emoji;
+    return '<button class="cat-chip-sm'+(k===adminCat?' sel':'')+'" data-action="adminCat" data-cat="'+k+'">'+label+'</button>';
+  }).join('');
+  // 过滤
+  var dishes = adminCat==='all'?meta.dishes:meta.dishes.filter(function(d){return d.category===adminCat;});
+  var dishList = dishes.map(function(d) {
     return '<div class="admin-item"><div style="flex:1;min-width:0">'
-      + '<div style="font-weight:600">' + esc(d.name) + ' <span class="tag">' + catName(d.category) + '</span></div>'
-      + '<div style="font-size:12px;color:var(--sub)">' + esc(d.xhsLink ? '📕' : '') + esc(d.dyLink ? ' 🎵' : '') + ' · ' + ings + '</div>'
+      + '<span style="font-weight:600">' + esc(d.name) + '</span>'
+      + '<span class="tag" style="margin-left:6px">' + catName(d.category) + '</span>'
+      + (d.dyLink ? '<span style="font-size:11px;color:var(--sub);margin-left:6px">🎵</span>' : '')
       + '</div>'
       + '<button class="btn-base btn-ghost" data-action="editDish" data-id="' + d.id + '">改</button>'
       + '<button class="btn-base btn-danger" data-action="delDish" data-id="' + d.id + '">删</button></div>';
-  }).join('') || '<div class="empty">还没有菜谱</div>';
+  }).join('') || '<div class="empty">这个分类还没有菜</div>';
 
   document.getElementById('view').innerHTML =
     '<div class="card"><div class="section-title">📋 菜谱管理 · ' + meta.dishes.length + '道' + (dishForm ? '（编辑中）' : '') + '</div>'
-    + dishes + dishFormHtml()
+    + '<div class="cat-scroll" style="margin-bottom:10px">' + catFilter + '</div>'
+    + '<div class="admin-list">' + dishList + '</div>'
+    + dishFormHtml()
     + '<div style="display:flex;gap:8px;margin-top:10px">'
     + '<button class="btn-base btn-ghost" data-action="newDish">+ 新增菜谱</button>'
     + (dishForm ? '<button class="btn-base btn-green" data-action="saveDish">保存</button><button class="btn-base btn-ghost" data-action="cancelDish">取消</button>' : '')
@@ -256,6 +266,7 @@ function dishFormHtml() {
 async function onAction(action, el, e) {
   try {
     if (action === 'setcat') { currentCategory = el.dataset.cat; renderOrder(); }
+    else if (action === 'adminCat') { adminCat = el.dataset.cat; renderAdmin(); }
     else if (action === 'adddish') {
       var id = el.dataset.id;
       var existing = day.orders.find(function(o) { return o.memberId === deviceId && o.date === day.date && o.dishId === id; });
