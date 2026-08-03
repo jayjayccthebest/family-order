@@ -15,7 +15,7 @@ var CATEGORIES = [
 
 var meta = { members: [], dishes: [], settings: { pinSet: false } };
 var day = { date: todayStr(), orders: [], shopping: [] };
-var currentCategory = 'all';
+var currentCategory = 'pork';
 var currentTab = 'order';
 var searchQuery = '';
 var es = null;
@@ -35,17 +35,6 @@ function esc(s) {
 function catName(key) {
   var c = CATEGORIES.find(function(x) { return x.key === key; });
   return c ? c.emoji + ' ' + c.name : '其他';
-}
-// App 跳转：先尝试唤起 App，1秒无响应回退到网页
-function openApp(scheme, webUrl) {
-  var w = window.open(scheme, '_blank');
-  if (!w || w.closed || typeof w.closed === 'undefined') {
-    // 非 iOS 或无法判断，直接跳网页
-    window.open(webUrl, '_blank');
-    return;
-  }
-  var timer = setTimeout(function() { window.open(webUrl, '_blank'); }, 1000);
-  window.addEventListener('pagehide', function() { clearTimeout(timer); }, { once: true });
 }
 function toast(msg) {
   var t = document.getElementById('toast');
@@ -91,27 +80,21 @@ function renderOrder() {
 
   var myOrders = day.orders.filter(function(o) { return o.memberId === deviceId && o.date === day.date; });
 
-  // 左侧分类栏
-  var catBar = ['all'].concat(CATEGORIES.map(function(c) { return c.key; })).map(function(k) {
-    var cat = k === 'all' ? { key:'all', emoji:'📋', name:'全部' } : CATEGORIES.find(function(c) { return c.key === k; });
-    return '<button class="cat-bar-item' + (k === currentCategory ? ' sel' : '') + '" data-action="setcat" data-cat="' + k + '"><span class="ci">' + cat.emoji + '</span>' + cat.name + '</button>';
+  // 左侧分类栏（不包含"全部"）
+  var catBar = CATEGORIES.map(function(c) {
+    return '<button class="cat-bar-item' + (c.key === currentCategory ? ' sel' : '') + '" data-action="setcat" data-cat="' + c.key + '"><span class="ci">' + c.emoji + '</span>' + c.name + '</button>';
   }).join('');
 
   // 右侧菜品列表
   var dishHtml = filtered.length ? filtered.map(function(d, idx) {
     var added = myOrders.find(function(o) { return o.dishId === d.id; });
-    // App deep links
-    var xhsScheme = '', dyScheme = '';
-    if (d.xhsLink) {
-      var kw = encodeURIComponent(d.name);
-      xhsScheme = 'xhsdiscover://search?keyword=' + kw;
-    }
-    if (d.dyLink) {
-      dyScheme = 'snssdk1128://search?keyword=' + encodeURIComponent(d.name);
-    }
+    // App deep links：抖音用 snssdk1128，小红书用 xhsdiscover
+    var kw = encodeURIComponent(d.name);
+    var xhsScheme = 'xhsdiscover://search?keyword=' + kw;
+    var dyScheme = 'snssdk1128://search?keyword=' + kw;
     var xhsBtn = '', dyBtn = '';
-    if (xhsScheme) xhsBtn = '<button class="app-link xhs" onclick="event.stopPropagation();window.location.href=\'' + xhsScheme + '\';setTimeout(function(){window.open(\'' + esc(d.xhsLink) + '\',\'_blank\')},800)">📕</button>';
-    if (dyScheme) dyBtn = '<button class="app-link dy" onclick="event.stopPropagation();window.location.href=\'' + dyScheme + '\';setTimeout(function(){window.open(\'' + esc(d.dyLink) + '\',\'_blank\')},800)">🎵</button>';
+    if (d.xhsLink) xhsBtn = '<button class="app-link xhs" onclick="event.stopPropagation();var u=this.getAttribute(\'data-w\');location.href=u;setTimeout(function(){window.open(u,\'_blank\')},800)" data-w="' + esc(d.xhsLink) + '">📕</button>';
+    if (d.dyLink) dyBtn = '<button class="app-link dy" onclick="event.stopPropagation();var u=this.getAttribute(\'data-d\');location.href=u;setTimeout(function(){window.open(u,\'_blank\')},800)" data-d="' + esc(d.dyLink) + '">🎵</button>';
 
     return '<div class="dish-card card-in' + (added ? ' added' : '') + '" data-action="adddish" data-id="' + d.id + '">'
       + '<div class="dish-left">'
@@ -125,8 +108,6 @@ function renderOrder() {
 
   // 已点区
   var myOrdersHtml = myOrders.length ? myOrders.map(function(o) {
-    var xhsScheme = o.xhsLink ? ('xhsdiscover://search?keyword=' + encodeURIComponent(o.dishName)) : '';
-    var dyScheme = o.dyLink ? ('snssdk1128://search?keyword=' + encodeURIComponent(o.dishName)) : '';
     return '<div class="my-order-item">'
       + '<div style="flex:1;min-width:0"><div style="font-weight:600;margin-bottom:4px">' + esc(o.dishName) + '</div>'
       + '<input type="text" class="note-input" placeholder="备注…" value="' + esc(o.note) + '" data-action="note" data-id="' + o.id + '" />'
@@ -142,10 +123,11 @@ function renderOrder() {
     + '</div>'
     + '<div class="card"><div class="section-title">我已点</div>' + myOrdersHtml + '</div>';
 
+  // 搜索框焦点恢复
   setTimeout(function() {
     var sb = document.getElementById('searchBox');
-    if (sb) sb.addEventListener('input', function() { searchQuery = sb.value; renderOrder(); sb.focus(); sb.setSelectionRange(sb.value.length, sb.value.length); });
-  }, 50);
+    if (sb && searchQuery) { sb.focus(); sb.setSelectionRange(sb.value.length, sb.value.length); }
+  }, 30);
 }
 
 /* ========== 阿姨总览 ========== */
@@ -341,6 +323,18 @@ document.addEventListener('click', function(e) {
   var el = e.target.closest('[data-action]');
   if (el) { e.preventDefault(); onAction(el.dataset.action, el, e); }
 });
-document.addEventListener('input', onInput);
+document.addEventListener('input', function(e) {
+  // 搜索框事件委托，不随 DOM 重建丢失
+  if (e.target.id === 'searchBox') {
+    var v = e.target.value, p = v.length;
+    searchQuery = v;
+    renderOrder();
+    setTimeout(function() {
+      var sb = document.getElementById('searchBox');
+      if (sb) { sb.focus(); sb.setSelectionRange(p, p); }
+    }, 30);
+  }
+  onInput(e);
+});
 if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', boot); }
 else { boot(); }

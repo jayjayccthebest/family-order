@@ -97,19 +97,7 @@ body{
 .section-title{font-size:17px;font-weight:700;letter-spacing:-.2px;margin:0 0 10px}
 .section-hint{font-size:12px;color:var(--sub);margin-top:2px}
 
-/* ── 分类滚动条 ── */
-.cat-scroll{display:flex;flex-wrap:nowrap;gap:8px;overflow-x:auto;padding:4px 0 8px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
-.cat-scroll::-webkit-scrollbar{display:none}
-.cat-chip{
-  border:none;background:rgba(0,0,0,.04);color:var(--ink);
-  border-radius:var(--radius-lg);padding:8px 14px;font-size:14px;
-  cursor:pointer;white-space:nowrap;flex-shrink:0;font-weight:500;
-  transition:background .2s,transform .15s;font-family:var(--font);
-}
-.cat-chip:active{transform:scale(.95)}
-.cat-chip.sel{background:var(--orange);color:#fff;font-weight:700;box-shadow:0 2px 8px rgba(255,107,53,.35)}
-
-/* ── 搜索框 ── */
+/* ── 搜索 ── */
 .search-input{
   width:100%;border:none;background:rgba(0,0,0,.04);border-radius:var(--radius-sm);
   padding:10px 14px;font-size:15px;color:var(--ink);font-family:var(--font);
@@ -127,21 +115,9 @@ body{
 .dish-card:active{background:rgba(0,0,0,.015)}
 .dish-card .dish-left{flex:1;min-width:0}
 .dish-card .dish-name{font-size:17px;font-weight:600;letter-spacing:-.3px}
-.dish-card .dish-name .tag{font-size:10px;background:var(--orange-l);color:var(--orange);border-radius:4px;padding:1px 6px;margin-left:6px;font-weight:500;vertical-align:middle}
-.dish-card .dish-meta{font-size:12px;color:var(--sub);margin-top:3px}
-.dish-card .dish-ings{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
-.dish-card .ing-tag{font-size:11px;background:#f2f2f7;border-radius:6px;padding:3px 8px;color:var(--ink);font-weight:500}
-.dish-card .ing-tag b{color:var(--orange);margin-left:2px}
+
+/* 右侧按钮区 */
 .dish-card .dish-right{display:flex;flex-direction:column;gap:6px;align-items:flex-end;flex:none;padding-top:2px}
-.dish-card .link-row{display:flex;gap:4px}
-.dish-card .link-pill{
-  border:none;border-radius:999px;padding:5px 12px;font-size:12px;font-weight:600;
-  cursor:pointer;font-family:var(--font);transition:transform .1s,box-shadow .1s;
-  box-shadow:0 1px 3px rgba(0,0,0,.08);
-}
-.dish-card .link-pill:active{transform:scale(.94)}
-.dish-card .link-pill.xhs{background:linear-gradient(135deg,#ff2741,#ff5e76);color:#fff}
-.dish-card .link-pill.dy{background:#111;color:#fff}
 .dish-card .btn-order{
   border:none;border-radius:var(--radius-sm);padding:7px 16px;font-size:13px;
   font-weight:700;cursor:pointer;font-family:var(--font);
