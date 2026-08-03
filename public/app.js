@@ -196,7 +196,7 @@ function renderShopping() {
     '<div class="card"><div class="section-title">🛒 ' + esc(day.date) + ' · 买菜清单</div>'
     + '<div class="section-hint" style="margin-bottom:10px">5人份 · 调味料已排除 · 还需买 <b style="color:var(--orange)">' + total + '</b> 项</div>'
     + html
-    + (list.length ? '<button class="btn-base btn-ghost" style="width:100%;margin-top:10px" onclick="var t=\'' + esc(copyText.replace(/\n/g,'\\n')) + '\';navigator.clipboard.writeText(t).then(function(){})||prompt(\'复制：\',t)">📋 复制清单到剪贴板</button>' : '')
+    + (list.length ? '<button class="btn-base btn-ghost" style="width:100%;margin-top:10px" onclick="var t=\'' + esc(copyText.replace(/\n/g,'\\n').replace(/'/g,"\\'")) + '\';if(navigator.clipboard){navigator.clipboard.writeText(t).then(function(){toast(\'✅ 已复制\')})}else{prompt(\'复制：\',t);toast(\'✅ 已复制\')}">📋 复制清单到剪贴板</button>' : '')
     + '</div>';
 }
 
@@ -257,7 +257,6 @@ function dishFormHtml() {
   return '<div class="card" style="background:#fafafc;margin-top:10px">'
     + '<div class="field"><label>菜名</label><input type="text" id="dfName" value="' + esc(dishForm.name || '') + '" placeholder="如 番茄炒蛋" /></div>'
     + '<div class="field"><label>分类</label><select id="dfCategory">' + catOpts + '</select></div>'
-    + '<div class="field"><label>📕 小红书搜索链接</label><input type="url" id="dfXhsLink" value="' + esc(dishForm.xhsLink || '') + '" placeholder="https://www.xiaohongshu.com/search_result?keyword=菜名" /></div>'
     + '<div class="field"><label>🎵 抖音搜索链接</label><input type="url" id="dfDyLink" value="' + esc(dishForm.dyLink || '') + '" placeholder="https://www.douyin.com/search/菜名" /></div>'
     + '<div class="field"><label>所需食材（5人份参考）</label>' + ings + '<button class="btn-base btn-ghost" style="width:100%" data-action="addIng">+ 加食材</button></div></div>';
 }
@@ -286,10 +285,9 @@ async function onAction(action, el, e) {
     else if (action === 'saveDish') {
       var name = document.getElementById('dfName').value.trim(); if (!name) return toast('请输入菜名');
       var category = document.getElementById('dfCategory').value;
-      var xhsLink = document.getElementById('dfXhsLink').value.trim();
       var dyLink = document.getElementById('dfDyLink').value.trim();
       var ingredients = (dishForm.ingredients || []).map(function(i) { return { name: (i.name || '').trim(), qty: Number(i.qty) || 0, unit: (i.unit || '').trim() }; }).filter(function(i) { return i.name; });
-      var body = { name: name, category: category, xhsLink: xhsLink, dyLink: dyLink, ingredients: ingredients };
+      var body = { name: name, category: category, xhsLink: '', dyLink: dyLink, ingredients: ingredients };
       if (dishForm.id) { await api('/dishes/' + dishForm.id, { method: 'PUT', body: JSON.stringify(body) }); }
       else { await api('/dishes', { method: 'POST', body: JSON.stringify(body) }); }
       dishForm = null; await refresh();
