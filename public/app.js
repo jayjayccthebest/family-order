@@ -36,6 +36,14 @@ function catName(key) {
   var c = CATEGORIES.find(function(x) { return x.key === key; });
   return c ? c.emoji + ' ' + c.name : '其他';
 }
+// 拼音首字母映射（覆盖常见菜名汉字）
+var PY = {};
+(function(){
+  var s='阿a八b把b白b百b半b包b薄b爆b北b本b荸b笔b扁b变b鳖b冰b饼b菠b不b菜c蚕c草c叉c茶c柴c炒c陈c橙c豉c翅c抽c出c串c葱c粗c醋c脆c大d带d蛋d刀d稻d地d电d吊d丁d冬d豆d剁d鹅e二e发f番f饭f方f飞f粉f凤f福f腐f干g肝g感g鸽g葛g羹g宫g狗g菇g咕g骨g瓜g挂g怪g锅g果g海h蚝h好h河h黑h红h胡h花h滑h黄h回h火h鸡j煎j剑j酱j姜j椒j节j芥j金j京j韭j酒j菊j咖k烤k可k扣k块k辣l腊l蓝l老l乐l里l莲l凉l料l磷l灵l龙l卤l鲈l绿l萝l麻m马m馒m梅m美m蜜m面m蘑m木m墨m南n嫩n牛n农n女n糯n藕o拍p排p盘p胖p泡p皮p啤p片p苹p葡p七q千q前q茄q芹q青q清q秋q去r肉r软s三s色s沙s山s扇s烧s生s狮s十s石s食s手s瘦s蔬s刷s双s水s丝s四s松s酥s蒜s酸s笋s太t糖t桃t天t甜t条t铁t同t土t兔t团t屯t弯w晚w万w王w味w文w五w午w西x虾x下x鲜x咸x香x小x蟹x心x杏x雪x熏x鸭y盐y羊y洋y腰y椰y一y银y饮y油y鱼y玉y芋y圆y月y杂z炸z榨z章z正z芝z蒸z猪z竹z煮z紫z字z粽z';
+  for(var i=0;i<s.length;i+=2)PY[s[i]+s[i+1]]=s[i+1];
+})();
+function toPY(t){var r='';for(var i=0;i<t.length;i++){var c=t[i],p=PY[c];r+=p||c}return r.toLowerCase();}
+
 function toast(msg) {
   var t = document.getElementById('toast');
   t.textContent = msg; t.classList.add('show');
@@ -93,7 +101,7 @@ function renderOrder() {
   var filtered = currentCategory === 'all' ? meta.dishes : meta.dishes.filter(function(d) { return d.category === currentCategory; });
   if (searchQuery) {
     var q = searchQuery.toLowerCase();
-    filtered = filtered.filter(function(d) { return d.name.toLowerCase().indexOf(q) !== -1; });
+    filtered = filtered.filter(function(d) { return d.name.toLowerCase().indexOf(q) !== -1 || toPY(d.name).indexOf(q) !== -1; });
   }
 
   var myOrders = day.orders.filter(function(o) { return o.memberId === deviceId && o.date === day.date; });
@@ -174,6 +182,7 @@ function renderOverview() {
 function renderShopping() {
   var list = day.shopping;
   var total = list.reduce(function(s, i) { return s + (i.bought ? 0 : 1); }, 0);
+  var copyText = list.map(function(i){return i.name+' '+i.qty+i.unit+(i.bought?' ✓':'')}).join('\n');
   var html = list.length ? list.map(function(i) {
     var key = i.name + '|' + i.unit;
     return '<div class="buy-item' + (i.bought ? ' bought' : '') + '">'
@@ -185,7 +194,9 @@ function renderShopping() {
   document.getElementById('view').innerHTML =
     '<div class="card"><div class="section-title">🛒 ' + esc(day.date) + ' · 买菜清单</div>'
     + '<div class="section-hint" style="margin-bottom:10px">5人份 · 调味料已排除 · 还需买 <b style="color:var(--orange)">' + total + '</b> 项</div>'
-    + html + '</div>';
+    + html
+    + (list.length ? '<button class="btn-base btn-ghost" style="width:100%;margin-top:10px" onclick="var t=\'' + esc(copyText.replace(/\n/g,'\\n')) + '\';navigator.clipboard.writeText(t).then(function(){})||prompt(\'复制：\',t)">📋 复制清单到剪贴板</button>' : '')
+    + '</div>';
 }
 
 /* ========== 管理 ========== */
@@ -308,6 +319,11 @@ function switchTab(tab) {
 function boot() {
   var gd = document.getElementById('globalDate');
   if (gd) gd.addEventListener('change', async function(e) { day.date = e.target.value; await refresh(); });
+  // 日期快切箭头
+  var prev = document.getElementById('datePrev'), next = document.getElementById('dateNext');
+  function shift(n) { var d = new Date(day.date + 'T00:00:00'); d.setDate(d.getDate()+n); day.date = d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); if(gd)gd.value=day.date; refresh(); }
+  if(prev)prev.addEventListener('click',function(){shift(-1)});
+  if(next)next.addEventListener('click',function(){shift(1)});
   var btns = document.querySelectorAll('.tabbar button');
   for (var i = 0; i < btns.length; i++) {
     btns[i].addEventListener('click', function() { switchTab(this.dataset.tab); });

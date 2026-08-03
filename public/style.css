@@ -47,8 +47,14 @@ body{
 .top-date input[type=date]{
   border:none;border-radius:var(--radius-sm);padding:7px 10px;
   font-size:15px;font-weight:600;color:var(--ink);background:rgba(0,0,0,.04);
-  font-family:var(--font);
+  font-family:var(--font);max-width:140px;
 }
+.date-arr{
+  border:none;background:rgba(0,0,0,.04);border-radius:50%;width:30px;height:30px;
+  font-size:20px;color:var(--ink);cursor:pointer;display:flex;align-items:center;
+  justify-content:center;font-family:var(--font);transition:background .15s;
+}
+.date-arr:active{background:rgba(0,0,0,.1)}
 .live-dot{width:8px;height:8px;border-radius:50%;background:var(--green);transition:background .3s}
 .live-dot.off{background:var(--yellow)}
 
