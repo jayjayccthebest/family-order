@@ -1,7 +1,7 @@
 {
   "members": [
     {
-      "id": "af9c066a-dca1-4a0a-a8fb-4f5d62b78ccb",
+      "id": "ee2043c6-ac21-405e-8585-875ee2180572",
       "name": "家厨",
       "emoji": "🍳",
       "color": "#ff7043"
@@ -9,10 +9,10 @@
   ],
   "dishes": [
     {
-      "id": "bf153edc-c5ff-4f46-a493-0d64d2e06b2f",
+      "id": "8a026df9-c947-473f-acd5-2cf0d06ff6e4",
       "name": "红烧肉",
       "category": "pork",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E8%82%89%20%E5%AE%B6%E5%B8%B8%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%BA%A2%E7%83%A7%E8%82%89%20%E5%AE%B6%E5%B8%B8%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E8%82%89%20%E6%AD%A3%E5%AE%97%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -28,10 +28,10 @@
       ]
     },
     {
-      "id": "a75e7a29-7cf7-4b98-afa2-cb08f79cb0e9",
+      "id": "6aed743d-b701-4a19-a19b-90f195e6ef71",
       "name": "糖醋排骨",
       "category": "pork",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8%20%E5%AE%B6%E5%B8%B8",
       "ingredients": [
         {
@@ -42,10 +42,10 @@
       ]
     },
     {
-      "id": "a30f8d55-8263-4a5e-8f6d-973d91151c08",
+      "id": "0801f1cf-458b-4cdb-8127-d1b48542ba32",
       "name": "回锅肉",
       "category": "pork",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%9B%9E%E9%94%85%E8%82%89%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%9B%9E%E9%94%85%E8%82%89%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%9B%9E%E9%94%85%E8%82%89",
       "ingredients": [
         {
@@ -61,10 +61,10 @@
       ]
     },
     {
-      "id": "64ee79e8-0394-4a0e-8f6e-09d656a88b52",
+      "id": "2dcfd0c0-dcfd-4cb8-bb45-bebce3ddc6b4",
       "name": "鱼香肉丝",
       "category": "pork",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -90,10 +90,10 @@
       ]
     },
     {
-      "id": "586031d0-0c6b-49f9-9554-61a32873c05d",
+      "id": "ba3587f4-e561-4d20-a00f-e611113c09b4",
       "name": "梅菜扣肉",
       "category": "pork",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -109,10 +109,10 @@
       ]
     },
     {
-      "id": "0101c10a-911b-4feb-8fb5-e4a004166525",
+      "id": "7a3733ea-9a3d-4876-bd11-ac62eaac4936",
       "name": "粉蒸肉",
       "category": "pork",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%B2%89%E8%92%B8%E8%82%89%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%B2%89%E8%92%B8%E8%82%89%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%B2%89%E8%92%B8%E8%82%89",
       "ingredients": [
         {
@@ -133,10 +133,10 @@
       ]
     },
     {
-      "id": "984fd4a7-fba5-4692-a407-f399c196f78b",
+      "id": "4a363df7-6f37-490b-ba8a-536ede65ffe8",
       "name": "蒜泥白肉",
       "category": "pork",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%9C%E6%B3%A5%E7%99%BD%E8%82%89",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%92%9C%E6%B3%A5%E7%99%BD%E8%82%89%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%92%9C%E6%B3%A5%E7%99%BD%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -152,10 +152,10 @@
       ]
     },
     {
-      "id": "e576e404-d545-4ee5-a920-6158e87fba79",
+      "id": "e96f4b23-0cdc-488d-8270-af3c0fd48a17",
       "name": "京酱肉丝",
       "category": "pork",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E4%BA%AC%E9%85%B1%E8%82%89%E4%B8%9D",
+      "xhsLink": "https://www.baidu.com/s?wd=%E4%BA%AC%E9%85%B1%E8%82%89%E4%B8%9D%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E4%BA%AC%E9%85%B1%E8%82%89%E4%B8%9D%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -176,10 +176,10 @@
       ]
     },
     {
-      "id": "f135834f-1d4a-4362-ad7c-e0bb578e24b5",
+      "id": "08892448-4919-42a8-9a81-445dee984e7f",
       "name": "红烧排骨",
       "category": "pork",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E6%8E%92%E9%AA%A8%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%BA%A2%E7%83%A7%E6%8E%92%E9%AA%A8%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E6%8E%92%E9%AA%A8",
       "ingredients": [
         {
@@ -195,10 +195,10 @@
       ]
     },
     {
-      "id": "46bd015f-119f-41dd-baf2-2ea6eb359cd0",
+      "id": "887ea692-37c9-47af-b6fa-e04db0ddcc08",
       "name": "锅包肉",
       "category": "pork",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%94%85%E5%8C%85%E8%82%89%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%94%85%E5%8C%85%E8%82%89%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%94%85%E5%8C%85%E8%82%89",
       "ingredients": [
         {
@@ -214,10 +214,10 @@
       ]
     },
     {
-      "id": "bab462c6-e425-49f3-94e9-6e7f16d59bb2",
+      "id": "26b27851-7f5e-45b8-91e1-b133679ff32e",
       "name": "农家小炒肉",
       "category": "pork",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%86%9C%E5%AE%B6%E5%B0%8F%E7%82%92%E8%82%89",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%86%9C%E5%AE%B6%E5%B0%8F%E7%82%92%E8%82%89%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%86%9C%E5%AE%B6%E5%B0%8F%E7%82%92%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -238,10 +238,10 @@
       ]
     },
     {
-      "id": "d6768f70-ff7e-41f2-b4ba-3c9cef2f0027",
+      "id": "1cce419f-9a1e-4ce0-a765-71d940abd769",
       "name": "香干炒肉",
       "category": "pork",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%A6%99%E5%B9%B2%E7%82%92%E8%82%89",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%A6%99%E5%B9%B2%E7%82%92%E8%82%89%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%A6%99%E5%B9%B2%E7%82%92%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -262,10 +262,10 @@
       ]
     },
     {
-      "id": "3cf93c4d-1872-494a-833d-f99758d951c7",
+      "id": "ee26b3c0-0209-4577-8f3d-70627bcda301",
       "name": "红烧狮子头",
       "category": "pork",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E7%8B%AE%E5%AD%90%E5%A4%B4",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%BA%A2%E7%83%A7%E7%8B%AE%E5%AD%90%E5%A4%B4%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E7%8B%AE%E5%AD%90%E5%A4%B4%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -286,10 +286,10 @@
       ]
     },
     {
-      "id": "1fb2e6aa-848d-45c0-9e50-242c525a6284",
+      "id": "543e0bd4-6123-4c20-a6c4-8647aa814069",
       "name": "酱骨架",
       "category": "pork",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%85%B1%E9%AA%A8%E6%9E%B6%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%85%B1%E9%AA%A8%E6%9E%B6%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%85%B1%E9%AA%A8%E6%9E%B6",
       "ingredients": [
         {
@@ -300,10 +300,10 @@
       ]
     },
     {
-      "id": "0979b8a0-30e9-429e-8895-d97f03acefa9",
+      "id": "b640e76e-c4b1-404c-9bf5-fe9e3e2c8b1a",
       "name": "蒜苗炒腊肉",
       "category": "pork",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%9C%E8%8B%97%E7%82%92%E8%85%8A%E8%82%89",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%92%9C%E8%8B%97%E7%82%92%E8%85%8A%E8%82%89%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%92%9C%E8%8B%97%E7%82%92%E8%85%8A%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -319,10 +319,10 @@
       ]
     },
     {
-      "id": "80ab7b36-a655-4fc1-b971-e1e8b36b3e57",
+      "id": "cb2096ee-b926-4fc6-bfe9-e37fcb15779d",
       "name": "土豆炖牛肉",
       "category": "beef",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -353,10 +353,10 @@
       ]
     },
     {
-      "id": "a079ae96-8c92-4178-a60c-413181228d5f",
+      "id": "07b11387-101b-42b3-bc62-74c7769d5b6b",
       "name": "孜然羊肉",
       "category": "beef",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%AD%9C%E7%84%B6%E7%BE%8A%E8%82%89",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%AD%9C%E7%84%B6%E7%BE%8A%E8%82%89%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%AD%9C%E7%84%B6%E7%BE%8A%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -372,10 +372,10 @@
       ]
     },
     {
-      "id": "5434b5aa-cd7b-4d48-9d20-c8b33e8bd1b9",
+      "id": "9352a425-00a8-47e2-a533-03ace5107597",
       "name": "葱爆羊肉",
       "category": "beef",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%91%B1%E7%88%86%E7%BE%8A%E8%82%89",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%91%B1%E7%88%86%E7%BE%8A%E8%82%89%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%91%B1%E7%88%86%E7%BE%8A%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -391,10 +391,10 @@
       ]
     },
     {
-      "id": "a307670b-ec22-4f34-85bb-d24e0a5fa76f",
+      "id": "834bd495-bc51-4ec0-be06-dc725bb51a26",
       "name": "水煮牛肉",
       "category": "beef",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -415,10 +415,10 @@
       ]
     },
     {
-      "id": "61afaf18-0b0f-478d-8a64-771993cb936a",
+      "id": "76e41a0f-066b-4ab1-b104-82952d2fc2b5",
       "name": "萝卜炖牛腩",
       "category": "beef",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%90%9D%E5%8D%9C%E7%82%96%E7%89%9B%E8%85%A9",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%90%9D%E5%8D%9C%E7%82%96%E7%89%9B%E8%85%A9%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%90%9D%E5%8D%9C%E7%82%96%E7%89%9B%E8%85%A9%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -434,10 +434,10 @@
       ]
     },
     {
-      "id": "bfd5bfbc-ef1e-44a1-9cb0-d1551b464def",
+      "id": "35ee4e81-311a-4615-88e4-f901e942dfbf",
       "name": "西红柿炖牛腩",
       "category": "beef",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%96%E7%89%9B%E8%85%A9",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%96%E7%89%9B%E8%85%A9%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%96%E7%89%9B%E8%85%A9%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -463,10 +463,10 @@
       ]
     },
     {
-      "id": "3aceb3e0-4f78-4b35-87bb-edc7d240b099",
+      "id": "70b60dec-d59a-4fc6-959f-d59fa8a32c8a",
       "name": "黑椒牛柳",
       "category": "beef",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%BB%91%E6%A4%92%E7%89%9B%E6%9F%B3",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%BB%91%E6%A4%92%E7%89%9B%E6%9F%B3%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%BB%91%E6%A4%92%E7%89%9B%E6%9F%B3%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -487,10 +487,10 @@
       ]
     },
     {
-      "id": "d1dca817-43ee-42c0-83d1-bb4e912b1772",
+      "id": "daea3de9-143d-4bb7-9b9d-1ff80c617bd2",
       "name": "红烧羊肉",
       "category": "beef",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E7%BE%8A%E8%82%89%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%BA%A2%E7%83%A7%E7%BE%8A%E8%82%89%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E7%BE%8A%E8%82%89",
       "ingredients": [
         {
@@ -506,10 +506,10 @@
       ]
     },
     {
-      "id": "6a48a14b-4a40-4809-8e45-d3207d6d7506",
+      "id": "44b8b18f-91fe-44f0-a97f-222cb67db7d4",
       "name": "牛排",
       "category": "beef",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%89%9B%E6%8E%92%20%E5%AE%B6%E5%B8%B8%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%89%9B%E6%8E%92%20%E5%AE%B6%E5%B8%B8%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%89%9B%E6%8E%92%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -525,10 +525,10 @@
       ]
     },
     {
-      "id": "ebd6a50f-bbe7-40de-beba-3e6c24c7b4b5",
+      "id": "423263f2-791b-4444-8214-ed653a55a6d6",
       "name": "香菜牛肉",
       "category": "beef",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%A6%99%E8%8F%9C%E7%89%9B%E8%82%89",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%A6%99%E8%8F%9C%E7%89%9B%E8%82%89%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%A6%99%E8%8F%9C%E7%89%9B%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -544,10 +544,10 @@
       ]
     },
     {
-      "id": "ee543c10-4b98-43ff-94f1-876baa391efc",
+      "id": "7ba2de25-5cb4-408a-83e9-37925f979e08",
       "name": "宫保鸡丁",
       "category": "poultry",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -568,10 +568,10 @@
       ]
     },
     {
-      "id": "c8b162f0-62ea-45af-9473-33a4e7e21422",
+      "id": "6d5885f3-aed2-4463-93d6-976dc739937f",
       "name": "啤酒鸭",
       "category": "poultry",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%95%A4%E9%85%92%E9%B8%AD%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%95%A4%E9%85%92%E9%B8%AD%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%95%A4%E9%85%92%E9%B8%AD",
       "ingredients": [
         {
@@ -587,10 +587,10 @@
       ]
     },
     {
-      "id": "ae57f6a5-88dc-4704-9358-c855f47166a4",
+      "id": "5e3724e7-c477-4738-a0c2-7bfe9ce8c9f1",
       "name": "可乐鸡翅",
       "category": "poultry",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%8F%AF%E4%B9%90%E9%B8%A1%E7%BF%85",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%8F%AF%E4%B9%90%E9%B8%A1%E7%BF%85%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%8F%AF%E4%B9%90%E9%B8%A1%E7%BF%85%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -606,10 +606,10 @@
       ]
     },
     {
-      "id": "42c3e6c1-7eca-41c4-be3c-28bd0868da3b",
+      "id": "5405f4a8-423c-4338-b299-3783c85979f1",
       "name": "辣子鸡",
       "category": "poultry",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%BE%A3%E5%AD%90%E9%B8%A1",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%BE%A3%E5%AD%90%E9%B8%A1%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%BE%A3%E5%AD%90%E9%B8%A1%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -625,10 +625,10 @@
       ]
     },
     {
-      "id": "b8c93388-ef6b-49b2-b280-aa78430905cd",
+      "id": "435a9015-aea1-474b-b576-1f873bb63219",
       "name": "小鸡炖蘑菇",
       "category": "poultry",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%B0%8F%E9%B8%A1%E7%82%96%E8%98%91%E8%8F%87%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -649,10 +649,10 @@
       ]
     },
     {
-      "id": "5f0b7857-8866-4657-97f6-f630fca612ca",
+      "id": "b2ce0a68-74f9-475f-bb3d-e4dc5a96f031",
       "name": "红烧鸡块",
       "category": "poultry",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E9%B8%A1%E5%9D%97%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%BA%A2%E7%83%A7%E9%B8%A1%E5%9D%97%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E9%B8%A1%E5%9D%97",
       "ingredients": [
         {
@@ -673,10 +673,10 @@
       ]
     },
     {
-      "id": "4afba3bc-b4cd-4630-a134-1a8d0049670f",
+      "id": "e1226b70-8ca5-40d4-b0b8-dac80346fd2d",
       "name": "白切鸡",
       "category": "poultry",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%99%BD%E5%88%87%E9%B8%A1%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%99%BD%E5%88%87%E9%B8%A1%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%99%BD%E5%88%87%E9%B8%A1",
       "ingredients": [
         {
@@ -687,10 +687,10 @@
       ]
     },
     {
-      "id": "39336d14-4166-4090-b74e-29e1a6c5e987",
+      "id": "35855370-153b-46d1-818c-090020d2dfe2",
       "name": "黄焖鸡",
       "category": "poultry",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%BB%84%E7%84%96%E9%B8%A1%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%BB%84%E7%84%96%E9%B8%A1%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%BB%84%E7%84%96%E9%B8%A1",
       "ingredients": [
         {
@@ -711,10 +711,10 @@
       ]
     },
     {
-      "id": "bf730bdf-fd5b-43c7-bcfc-3974297e23c5",
+      "id": "deef60b4-303b-41e2-af4d-314021d06377",
       "name": "大盘鸡",
       "category": "poultry",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%A7%E7%9B%98%E9%B8%A1%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%A4%A7%E7%9B%98%E9%B8%A1%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%A4%A7%E7%9B%98%E9%B8%A1",
       "ingredients": [
         {
@@ -740,10 +740,10 @@
       ]
     },
     {
-      "id": "b40a6829-f7b8-4a2f-8004-771a53fc855a",
+      "id": "c69990f5-91fc-4c72-b698-f105fab112f8",
       "name": "柠檬鸡爪",
       "category": "poultry",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%9F%A0%E6%AA%AC%E9%B8%A1%E7%88%AA",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%9F%A0%E6%AA%AC%E9%B8%A1%E7%88%AA%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%9F%A0%E6%AA%AC%E9%B8%A1%E7%88%AA%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -759,10 +759,10 @@
       ]
     },
     {
-      "id": "465ad46b-0d4c-4e6c-93a9-66a1e02ec705",
+      "id": "10736ddd-a810-4e16-b6db-a8caf8de1e3c",
       "name": "烤鸡翅",
       "category": "poultry",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%83%A4%E9%B8%A1%E7%BF%85%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%83%A4%E9%B8%A1%E7%BF%85%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%83%A4%E9%B8%A1%E7%BF%85",
       "ingredients": [
         {
@@ -778,10 +778,10 @@
       ]
     },
     {
-      "id": "058fdcaf-bf92-471b-8ff9-8c8ddd8406ab",
+      "id": "3f991420-c131-425b-913e-47102abca145",
       "name": "口水鸡",
       "category": "poultry",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%8F%A3%E6%B0%B4%E9%B8%A1%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%8F%A3%E6%B0%B4%E9%B8%A1%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%8F%A3%E6%B0%B4%E9%B8%A1",
       "ingredients": [
         {
@@ -797,10 +797,10 @@
       ]
     },
     {
-      "id": "9eb84a1c-f246-4bd3-8064-3aa7c9cf332a",
+      "id": "1b6c9329-d594-45d5-b75d-ece22acc8196",
       "name": "盐水鸭",
       "category": "poultry",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%9B%90%E6%B0%B4%E9%B8%AD%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%9B%90%E6%B0%B4%E9%B8%AD%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%9B%90%E6%B0%B4%E9%B8%AD",
       "ingredients": [
         {
@@ -811,10 +811,10 @@
       ]
     },
     {
-      "id": "bf4e12fc-1d9a-4c35-b62a-bbb2d0ffbdd7",
+      "id": "504c0d3a-536b-4822-a698-582eb05010a8",
       "name": "三杯鸡",
       "category": "poultry",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%89%E6%9D%AF%E9%B8%A1%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E4%B8%89%E6%9D%AF%E9%B8%A1%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E4%B8%89%E6%9D%AF%E9%B8%A1",
       "ingredients": [
         {
@@ -830,10 +830,10 @@
       ]
     },
     {
-      "id": "59ec834e-e269-4e2e-9086-e388cd9de43f",
+      "id": "f381da12-3b4d-40e5-9617-2c52f62dc8d5",
       "name": "清蒸鲈鱼",
       "category": "seafood",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -844,10 +844,10 @@
       ]
     },
     {
-      "id": "76e7786e-558b-4285-8a39-c8d79927f639",
+      "id": "17b4288b-9428-44d5-97a2-0267e8114700",
       "name": "油焖大虾",
       "category": "seafood",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -858,10 +858,10 @@
       ]
     },
     {
-      "id": "27a02449-ab60-4534-ab1a-662b22dc3ad6",
+      "id": "bb6c457c-92e1-4da9-a4ff-c4825036bb02",
       "name": "红烧带鱼",
       "category": "seafood",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E5%B8%A6%E9%B1%BC%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%BA%A2%E7%83%A7%E5%B8%A6%E9%B1%BC%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E5%B8%A6%E9%B1%BC",
       "ingredients": [
         {
@@ -872,10 +872,10 @@
       ]
     },
     {
-      "id": "cd159a19-b1e2-4542-a9f5-c19f93f00789",
+      "id": "9a65841f-d8e5-4018-b2f3-a8bbdb3cdc8c",
       "name": "蒜蓉粉丝蒸虾",
       "category": "seafood",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%9C%E8%93%89%E7%B2%89%E4%B8%9D%E8%92%B8%E8%99%BE",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%92%9C%E8%93%89%E7%B2%89%E4%B8%9D%E8%92%B8%E8%99%BE%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%92%9C%E8%93%89%E7%B2%89%E4%B8%9D%E8%92%B8%E8%99%BE%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -891,10 +891,10 @@
       ]
     },
     {
-      "id": "f936dba2-a0c3-4fa9-b809-31e8a4374be1",
+      "id": "135c8d1c-3c81-4bc2-bee5-d255dd38a154",
       "name": "水煮鱼",
       "category": "seafood",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B0%B4%E7%85%AE%E9%B1%BC%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%B0%B4%E7%85%AE%E9%B1%BC%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%B0%B4%E7%85%AE%E9%B1%BC",
       "ingredients": [
         {
@@ -910,10 +910,10 @@
       ]
     },
     {
-      "id": "a071e707-0c0a-4cd5-864c-2a4bc3426828",
+      "id": "8425e098-3e11-4054-9bf1-7367f99159fa",
       "name": "剁椒鱼头",
       "category": "seafood",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%89%81%E6%A4%92%E9%B1%BC%E5%A4%B4",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%89%81%E6%A4%92%E9%B1%BC%E5%A4%B4%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%89%81%E6%A4%92%E9%B1%BC%E5%A4%B4%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -929,10 +929,10 @@
       ]
     },
     {
-      "id": "e0aad6ab-825d-48cf-a5a5-fb99ba64e02f",
+      "id": "7e256cbf-10ab-4a83-9956-2df150fb05c9",
       "name": "葱姜炒花蟹",
       "category": "seafood",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%91%B1%E5%A7%9C%E7%82%92%E8%8A%B1%E8%9F%B9",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%91%B1%E5%A7%9C%E7%82%92%E8%8A%B1%E8%9F%B9%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%91%B1%E5%A7%9C%E7%82%92%E8%8A%B1%E8%9F%B9%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -943,10 +943,10 @@
       ]
     },
     {
-      "id": "478296b6-f8cc-4bea-b8db-d0e8603e8842",
+      "id": "d985b9e5-f365-4959-b403-d34465112b26",
       "name": "蒜香烤鱼",
       "category": "seafood",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%9C%E9%A6%99%E7%83%A4%E9%B1%BC%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%92%9C%E9%A6%99%E7%83%A4%E9%B1%BC%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%92%9C%E9%A6%99%E7%83%A4%E9%B1%BC",
       "ingredients": [
         {
@@ -967,10 +967,10 @@
       ]
     },
     {
-      "id": "fe3e6308-a886-4064-a4cd-ded67bca5b3a",
+      "id": "18bab2c2-0202-4b93-aa9a-da54504904a1",
       "name": "香辣虾",
       "category": "seafood",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%A6%99%E8%BE%A3%E8%99%BE%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%A6%99%E8%BE%A3%E8%99%BE%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%A6%99%E8%BE%A3%E8%99%BE",
       "ingredients": [
         {
@@ -991,10 +991,10 @@
       ]
     },
     {
-      "id": "d4c7234a-fa4f-4519-925d-517b6cce88f7",
+      "id": "cac46b1c-e9e5-4a03-8b5a-3b8d4bc5be3c",
       "name": "清蒸大闸蟹",
       "category": "seafood",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B8%85%E8%92%B8%E5%A4%A7%E9%97%B8%E8%9F%B9",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%B8%85%E8%92%B8%E5%A4%A7%E9%97%B8%E8%9F%B9%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%B8%85%E8%92%B8%E5%A4%A7%E9%97%B8%E8%9F%B9%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1005,10 +1005,10 @@
       ]
     },
     {
-      "id": "66e1107e-fe7a-49d6-8039-3b5501518d8a",
+      "id": "252a14af-89f1-43cb-9525-cf48a020c5d6",
       "name": "椒盐皮皮虾",
       "category": "seafood",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%A4%92%E7%9B%90%E7%9A%AE%E7%9A%AE%E8%99%BE",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%A4%92%E7%9B%90%E7%9A%AE%E7%9A%AE%E8%99%BE%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%A4%92%E7%9B%90%E7%9A%AE%E7%9A%AE%E8%99%BE%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1019,10 +1019,10 @@
       ]
     },
     {
-      "id": "0462be56-35d7-4b5c-a4e2-bf62afbb8789",
+      "id": "e9fc664c-514f-456d-a7b4-b3476312bbcf",
       "name": "酸菜鱼",
       "category": "seafood",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%85%B8%E8%8F%9C%E9%B1%BC%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%85%B8%E8%8F%9C%E9%B1%BC%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%85%B8%E8%8F%9C%E9%B1%BC",
       "ingredients": [
         {
@@ -1043,10 +1043,10 @@
       ]
     },
     {
-      "id": "ea3741fc-e2b7-4625-a2e4-d00632aae269",
+      "id": "783c2c2c-c969-4122-b990-da57d4094fdf",
       "name": "香煎带鱼",
       "category": "seafood",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%A6%99%E7%85%8E%E5%B8%A6%E9%B1%BC",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%A6%99%E7%85%8E%E5%B8%A6%E9%B1%BC%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%A6%99%E7%85%8E%E5%B8%A6%E9%B1%BC%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1057,10 +1057,10 @@
       ]
     },
     {
-      "id": "c621c8cd-940f-4ded-80d8-f1780f62d537",
+      "id": "ef9abb8f-cc0e-48b8-8740-fbbe76b8bb53",
       "name": "白灼虾",
       "category": "seafood",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%99%BD%E7%81%BC%E8%99%BE%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%99%BD%E7%81%BC%E8%99%BE%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%99%BD%E7%81%BC%E8%99%BE",
       "ingredients": [
         {
@@ -1071,10 +1071,10 @@
       ]
     },
     {
-      "id": "c1df637f-6315-4d5a-9efa-cade9c90bfba",
+      "id": "d87fa8e9-a838-4f3f-834c-fe2c90d38998",
       "name": "番茄炒蛋",
       "category": "eggtofu",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1090,10 +1090,10 @@
       ]
     },
     {
-      "id": "1483849a-25c5-4f6d-9ef5-f8e39629e6e5",
+      "id": "c0b7039a-5621-4464-b5fc-d913fb2cbd79",
       "name": "麻婆豆腐",
       "category": "eggtofu",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1109,10 +1109,10 @@
       ]
     },
     {
-      "id": "4ca8fb86-0332-47fd-9691-e634776c3bb1",
+      "id": "8fc663d8-f79c-47cd-b512-c6b036724309",
       "name": "韭菜炒蛋",
       "category": "eggtofu",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%9F%AD%E8%8F%9C%E7%82%92%E8%9B%8B",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%9F%AD%E8%8F%9C%E7%82%92%E8%9B%8B%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%9F%AD%E8%8F%9C%E7%82%92%E8%9B%8B%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1128,10 +1128,10 @@
       ]
     },
     {
-      "id": "43f136fa-e608-46a5-bb72-1852b2db405e",
+      "id": "75726a16-2f07-4721-b682-7420a747ba3a",
       "name": "家常豆腐",
       "category": "eggtofu",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%AE%B6%E5%B8%B8%E8%B1%86%E8%85%90",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%AE%B6%E5%B8%B8%E8%B1%86%E8%85%90%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%AE%B6%E5%B8%B8%E8%B1%86%E8%85%90%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1152,10 +1152,10 @@
       ]
     },
     {
-      "id": "e15e89a0-75a5-4a32-912d-cc2e44128e01",
+      "id": "4b8fb76d-7f7e-4b0c-8173-38729756edb9",
       "name": "虾仁蒸蛋",
       "category": "eggtofu",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%99%BE%E4%BB%81%E8%92%B8%E8%9B%8B",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%99%BE%E4%BB%81%E8%92%B8%E8%9B%8B%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%99%BE%E4%BB%81%E8%92%B8%E8%9B%8B%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1176,10 +1176,10 @@
       ]
     },
     {
-      "id": "3b0495c9-be07-431d-9479-044919b90a99",
+      "id": "331bee88-fffa-45e3-a7ae-d582f0cc38ec",
       "name": "皮蛋拌豆腐",
       "category": "eggtofu",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%9A%AE%E8%9B%8B%E6%8B%8C%E8%B1%86%E8%85%90",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%9A%AE%E8%9B%8B%E6%8B%8C%E8%B1%86%E8%85%90%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%9A%AE%E8%9B%8B%E6%8B%8C%E8%B1%86%E8%85%90%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1195,10 +1195,10 @@
       ]
     },
     {
-      "id": "c6ee2bfa-4dcb-47b4-992b-4042749f1595",
+      "id": "99be4368-23e6-4c71-b738-b2f3b233f672",
       "name": "红烧日本豆腐",
       "category": "eggtofu",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E6%97%A5%E6%9C%AC%E8%B1%86%E8%85%90",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%BA%A2%E7%83%A7%E6%97%A5%E6%9C%AC%E8%B1%86%E8%85%90%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E6%97%A5%E6%9C%AC%E8%B1%86%E8%85%90%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1219,10 +1219,10 @@
       ]
     },
     {
-      "id": "ff438ca5-30af-4c7b-89e6-5dcb9d294c3b",
+      "id": "151ae965-899a-4a25-8b31-bdcdbfbf7f72",
       "name": "肉末蒸蛋",
       "category": "eggtofu",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%82%89%E6%9C%AB%E8%92%B8%E8%9B%8B",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%82%89%E6%9C%AB%E8%92%B8%E8%9B%8B%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%82%89%E6%9C%AB%E8%92%B8%E8%9B%8B%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1238,10 +1238,10 @@
       ]
     },
     {
-      "id": "4f891d33-3966-48ba-aa4d-c7614b9a971f",
+      "id": "79080e97-5b80-441e-8f52-83a86865f48d",
       "name": "煎豆腐",
       "category": "eggtofu",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%85%8E%E8%B1%86%E8%85%90%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%85%8E%E8%B1%86%E8%85%90%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%85%8E%E8%B1%86%E8%85%90",
       "ingredients": [
         {
@@ -1252,10 +1252,10 @@
       ]
     },
     {
-      "id": "88b06d0a-a74b-4ea1-abab-728e4415096d",
+      "id": "c719e3bf-902c-4226-97e7-81433aa9e8f9",
       "name": "臭豆腐煲",
       "category": "eggtofu",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%87%AD%E8%B1%86%E8%85%90%E7%85%B2",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%87%AD%E8%B1%86%E8%85%90%E7%85%B2%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%87%AD%E8%B1%86%E8%85%90%E7%85%B2%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1266,10 +1266,10 @@
       ]
     },
     {
-      "id": "5eac10ea-f931-4072-baf8-aac98a6b5d17",
+      "id": "7d69b1f7-3d63-4a28-a5b6-b1eefa9ff0a8",
       "name": "腐竹炒肉",
       "category": "eggtofu",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%85%90%E7%AB%B9%E7%82%92%E8%82%89",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%85%90%E7%AB%B9%E7%82%92%E8%82%89%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%85%90%E7%AB%B9%E7%82%92%E8%82%89%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1285,10 +1285,10 @@
       ]
     },
     {
-      "id": "0ef8e9d2-9494-438d-b6e9-f2fa3ae1734d",
+      "id": "0e7e9807-7391-4302-98f4-8defc5a5ceaf",
       "name": "韭菜炒豆芽",
       "category": "eggtofu",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%9F%AD%E8%8F%9C%E7%82%92%E8%B1%86%E8%8A%BD",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%9F%AD%E8%8F%9C%E7%82%92%E8%B1%86%E8%8A%BD%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%9F%AD%E8%8F%9C%E7%82%92%E8%B1%86%E8%8A%BD%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1309,10 +1309,10 @@
       ]
     },
     {
-      "id": "48d287e9-21d3-4777-9524-73edb36b3d7c",
+      "id": "081e8faf-6b78-41fc-b87a-6f2d04bf96e5",
       "name": "蒜蓉空心菜",
       "category": "veggie",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1323,10 +1323,10 @@
       ]
     },
     {
-      "id": "a12caea7-14e2-447e-b8ec-e1c8bec8cd10",
+      "id": "2ecccc61-fc04-4219-b465-4adc240fb146",
       "name": "干煸四季豆",
       "category": "veggie",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%B9%B2%E7%85%B8%E5%9B%9B%E5%AD%A3%E8%B1%86",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%B9%B2%E7%85%B8%E5%9B%9B%E5%AD%A3%E8%B1%86%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%B9%B2%E7%85%B8%E5%9B%9B%E5%AD%A3%E8%B1%86%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1337,10 +1337,10 @@
       ]
     },
     {
-      "id": "129f7d23-50fb-4d3f-adc2-73629af296ef",
+      "id": "30415bd4-e5ca-4dc5-a816-e2b1ba345a0f",
       "name": "手撕包菜",
       "category": "veggie",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1351,10 +1351,10 @@
       ]
     },
     {
-      "id": "20fe3987-bdfe-43f4-b675-e15707163011",
+      "id": "78ba2a62-98b9-426c-a118-deba4cbd9663",
       "name": "地三鲜",
       "category": "veggie",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%9C%B0%E4%B8%89%E9%B2%9C%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%9C%B0%E4%B8%89%E9%B2%9C%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%9C%B0%E4%B8%89%E9%B2%9C",
       "ingredients": [
         {
@@ -1375,10 +1375,10 @@
       ]
     },
     {
-      "id": "484dc6c2-80e7-41e5-a6d7-bc3cb1366886",
+      "id": "e37cd75c-1ea4-498c-873b-479a0c825ac3",
       "name": "蚝油生菜",
       "category": "veggie",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%9A%9D%E6%B2%B9%E7%94%9F%E8%8F%9C",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%9A%9D%E6%B2%B9%E7%94%9F%E8%8F%9C%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%9A%9D%E6%B2%B9%E7%94%9F%E8%8F%9C%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1389,10 +1389,10 @@
       ]
     },
     {
-      "id": "9ebbf325-da8e-4d41-804d-b0af39476768",
+      "id": "3e333f3c-2bd2-4fa3-96c7-1e06e641e292",
       "name": "醋溜白菜",
       "category": "veggie",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%86%8B%E6%BA%9C%E7%99%BD%E8%8F%9C",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%86%8B%E6%BA%9C%E7%99%BD%E8%8F%9C%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%86%8B%E6%BA%9C%E7%99%BD%E8%8F%9C%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1403,10 +1403,10 @@
       ]
     },
     {
-      "id": "14795a09-f084-48dd-8dee-40be1836c7c0",
+      "id": "7cefbff8-49b8-49e2-91c0-1fa4d2a558fa",
       "name": "清炒西兰花",
       "category": "veggie",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B8%85%E7%82%92%E8%A5%BF%E5%85%B0%E8%8A%B1",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%B8%85%E7%82%92%E8%A5%BF%E5%85%B0%E8%8A%B1%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%B8%85%E7%82%92%E8%A5%BF%E5%85%B0%E8%8A%B1%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1417,10 +1417,10 @@
       ]
     },
     {
-      "id": "809d9b80-da01-460e-b727-9ee8c09d6ba4",
+      "id": "48191b8b-ae82-49ab-95aa-68df0954d634",
       "name": "蒜蓉油麦菜",
       "category": "veggie",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%9C%E8%93%89%E6%B2%B9%E9%BA%A6%E8%8F%9C",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%92%9C%E8%93%89%E6%B2%B9%E9%BA%A6%E8%8F%9C%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%92%9C%E8%93%89%E6%B2%B9%E9%BA%A6%E8%8F%9C%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1431,10 +1431,10 @@
       ]
     },
     {
-      "id": "8408c0a6-cefc-45fc-a18c-71532f966e3b",
+      "id": "93a8b9aa-3941-40e6-a84c-2754d51aff62",
       "name": "酸辣土豆丝",
       "category": "veggie",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1450,10 +1450,10 @@
       ]
     },
     {
-      "id": "14ac4797-b4ac-4747-b7e5-39ee29f4c1ad",
+      "id": "c2e3cb73-a4ed-4423-8864-e4a60bf14e6f",
       "name": "鱼香茄子",
       "category": "veggie",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%B1%BC%E9%A6%99%E8%8C%84%E5%AD%90",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%B1%BC%E9%A6%99%E8%8C%84%E5%AD%90%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%B1%BC%E9%A6%99%E8%8C%84%E5%AD%90%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1469,10 +1469,10 @@
       ]
     },
     {
-      "id": "c6ef5cad-5e9b-4828-b6dd-00713c88ce1c",
+      "id": "2ffa1f8e-ba46-4dae-903f-e797ebfc6988",
       "name": "清炒豆苗",
       "category": "veggie",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B8%85%E7%82%92%E8%B1%86%E8%8B%97",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%B8%85%E7%82%92%E8%B1%86%E8%8B%97%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%B8%85%E7%82%92%E8%B1%86%E8%8B%97%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1483,10 +1483,10 @@
       ]
     },
     {
-      "id": "1943df90-5926-47d0-84df-03c19543b9f6",
+      "id": "92d18177-370c-4e0a-8759-941c20a85c66",
       "name": "红烧冬瓜",
       "category": "veggie",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1497,10 +1497,10 @@
       ]
     },
     {
-      "id": "11f87a71-c31e-49ea-a20d-968627c5886f",
+      "id": "31dcb2ef-a9b6-4487-9bdd-949ac637df7c",
       "name": "上汤娃娃菜",
       "category": "veggie",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C",
+      "xhsLink": "https://www.baidu.com/s?wd=%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1521,10 +1521,10 @@
       ]
     },
     {
-      "id": "bfc3881a-a342-4008-b3a0-f87a461d3d79",
+      "id": "0fc1d9f9-cfb2-4353-8253-af69f9da5575",
       "name": "香菇油菜",
       "category": "veggie",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%A6%99%E8%8F%87%E6%B2%B9%E8%8F%9C",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%A6%99%E8%8F%87%E6%B2%B9%E8%8F%9C%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%A6%99%E8%8F%87%E6%B2%B9%E8%8F%9C%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1540,10 +1540,10 @@
       ]
     },
     {
-      "id": "f569fc9b-6b9d-4f1c-9f43-aa58e95a6dfd",
+      "id": "077403a3-f577-490c-82ca-fc8c0f10ffea",
       "name": "清炒时蔬",
       "category": "veggie",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B8%85%E7%82%92%E6%97%B6%E8%94%AC",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%B8%85%E7%82%92%E6%97%B6%E8%94%AC%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%B8%85%E7%82%92%E6%97%B6%E8%94%AC",
       "ingredients": [
         {
@@ -1554,10 +1554,10 @@
       ]
     },
     {
-      "id": "95230bd1-f9f3-4c6d-9ea7-f4775bea13cf",
+      "id": "b005ea99-7a57-46c3-bde8-d0b1a4e9bd96",
       "name": "拍黄瓜",
       "category": "cold",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%8B%8D%E9%BB%84%E7%93%9C%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%8B%8D%E9%BB%84%E7%93%9C%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%8B%8D%E9%BB%84%E7%93%9C",
       "ingredients": [
         {
@@ -1568,10 +1568,10 @@
       ]
     },
     {
-      "id": "b1f9c33f-fff5-4f49-a497-937269ec2e0d",
+      "id": "bd021330-a761-4041-9cce-c27ae0858266",
       "name": "凉拌木耳",
       "category": "cold",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%87%89%E6%8B%8C%E6%9C%A8%E8%80%B3",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%87%89%E6%8B%8C%E6%9C%A8%E8%80%B3%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%87%89%E6%8B%8C%E6%9C%A8%E8%80%B3%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1587,10 +1587,10 @@
       ]
     },
     {
-      "id": "d6ad8dbc-083c-49ff-b828-cf37e86e8520",
+      "id": "a790793d-07c8-4715-a647-e84df0d492ef",
       "name": "凉拌三丝",
       "category": "cold",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%87%89%E6%8B%8C%E4%B8%89%E4%B8%9D",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%87%89%E6%8B%8C%E4%B8%89%E4%B8%9D%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%87%89%E6%8B%8C%E4%B8%89%E4%B8%9D%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1611,10 +1611,10 @@
       ]
     },
     {
-      "id": "df7c2fab-1a43-4cae-a223-912dcba246f6",
+      "id": "5dabdcf6-c6b2-43b2-ad91-31185734d46b",
       "name": "炸花生米",
       "category": "cold",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%82%B8%E8%8A%B1%E7%94%9F%E7%B1%B3",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%82%B8%E8%8A%B1%E7%94%9F%E7%B1%B3%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%82%B8%E8%8A%B1%E7%94%9F%E7%B1%B3%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1625,10 +1625,10 @@
       ]
     },
     {
-      "id": "47bf1dfd-532e-4bc6-a03a-1446a1389ac6",
+      "id": "f0efa111-552b-4827-b657-b6b9b66d6eb1",
       "name": "凉拌海带丝",
       "category": "cold",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%87%89%E6%8B%8C%E6%B5%B7%E5%B8%A6%E4%B8%9D",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%87%89%E6%8B%8C%E6%B5%B7%E5%B8%A6%E4%B8%9D%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%87%89%E6%8B%8C%E6%B5%B7%E5%B8%A6%E4%B8%9D%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1639,10 +1639,10 @@
       ]
     },
     {
-      "id": "e6d2140f-9f75-4a55-82a8-c8fb5704a1eb",
+      "id": "e0871ab4-b81a-4d09-a533-03b11807680f",
       "name": "泡椒凤爪",
       "category": "cold",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%B3%A1%E6%A4%92%E5%87%A4%E7%88%AA",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%B3%A1%E6%A4%92%E5%87%A4%E7%88%AA%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%B3%A1%E6%A4%92%E5%87%A4%E7%88%AA%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1658,10 +1658,10 @@
       ]
     },
     {
-      "id": "b3f9232a-33e2-4375-a559-1b284b7182ea",
+      "id": "82619d39-350e-4ecb-9c5e-aa6affd1e6ad",
       "name": "凉拌腐竹",
       "category": "cold",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%87%89%E6%8B%8C%E8%85%90%E7%AB%B9",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%87%89%E6%8B%8C%E8%85%90%E7%AB%B9%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%87%89%E6%8B%8C%E8%85%90%E7%AB%B9%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1677,10 +1677,10 @@
       ]
     },
     {
-      "id": "198f0bb8-38d5-4fdf-90ba-363a8319d70a",
+      "id": "809dc56f-9a4d-4e15-98d7-bb1f28ccf8c8",
       "name": "手撕鸡",
       "category": "cold",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%89%8B%E6%92%95%E9%B8%A1%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%89%8B%E6%92%95%E9%B8%A1%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%89%8B%E6%92%95%E9%B8%A1",
       "ingredients": [
         {
@@ -1691,10 +1691,10 @@
       ]
     },
     {
-      "id": "a6edd697-d2d1-4a9c-a293-113201d58b3e",
+      "id": "7db1b5e3-f30c-4e37-84b0-c57c845591ce",
       "name": "卤牛肉",
       "category": "cold",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%8D%A4%E7%89%9B%E8%82%89%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%8D%A4%E7%89%9B%E8%82%89%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%8D%A4%E7%89%9B%E8%82%89",
       "ingredients": [
         {
@@ -1705,10 +1705,10 @@
       ]
     },
     {
-      "id": "7059a133-e8bc-482e-9f3e-6a61ceacf5bc",
+      "id": "246b6dc3-f2eb-47b6-99b5-3db1d04026bd",
       "name": "凉拌藕片",
       "category": "cold",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%87%89%E6%8B%8C%E8%97%95%E7%89%87",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%87%89%E6%8B%8C%E8%97%95%E7%89%87%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%87%89%E6%8B%8C%E8%97%95%E7%89%87%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1719,10 +1719,10 @@
       ]
     },
     {
-      "id": "64c809f1-78fb-48b0-bdff-bef6306c1b10",
+      "id": "7fea8384-4963-4206-9a09-4ffa4c1e4fb9",
       "name": "紫菜蛋花汤",
       "category": "soup",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%B4%AB%E8%8F%9C%E8%9B%8B%E8%8A%B1%E6%B1%A4",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%B4%AB%E8%8F%9C%E8%9B%8B%E8%8A%B1%E6%B1%A4%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%B4%AB%E8%8F%9C%E8%9B%8B%E8%8A%B1%E6%B1%A4%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1743,10 +1743,10 @@
       ]
     },
     {
-      "id": "284f0d06-2cd2-4fc5-95e9-e29d2486ba44",
+      "id": "bbcc1990-fa0c-4f20-95c1-727bfa1ad5f8",
       "name": "排骨玉米汤",
       "category": "soup",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E6%8E%92%E9%AA%A8%E7%8E%89%E7%B1%B3%E6%B1%A4",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%8E%92%E9%AA%A8%E7%8E%89%E7%B1%B3%E6%B1%A4%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E6%8E%92%E9%AA%A8%E7%8E%89%E7%B1%B3%E6%B1%A4%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1767,10 +1767,10 @@
       ]
     },
     {
-      "id": "d9ca34bf-d9b8-47f8-bd63-2d6755970b39",
+      "id": "4d610501-e3b8-4b28-adfa-6caccabb6f31",
       "name": "番茄蛋汤",
       "category": "soup",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%95%AA%E8%8C%84%E8%9B%8B%E6%B1%A4",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%95%AA%E8%8C%84%E8%9B%8B%E6%B1%A4%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%95%AA%E8%8C%84%E8%9B%8B%E6%B1%A4%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1786,10 +1786,10 @@
       ]
     },
     {
-      "id": "f6e377d7-f87e-4cbf-bf1f-075295c01feb",
+      "id": "f400b5bc-e9ec-4d0a-8d7d-04b649aff006",
       "name": "冬瓜排骨汤",
       "category": "soup",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%86%AC%E7%93%9C%E6%8E%92%E9%AA%A8%E6%B1%A4",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%86%AC%E7%93%9C%E6%8E%92%E9%AA%A8%E6%B1%A4%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%86%AC%E7%93%9C%E6%8E%92%E9%AA%A8%E6%B1%A4%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1810,10 +1810,10 @@
       ]
     },
     {
-      "id": "e2c088f2-1be1-4c3e-8ec2-1220a6f704ad",
+      "id": "2d0f03d6-8c50-448a-b8df-d8167460162b",
       "name": "菌菇汤",
       "category": "soup",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%8F%8C%E8%8F%87%E6%B1%A4%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%8F%8C%E8%8F%87%E6%B1%A4%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%8F%8C%E8%8F%87%E6%B1%A4",
       "ingredients": [
         {
@@ -1839,10 +1839,10 @@
       ]
     },
     {
-      "id": "5a5766a5-02f3-4e32-a13b-73b4904c7437",
+      "id": "5972e228-f9f7-4bca-ab84-9cc19c92d33e",
       "name": "酸辣汤",
       "category": "soup",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%85%B8%E8%BE%A3%E6%B1%A4%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%85%B8%E8%BE%A3%E6%B1%A4%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%85%B8%E8%BE%A3%E6%B1%A4",
       "ingredients": [
         {
@@ -1868,10 +1868,10 @@
       ]
     },
     {
-      "id": "0f0def38-df01-4dd9-bea5-5b2adf5a0818",
+      "id": "74bdbf08-61ca-4944-9121-bf8622c9811f",
       "name": "鲫鱼豆腐汤",
       "category": "soup",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%B2%AB%E9%B1%BC%E8%B1%86%E8%85%90%E6%B1%A4",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%B2%AB%E9%B1%BC%E8%B1%86%E8%85%90%E6%B1%A4%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E9%B2%AB%E9%B1%BC%E8%B1%86%E8%85%90%E6%B1%A4%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1887,10 +1887,10 @@
       ]
     },
     {
-      "id": "245d4a09-e823-42fa-b250-ec6b23f88a63",
+      "id": "ffb98a29-3948-4d45-8c29-38db4420f96e",
       "name": "莲藕排骨汤",
       "category": "soup",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%8E%B2%E8%97%95%E6%8E%92%E9%AA%A8%E6%B1%A4",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%8E%B2%E8%97%95%E6%8E%92%E9%AA%A8%E6%B1%A4%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%8E%B2%E8%97%95%E6%8E%92%E9%AA%A8%E6%B1%A4%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1911,10 +1911,10 @@
       ]
     },
     {
-      "id": "89190d8d-4202-4277-b7ae-a8a05af1363c",
+      "id": "e6624e98-b39b-42a6-9e74-46c4a8d865b5",
       "name": "山药排骨汤",
       "category": "soup",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%B1%B1%E8%8D%AF%E6%8E%92%E9%AA%A8%E6%B1%A4",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%B1%B1%E8%8D%AF%E6%8E%92%E9%AA%A8%E6%B1%A4%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%B1%B1%E8%8D%AF%E6%8E%92%E9%AA%A8%E6%B1%A4%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1930,10 +1930,10 @@
       ]
     },
     {
-      "id": "9bf195b4-2fa9-4334-85ab-e01c4e21a95c",
+      "id": "9922d810-1f2d-486b-90b5-6dc862152202",
       "name": "白萝卜排骨汤",
       "category": "soup",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%99%BD%E8%90%9D%E5%8D%9C%E6%8E%92%E9%AA%A8%E6%B1%A4",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%99%BD%E8%90%9D%E5%8D%9C%E6%8E%92%E9%AA%A8%E6%B1%A4%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%99%BD%E8%90%9D%E5%8D%9C%E6%8E%92%E9%AA%A8%E6%B1%A4%20%E5%81%9A%E6%B3%95",
       "ingredients": [
         {
@@ -1954,10 +1954,10 @@
       ]
     },
     {
-      "id": "c96d1113-ce2f-4c8e-ae02-92a841e83ce7",
+      "id": "c279ac4b-529b-4d83-8bf0-63719cbf246b",
       "name": "白米饭",
       "category": "staple",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%B8%E7%B1%B3%E9%A5%AD%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%92%B8%E7%B1%B3%E9%A5%AD%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%92%B8%E7%B1%B3%E9%A5%AD",
       "ingredients": [
         {
@@ -1968,10 +1968,10 @@
       ]
     },
     {
-      "id": "8695de41-5e36-4744-a786-357816053376",
+      "id": "afaff8c7-4f02-47f3-81de-3769ef8529a7",
       "name": "小米粥",
       "category": "staple",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%B0%8F%E7%B1%B3%E7%B2%A5%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E7%B2%A5%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%B0%8F%E7%B1%B3%E7%B2%A5",
       "ingredients": [
         {
@@ -1982,10 +1982,10 @@
       ]
     },
     {
-      "id": "2efb4ea9-e0f2-4e03-a4b0-bda6ae7a705c",
+      "id": "87f28e5d-6e7b-4030-9223-50bdab7aa49c",
       "name": "馒头",
       "category": "staple",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%B8%E9%A6%92%E5%A4%B4%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%92%B8%E9%A6%92%E5%A4%B4%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%92%B8%E9%A6%92%E5%A4%B4",
       "ingredients": [
         {
@@ -2001,10 +2001,10 @@
       ]
     },
     {
-      "id": "58db21c9-1b0e-4310-9aae-ff15333df2b0",
+      "id": "09d7c155-eea4-465f-9d46-bdec4fceea15",
       "name": "饺子",
       "category": "staple",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E9%A5%BA%E5%AD%90%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%A5%BA%E5%AD%90%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%8C%85%E9%A5%BA%E5%AD%90",
       "ingredients": [
         {
@@ -2025,10 +2025,10 @@
       ]
     },
     {
-      "id": "53801d10-63c5-4b54-9059-44437c393eda",
+      "id": "a2843d31-e03b-4b04-839c-d90417b59b4a",
       "name": "南瓜粥",
       "category": "staple",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E7%93%9C%E7%B2%A5%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%8D%97%E7%93%9C%E7%B2%A5%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E5%8D%97%E7%93%9C%E7%B2%A5",
       "ingredients": [
         {
@@ -2044,10 +2044,10 @@
       ]
     },
     {
-      "id": "4d700923-1920-4dac-86e7-e3f4ff10f8c4",
+      "id": "124061de-85a6-4dae-b1ee-64b1543ad84c",
       "name": "葱油拌面",
       "category": "staple",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%91%B1%E6%B2%B9%E6%8B%8C%E9%9D%A2%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%91%B1%E6%B2%B9%E6%8B%8C%E9%9D%A2%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%91%B1%E6%B2%B9%E6%8B%8C%E9%9D%A2",
       "ingredients": [
         {
@@ -2063,10 +2063,10 @@
       ]
     },
     {
-      "id": "9b3cc07c-4234-4c6c-9200-3a273bb2aefb",
+      "id": "f856c997-b380-4b17-ab3e-20a7c109185b",
       "name": "蛋炒饭",
       "category": "staple",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E8%9B%8B%E7%82%92%E9%A5%AD%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%9B%8B%E7%82%92%E9%A5%AD%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E8%9B%8B%E7%82%92%E9%A5%AD",
       "ingredients": [
         {
@@ -2092,10 +2092,10 @@
       ]
     },
     {
-      "id": "9d8075e3-ef26-475a-bb89-d72cb1043bb4",
+      "id": "d26f7c39-eaea-40f1-aa80-327f21b12155",
       "name": "炒河粉",
       "category": "staple",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%82%92%E6%B2%B3%E7%B2%89%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%82%92%E6%B2%B3%E7%B2%89%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%82%92%E6%B2%B3%E7%B2%89",
       "ingredients": [
         {
@@ -2116,10 +2116,10 @@
       ]
     },
     {
-      "id": "cc8dbbc5-b557-4cd9-a718-b43de4d30ed0",
+      "id": "3482e354-50b4-4579-8a2d-18bbc49c954c",
       "name": "炸酱面",
       "category": "staple",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%82%B8%E9%85%B1%E9%9D%A2%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%82%B8%E9%85%B1%E9%9D%A2%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%82%B8%E9%85%B1%E9%9D%A2",
       "ingredients": [
         {
@@ -2145,10 +2145,10 @@
       ]
     },
     {
-      "id": "12ad33e4-5682-489a-b649-531855b72859",
+      "id": "fb7d90a0-40a6-4f8c-a700-4d11e1fa6692",
       "name": "红烧牛肉面",
       "category": "staple",
-      "xhsLink": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%A2%E7%83%A7%E7%89%9B%E8%82%89%E9%9D%A2%20%E5%81%9A%E6%B3%95",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%BA%A2%E7%83%A7%E7%89%9B%E8%82%89%E9%9D%A2%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
       "dyLink": "https://www.douyin.com/search/%E7%BA%A2%E7%83%A7%E7%89%9B%E8%82%89%E9%9D%A2",
       "ingredients": [
         {
@@ -2165,6 +2165,860 @@
           "name": "白萝卜",
           "qty": 1,
           "unit": "根"
+        }
+      ]
+    },
+    {
+      "id": "5800bf4d-691d-48b4-92ea-5af8c424f31c",
+      "name": "蜜汁叉烧",
+      "category": "pork",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%9C%9C%E6%B1%81%E5%8F%89%E7%83%A7%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E8%9C%9C%E6%B1%81%E5%8F%89%E7%83%A7",
+      "ingredients": [
+        {
+          "name": "猪梅花肉",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "蜂蜜",
+          "qty": 3,
+          "unit": "勺"
+        },
+        {
+          "name": "叉烧酱",
+          "qty": 3,
+          "unit": "勺"
+        }
+      ]
+    },
+    {
+      "id": "8baaec81-c5d2-4b07-8e5d-912fcd37cc4f",
+      "name": "咕噜肉",
+      "category": "pork",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%92%95%E5%99%9C%E8%82%89%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E5%92%95%E5%99%9C%E8%82%89",
+      "ingredients": [
+        {
+          "name": "猪里脊",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "菠萝",
+          "qty": 1,
+          "unit": "个"
+        },
+        {
+          "name": "青椒",
+          "qty": 2,
+          "unit": "个"
+        },
+        {
+          "name": "红椒",
+          "qty": 1,
+          "unit": "个"
+        }
+      ]
+    },
+    {
+      "id": "07d5ea58-bd9c-4490-af55-57d4f9524a68",
+      "name": "豉汁蒸排骨",
+      "category": "pork",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%B1%89%E6%B1%81%E8%92%B8%E6%8E%92%E9%AA%A8%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E8%B1%89%E6%B1%81%E8%92%B8%E6%8E%92%E9%AA%A8",
+      "ingredients": [
+        {
+          "name": "排骨",
+          "qty": 700,
+          "unit": "g"
+        },
+        {
+          "name": "豆豉",
+          "qty": 2,
+          "unit": "勺"
+        },
+        {
+          "name": "芋头",
+          "qty": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "dfb5edc2-3958-43c9-8929-2141f3e5e4b1",
+      "name": "蒜香骨",
+      "category": "pork",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%92%9C%E9%A6%99%E9%AA%A8%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E8%92%9C%E9%A6%99%E9%AA%A8",
+      "ingredients": [
+        {
+          "name": "排骨",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "name": "蒜",
+          "qty": 1,
+          "unit": "头"
+        },
+        {
+          "name": "面包糠",
+          "qty": 50,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "ae90d4da-6aa6-4df5-b849-9fe4f0275da9",
+      "name": "南乳焖排骨",
+      "category": "pork",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%8D%97%E4%B9%B3%E7%84%96%E6%8E%92%E9%AA%A8%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E5%8D%97%E4%B9%B3%E7%84%96%E6%8E%92%E9%AA%A8",
+      "ingredients": [
+        {
+          "name": "排骨",
+          "qty": 700,
+          "unit": "g"
+        },
+        {
+          "name": "南乳",
+          "qty": 2,
+          "unit": "块"
+        },
+        {
+          "name": "土豆",
+          "qty": 3,
+          "unit": "个"
+        }
+      ]
+    },
+    {
+      "id": "75aa2dfe-0854-4d35-804d-3994636e2540",
+      "name": "沙茶牛肉",
+      "category": "beef",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%B2%99%E8%8C%B6%E7%89%9B%E8%82%89%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E6%B2%99%E8%8C%B6%E7%89%9B%E8%82%89",
+      "ingredients": [
+        {
+          "name": "牛肉",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "芥兰",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "沙茶酱",
+          "qty": 2,
+          "unit": "勺"
+        }
+      ]
+    },
+    {
+      "id": "e0abc99b-eeda-4547-84d8-d3cc03037a11",
+      "name": "蚝油牛肉",
+      "category": "beef",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%9A%9D%E6%B2%B9%E7%89%9B%E8%82%89%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E8%9A%9D%E6%B2%B9%E7%89%9B%E8%82%89",
+      "ingredients": [
+        {
+          "name": "牛肉",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "草菇",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "青椒",
+          "qty": 2,
+          "unit": "个"
+        }
+      ]
+    },
+    {
+      "id": "1f3c4803-764d-4f5a-a039-e2e8b69dc9a4",
+      "name": "萝卜牛腩煲",
+      "category": "beef",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%90%9D%E5%8D%9C%E7%89%9B%E8%85%A9%E7%85%B2%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E8%90%9D%E5%8D%9C%E7%89%9B%E8%85%A9%E7%85%B2",
+      "ingredients": [
+        {
+          "name": "牛腩",
+          "qty": 700,
+          "unit": "g"
+        },
+        {
+          "name": "白萝卜",
+          "qty": 1,
+          "unit": "根"
+        },
+        {
+          "name": "柱候酱",
+          "qty": 2,
+          "unit": "勺"
+        }
+      ]
+    },
+    {
+      "id": "94dc9da1-cb4b-40ff-980a-bf3ad413f766",
+      "name": "豉油鸡",
+      "category": "poultry",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%B1%89%E6%B2%B9%E9%B8%A1%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E8%B1%89%E6%B2%B9%E9%B8%A1",
+      "ingredients": [
+        {
+          "name": "三黄鸡",
+          "qty": 1,
+          "unit": "只"
+        },
+        {
+          "name": "生抽",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "冰糖",
+          "qty": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "cbda6d39-6075-4d7f-8629-4855334d24f6",
+      "name": "盐焗鸡",
+      "category": "poultry",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%9B%90%E7%84%97%E9%B8%A1%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E7%9B%90%E7%84%97%E9%B8%A1",
+      "ingredients": [
+        {
+          "name": "三黄鸡",
+          "qty": 1,
+          "unit": "只"
+        },
+        {
+          "name": "粗盐",
+          "qty": 1,
+          "unit": "袋"
+        },
+        {
+          "name": "沙姜粉",
+          "qty": 2,
+          "unit": "勺"
+        }
+      ]
+    },
+    {
+      "id": "fee7285b-35a2-45bf-a433-f9bc869d8514",
+      "name": "烧鹅",
+      "category": "poultry",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%83%A7%E9%B9%85%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E7%83%A7%E9%B9%85",
+      "ingredients": [
+        {
+          "name": "鹅",
+          "qty": 1,
+          "unit": "只"
+        },
+        {
+          "name": "五香粉",
+          "qty": 2,
+          "unit": "勺"
+        },
+        {
+          "name": "酸梅酱",
+          "qty": 1,
+          "unit": "碗"
+        }
+      ]
+    },
+    {
+      "id": "a3a56f77-fa55-4be5-99ed-651858703605",
+      "name": "香芋焖鸭",
+      "category": "poultry",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%A6%99%E8%8A%8B%E7%84%96%E9%B8%AD%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E9%A6%99%E8%8A%8B%E7%84%96%E9%B8%AD",
+      "ingredients": [
+        {
+          "name": "鸭",
+          "qty": 1,
+          "unit": "只"
+        },
+        {
+          "name": "芋头",
+          "qty": 1,
+          "unit": "个"
+        },
+        {
+          "name": "南乳",
+          "qty": 2,
+          "unit": "块"
+        }
+      ]
+    },
+    {
+      "id": "41b0733f-afa4-4a01-80e4-595530fb8c12",
+      "name": "陈皮鸭",
+      "category": "poultry",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%99%88%E7%9A%AE%E9%B8%AD%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E9%99%88%E7%9A%AE%E9%B8%AD",
+      "ingredients": [
+        {
+          "name": "鸭子",
+          "qty": 1,
+          "unit": "只"
+        },
+        {
+          "name": "陈皮",
+          "qty": 3,
+          "unit": "片"
+        },
+        {
+          "name": "冬瓜",
+          "qty": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "f3e3da9f-a530-4d73-809f-6b9d98d49b08",
+      "name": "清蒸石斑鱼",
+      "category": "seafood",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%B8%85%E8%92%B8%E7%9F%B3%E6%96%91%E9%B1%BC%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E6%B8%85%E8%92%B8%E7%9F%B3%E6%96%91%E9%B1%BC",
+      "ingredients": [
+        {
+          "name": "石斑鱼",
+          "qty": 1,
+          "unit": "条"
+        }
+      ]
+    },
+    {
+      "id": "16c92c06-41a0-469f-9233-524ba21d9353",
+      "name": "姜葱炒花蟹",
+      "category": "seafood",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%A7%9C%E8%91%B1%E7%82%92%E8%8A%B1%E8%9F%B9%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E5%A7%9C%E8%91%B1%E7%82%92%E8%8A%B1%E8%9F%B9",
+      "ingredients": [
+        {
+          "name": "花蟹",
+          "qty": 4,
+          "unit": "只"
+        },
+        {
+          "name": "葱",
+          "qty": 3,
+          "unit": "根"
+        },
+        {
+          "name": "姜",
+          "qty": 2,
+          "unit": "块"
+        }
+      ]
+    },
+    {
+      "id": "46677387-50b5-4744-9977-634e303e7a68",
+      "name": "蒜蓉粉丝蒸扇贝",
+      "category": "seafood",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%92%9C%E8%93%89%E7%B2%89%E4%B8%9D%E8%92%B8%E6%89%87%E8%B4%9D%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E8%92%9C%E8%93%89%E7%B2%89%E4%B8%9D%E8%92%B8%E6%89%87%E8%B4%9D",
+      "ingredients": [
+        {
+          "name": "扇贝",
+          "qty": 10,
+          "unit": "只"
+        },
+        {
+          "name": "粉丝",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "蒜",
+          "qty": 1,
+          "unit": "头"
+        }
+      ]
+    },
+    {
+      "id": "5a069ec9-3b51-451d-8f9f-b7b8e571c9f6",
+      "name": "清蒸多宝鱼",
+      "category": "seafood",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%B8%85%E8%92%B8%E5%A4%9A%E5%AE%9D%E9%B1%BC%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E6%B8%85%E8%92%B8%E5%A4%9A%E5%AE%9D%E9%B1%BC",
+      "ingredients": [
+        {
+          "name": "多宝鱼",
+          "qty": 1,
+          "unit": "条"
+        }
+      ]
+    },
+    {
+      "id": "49a08091-72c0-4570-b405-930322165e2c",
+      "name": "豉汁蒸鱼头",
+      "category": "seafood",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%B1%89%E6%B1%81%E8%92%B8%E9%B1%BC%E5%A4%B4%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E8%B1%89%E6%B1%81%E8%92%B8%E9%B1%BC%E5%A4%B4",
+      "ingredients": [
+        {
+          "name": "胖头鱼头",
+          "qty": 1,
+          "unit": "个"
+        },
+        {
+          "name": "豆豉",
+          "qty": 2,
+          "unit": "勺"
+        },
+        {
+          "name": "红椒",
+          "qty": 2,
+          "unit": "个"
+        }
+      ]
+    },
+    {
+      "id": "bc2242f4-b988-4732-806c-33f844af43b3",
+      "name": "煎酿豆腐",
+      "category": "eggtofu",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%85%8E%E9%85%BF%E8%B1%86%E8%85%90%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E7%85%8E%E9%85%BF%E8%B1%86%E8%85%90",
+      "ingredients": [
+        {
+          "name": "老豆腐",
+          "qty": 2,
+          "unit": "块"
+        },
+        {
+          "name": "鱼肉",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "虾仁",
+          "qty": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "1880df54-e133-413e-9947-20bd6971b778",
+      "name": "鱼滑豆腐煲",
+      "category": "eggtofu",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%B1%BC%E6%BB%91%E8%B1%86%E8%85%90%E7%85%B2%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E9%B1%BC%E6%BB%91%E8%B1%86%E8%85%90%E7%85%B2",
+      "ingredients": [
+        {
+          "name": "嫩豆腐",
+          "qty": 2,
+          "unit": "块"
+        },
+        {
+          "name": "鱼滑",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "娃娃菜",
+          "qty": 1,
+          "unit": "棵"
+        }
+      ]
+    },
+    {
+      "id": "04d2b230-be08-4e7d-8017-9cda5d752240",
+      "name": "白灼菜心",
+      "category": "veggie",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83",
+      "ingredients": [
+        {
+          "name": "菜心",
+          "qty": 600,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "84c7091a-20b8-4e87-9aaa-62671ea8d526",
+      "name": "姜汁炒芥兰",
+      "category": "veggie",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%A7%9C%E6%B1%81%E7%82%92%E8%8A%A5%E5%85%B0%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E5%A7%9C%E6%B1%81%E7%82%92%E8%8A%A5%E5%85%B0",
+      "ingredients": [
+        {
+          "name": "芥兰",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "姜",
+          "qty": 1,
+          "unit": "块"
+        }
+      ]
+    },
+    {
+      "id": "df340040-9e30-4e6e-8021-68e7117dbb2c",
+      "name": "上汤豆苗",
+      "category": "veggie",
+      "xhsLink": "https://www.baidu.com/s?wd=%E4%B8%8A%E6%B1%A4%E8%B1%86%E8%8B%97%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E4%B8%8A%E6%B1%A4%E8%B1%86%E8%8B%97",
+      "ingredients": [
+        {
+          "name": "豆苗",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "皮蛋",
+          "qty": 2,
+          "unit": "个"
+        },
+        {
+          "name": "咸蛋",
+          "qty": 1,
+          "unit": "个"
+        }
+      ]
+    },
+    {
+      "id": "d3fcec6b-a119-48e6-b585-18e7fe2dd078",
+      "name": "沙姜猪手",
+      "category": "cold",
+      "xhsLink": "https://www.baidu.com/s?wd=%E6%B2%99%E5%A7%9C%E7%8C%AA%E6%89%8B%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E6%B2%99%E5%A7%9C%E7%8C%AA%E6%89%8B",
+      "ingredients": [
+        {
+          "name": "猪手",
+          "qty": 1,
+          "unit": "只"
+        },
+        {
+          "name": "沙姜",
+          "qty": 3,
+          "unit": "块"
+        }
+      ]
+    },
+    {
+      "id": "daabe7e4-c448-46da-a677-1ed7595b4466",
+      "name": "白云凤爪",
+      "category": "cold",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%99%BD%E4%BA%91%E5%87%A4%E7%88%AA%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E7%99%BD%E4%BA%91%E5%87%A4%E7%88%AA",
+      "ingredients": [
+        {
+          "name": "鸡爪",
+          "qty": 800,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "495cc651-4b4e-43d0-9b2e-18e0c73ebaff",
+      "name": "卤水拼盘",
+      "category": "cold",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%8D%A4%E6%B0%B4%E6%8B%BC%E7%9B%98%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E5%8D%A4%E6%B0%B4%E6%8B%BC%E7%9B%98",
+      "ingredients": [
+        {
+          "name": "猪耳",
+          "qty": 1,
+          "unit": "只"
+        },
+        {
+          "name": "鸭翅",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "豆干",
+          "qty": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "053b862a-6265-4a4c-8be3-00efe36edf04",
+      "name": "粉葛赤小豆煲鲮鱼",
+      "category": "soup",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%B2%89%E8%91%9B%E8%B5%A4%E5%B0%8F%E8%B1%86%E7%85%B2%E9%B2%AE%E9%B1%BC%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E7%B2%89%E8%91%9B%E8%B5%A4%E5%B0%8F%E8%B1%86%E7%85%B2%E9%B2%AE%E9%B1%BC",
+      "ingredients": [
+        {
+          "name": "粉葛",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "赤小豆",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "鲮鱼",
+          "qty": 2,
+          "unit": "条"
+        },
+        {
+          "name": "猪骨",
+          "qty": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "076dd9e8-91fe-45b5-b182-0ee3f8c7dee8",
+      "name": "霸王花煲猪骨",
+      "category": "soup",
+      "xhsLink": "https://www.baidu.com/s?wd=%E9%9C%B8%E7%8E%8B%E8%8A%B1%E7%85%B2%E7%8C%AA%E9%AA%A8%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E9%9C%B8%E7%8E%8B%E8%8A%B1%E7%85%B2%E7%8C%AA%E9%AA%A8",
+      "ingredients": [
+        {
+          "name": "猪骨",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "霸王花",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "蜜枣",
+          "qty": 3,
+          "unit": "个"
+        },
+        {
+          "name": "胡萝卜",
+          "qty": 1,
+          "unit": "根"
+        }
+      ]
+    },
+    {
+      "id": "e088335b-f8b4-4510-a404-2d7043bd1b4d",
+      "name": "冬瓜薏米老鸭汤",
+      "category": "soup",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%86%AC%E7%93%9C%E8%96%8F%E7%B1%B3%E8%80%81%E9%B8%AD%E6%B1%A4%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E5%86%AC%E7%93%9C%E8%96%8F%E7%B1%B3%E8%80%81%E9%B8%AD%E6%B1%A4",
+      "ingredients": [
+        {
+          "name": "鸭子",
+          "qty": 1,
+          "unit": "只"
+        },
+        {
+          "name": "冬瓜",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "薏米",
+          "qty": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "e1750359-2e97-4044-9eb2-3e1dc5cf4d71",
+      "name": "菜干猪肺汤",
+      "category": "soup",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%8F%9C%E5%B9%B2%E7%8C%AA%E8%82%BA%E6%B1%A4%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E8%8F%9C%E5%B9%B2%E7%8C%AA%E8%82%BA%E6%B1%A4",
+      "ingredients": [
+        {
+          "name": "猪肺",
+          "qty": 1,
+          "unit": "个"
+        },
+        {
+          "name": "白菜干",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "南北杏",
+          "qty": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "c7b70992-7eef-42b8-9395-cb88e31be2e6",
+      "name": "花旗参炖竹丝鸡",
+      "category": "soup",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%8A%B1%E6%97%97%E5%8F%82%E7%82%96%E7%AB%B9%E4%B8%9D%E9%B8%A1%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E8%8A%B1%E6%97%97%E5%8F%82%E7%82%96%E7%AB%B9%E4%B8%9D%E9%B8%A1",
+      "ingredients": [
+        {
+          "name": "乌鸡",
+          "qty": 1,
+          "unit": "只"
+        },
+        {
+          "name": "花旗参",
+          "qty": 20,
+          "unit": "g"
+        },
+        {
+          "name": "枸杞",
+          "qty": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "80eca098-9ed0-4458-9b10-1c545a112b13",
+      "name": "煲仔饭",
+      "category": "staple",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%85%B2%E4%BB%94%E9%A5%AD%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E7%85%B2%E4%BB%94%E9%A5%AD",
+      "ingredients": [
+        {
+          "name": "大米",
+          "qty": 3,
+          "unit": "杯"
+        },
+        {
+          "name": "腊肠",
+          "qty": 3,
+          "unit": "根"
+        },
+        {
+          "name": "腊肉",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "青菜",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "鸡蛋",
+          "qty": 4,
+          "unit": "个"
+        }
+      ]
+    },
+    {
+      "id": "b6c8faa4-9902-4413-8705-bf0ffac963ea",
+      "name": "干炒牛河",
+      "category": "staple",
+      "xhsLink": "https://www.baidu.com/s?wd=%E5%B9%B2%E7%82%92%E7%89%9B%E6%B2%B3%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E5%B9%B2%E7%82%92%E7%89%9B%E6%B2%B3",
+      "ingredients": [
+        {
+          "name": "河粉",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "牛肉",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "豆芽",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "韭黄",
+          "qty": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "15ce74e4-4428-4c52-ac81-452d716638ff",
+      "name": "豉油皇炒面",
+      "category": "staple",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%B1%89%E6%B2%B9%E7%9A%87%E7%82%92%E9%9D%A2%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E8%B1%89%E6%B2%B9%E7%9A%87%E7%82%92%E9%9D%A2",
+      "ingredients": [
+        {
+          "name": "面条",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "豆芽",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "韭黄",
+          "qty": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "00cc46cd-02be-4b6d-8fde-434365ede9c4",
+      "name": "皮蛋瘦肉粥",
+      "category": "staple",
+      "xhsLink": "https://www.baidu.com/s?wd=%E7%9A%AE%E8%9B%8B%E7%98%A6%E8%82%89%E7%B2%A5%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E7%9A%AE%E8%9B%8B%E7%98%A6%E8%82%89%E7%B2%A5",
+      "ingredients": [
+        {
+          "name": "大米",
+          "qty": 2,
+          "unit": "杯"
+        },
+        {
+          "name": "皮蛋",
+          "qty": 3,
+          "unit": "个"
+        },
+        {
+          "name": "瘦肉",
+          "qty": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "id": "66fc42c3-6a61-42b3-8b74-ed1bf9e1de16",
+      "name": "艇仔粥",
+      "category": "staple",
+      "xhsLink": "https://www.baidu.com/s?wd=%E8%89%87%E4%BB%94%E7%B2%A5%20%E5%81%9A%E6%B3%95%20%E5%B0%8F%E7%BA%A2%E4%B9%A6",
+      "dyLink": "https://www.douyin.com/search/%E8%89%87%E4%BB%94%E7%B2%A5",
+      "ingredients": [
+        {
+          "name": "大米",
+          "qty": 2,
+          "unit": "杯"
+        },
+        {
+          "name": "鱼片",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "鱿鱼",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "油条",
+          "qty": 2,
+          "unit": "根"
+        },
+        {
+          "name": "花生",
+          "qty": 50,
+          "unit": "g"
         }
       ]
     }
